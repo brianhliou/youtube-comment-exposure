@@ -1,0 +1,47 @@
+{
+  "seed": 0,
+  "n_reference": 150000,
+  "groups": {
+    "absolute|k=1": {
+      "top_decile_estimate": 12.391,
+      "random_estimate": 14.109,
+      "ratio": 0.88,
+      "n_top": 20000
+    },
+    "absolute|k=5": {
+      "top_decile_estimate": 15.832,
+      "random_estimate": 13.815,
+      "ratio": 1.15,
+      "n_top": 20000
+    },
+    "absolute|k=20": {
+      "top_decile_estimate": 19.623,
+      "random_estimate": 18.212,
+      "ratio": 1.08,
+      "n_top": 20000
+    },
+    "within_video|k=1": {
+      "top_decile_estimate": 15.783,
+      "random_estimate": 14.109,
+      "ratio": 1.12,
+      "n_top": 20000
+    },
+    "within_video|k=5": {
+      "top_decile_estimate": 16.746,
+      "random_estimate": 13.815,
+      "ratio": 1.21,
+      "n_top": 20000
+    },
+    "within_video|k=20": {
+      "top_decile_estimate": 21.219,
+      "random_estimate": 18.212,
+      "ratio": 1.17,
+      "n_top": 20000
+    }
+  },
+  "ordering_skill": {
+    "pooled_spearman_vs_true_likes": 0.0595,
+    "within_video_spearman": 0.0501,
+    "n_videos": 143
+  }
+}

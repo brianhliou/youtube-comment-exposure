@@ -1,0 +1,23 @@
+{
+  "name": "pilot",
+  "channels": [
+    "@veritasium",
+    "@kurzgesagt",
+    "@3blue1brown",
+    "@mkbhd",
+    "@TechnologyConnections",
+    "@NileRed",
+    "@SmarterEveryDay",
+    "@CGPGrey",
+    "@Computerphile",
+    "@PBSSpaceTime",
+    "@TomScottGo",
+    "@LinusTechTips"
+  ],
+  "published_after": "2025-08-13",
+  "published_before": "2026-07-14",
+  "min_comments": 200,
+  "max_comments": 5000,
+  "max_videos_per_channel": 20,
+  "max_upload_pages": 10
+}

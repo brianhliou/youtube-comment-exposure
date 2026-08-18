@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "youtube-comment-exposure"
+version = "1.0.0"
+description = "Collector and analysis for the YouTube Comment Exposure corpus."
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+# Collection needs nothing but the standard library; the client is urllib.
+# These cover the analyses in the paper.
+analysis = ["numpy>=2.0", "scipy>=1.11", "scikit-learn>=1.5", "sentence-transformers>=3.0"]
+# Only studies/comments/generate.py calls a model.
+llm = ["litellm>=1.40"]
+dev = ["ruff>=0.6", "pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["arena", "studies"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

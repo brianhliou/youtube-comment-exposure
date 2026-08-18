@@ -1,0 +1,71 @@
+{
+  "model": "anthropic/claude-haiku-4-5-20251001",
+  "n_videos": 120,
+  "n_per_condition": 480,
+  "cost_usd": 0.4635,
+  "scores": {
+    "k=1": {
+      "plain_mean": 39.731,
+      "topliked_mean": 10.017,
+      "real_heldout_mean": 12.102,
+      "plain_median": 0.0,
+      "topliked_median": 0.0,
+      "real_heldout_median": 0.0,
+      "ratio_mean": 0.25,
+      "ratio_median": 0.0,
+      "ratio_ci": [
+        0.06,
+        2.69
+      ]
+    },
+    "k=5": {
+      "plain_mean": 30.16,
+      "topliked_mean": 9.432,
+      "real_heldout_mean": 15.059,
+      "plain_median": 0.2,
+      "topliked_median": 0.4,
+      "real_heldout_median": 0.2,
+      "ratio_mean": 0.31,
+      "ratio_median": 2.0,
+      "ratio_ci": [
+        0.17,
+        0.61
+      ]
+    },
+    "k=20": {
+      "plain_mean": 31.596,
+      "topliked_mean": 22.959,
+      "real_heldout_mean": 20.117,
+      "plain_median": 1.5,
+      "topliked_median": 2.8,
+      "real_heldout_median": 0.55,
+      "ratio_mean": 0.73,
+      "ratio_median": 1.87,
+      "ratio_ci": [
+        0.43,
+        1.19
+      ]
+    }
+  },
+  "mean_pairwise_cosine": {
+    "plain": 0.1523,
+    "topliked": 0.2015,
+    "real_heldout": 0.0623
+  },
+  "samples": {
+    "plain": [
+      "Finally someone explaining why induction lamps were so promising but seemingly disappeared! I remember seeing these in stores around the 2000s and wondering why they weren't everywhere. Great deep dive into the engineering and the real reasons they lost out to LEDs. This channel never misses.",
+      "This is such a cool deep dive into a technology that most people just take for granted! I had no idea induction lamps were so efficient and had such a long lifespan\u2014definitely explains why they're used in industrial settings. The way you broke down how they actually work compared to traditional fluorescent tubes was really eye-opening. More videos like this please! \ud83d\udd2c",
+      "This was absolutely fascinating! I had no idea induction lamps existed as a middle ground between fluorescent and LED. The way you explained how they eliminate the electrodes that cause most fluorescent bulbs to fail makes so much sense. It's a shame they never caught on commercially - they seem like they would've been perfect for high-bay lighting and places where frequent replacement is a pain.",
+      "This was fascinating! I've never appreciated how much engineering went into getting fluorescent lighting to actually work well. The way you explained the ballast's role in managing the arc really clarified why older flickering tubes and modern smooth lighting are so different. Would love to see you cover LED ballast compatibility issues next, since so many people are mixing old fixtures with new bulbs.",
+      "This is such a perfect example of why color perception is so much more complex than we think! I've been staring at the squares for the last 5 minutes and my brain still can't quite decide what's happening. Vsauce always finds these mind-bending visual phenomena that make you question reality. Thanks for breaking down the science behind it!"
+    ],
+    "topliked": [
+      "bruh the way you explained how induction lamps somehow managed to be MORE efficient than fluorescent while also lasting longer is absolutely insane, like why did we ever stop making these things \ud83d\ude2d",
+      "finally someone explaining why these lights hit different, the color rendering on these things is actually insane compared to regular fluorescents and nobody talks about it",
+      "These induction lamps are genuinely underrated technology. The fact that they can last 100,000 hours and nobody really talks about them is wild. There's something refreshing about a lighting solution that just *works* without all the LED hype.",
+      "The way you explained how induction lamps work without making it overly complicated is genuinely refreshing. There's an honesty about this kind of content that's increasingly rare these days.",
+      "3:45 \"color is relative\" completely changed how I see everything now, genuinely can't unsee this shit"
+    ]
+  }
+}

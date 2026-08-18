@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Corpus and run outputs are rebuilt from the collector + frozen manifest.
+data/
+.DS_Store
