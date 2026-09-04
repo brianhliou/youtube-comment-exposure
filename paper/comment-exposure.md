@@ -333,9 +333,14 @@ fixed, which this corpus makes possible and does not contain.
 
 ## Availability
 
-Corpus, collector, frozen population manifest, and analysis code are released. The
-manifest pins the exact 633 video IDs and the filters that selected them, so the sample
-can be rebuilt or extended without guessing at the selection rules.
+The corpus is at
+[huggingface.co/datasets/brianhliou/youtube-comment-exposure](https://huggingface.co/datasets/brianhliou/youtube-comment-exposure).
+The collector, the frozen population manifest, the analysis code, and this paper's source
+are at
+[github.com/brianhliou/youtube-comment-exposure](https://github.com/brianhliou/youtube-comment-exposure)
+under MIT. The manifest pins the exact 633 video IDs and the filters that selected them,
+so the sample can be rebuilt or extended without guessing at the selection rules, and the
+`results/` directory holds the JSON each table above was read from.
 
 Comment text belongs to the people who wrote it. The collection, schema, and derived
 fields are released under CC BY 4.0, following the precedent set by YTCommentVerse [@ytcommentverse].
