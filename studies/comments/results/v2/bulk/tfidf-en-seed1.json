@@ -1,0 +1,110 @@
+{
+  "lang": "en",
+  "seed": 1,
+  "meta": {
+    "comments": 5421217,
+    "videos": 3425,
+    "channels": 161,
+    "seconds": 583,
+    "test_channels": [
+      "@ColinandSamir",
+      "@GamersNexus",
+      "@HasanAbi",
+      "@IanBoggs",
+      "@LinusTechTips",
+      "@LowLevelTV",
+      "@NotJustBikes",
+      "@kallmekris"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.2825,
+      "spearman_ci": [
+        0.2232,
+        0.3485
+      ],
+      "auc": 0.6723,
+      "auc_ci": [
+        0.6412,
+        0.7023
+      ],
+      "n_videos": 190,
+      "alpha": 1.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.2993,
+      "spearman_ci": [
+        0.2413,
+        0.3636
+      ],
+      "auc": 0.6831,
+      "auc_ci": [
+        0.6565,
+        0.7086
+      ],
+      "n_videos": 190,
+      "alpha": 10.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.3102,
+      "spearman_ci": [
+        0.2609,
+        0.3622
+      ],
+      "auc": 0.6915,
+      "auc_ci": [
+        0.6686,
+        0.7127
+      ],
+      "n_videos": 190,
+      "alpha": 100.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.1325,
+      "spearman_ci": [
+        0.1203,
+        0.1475
+      ],
+      "auc": 0.5844,
+      "auc_ci": [
+        0.5743,
+        0.5943
+      ],
+      "n_videos": 190,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.2993,
+    "baseline_auc": 0.6831,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.011,
+        "ci": [
+          -0.0021,
+          0.0215
+        ],
+        "p_gt_0": 0.9565
+      },
+      "auc": {
+        "delta": 0.0084,
+        "ci": [
+          0.0004,
+          0.0153
+        ],
+        "p_gt_0": 0.9825
+      },
+      "text_share_of_auc": 0.0439,
+      "exposure_share_of_auc": 0.8997
+    }
+  }
+}

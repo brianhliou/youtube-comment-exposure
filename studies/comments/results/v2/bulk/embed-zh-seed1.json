@@ -1,0 +1,101 @@
+{
+  "lang": "zh",
+  "seed": 1,
+  "meta": {
+    "comments": 606043,
+    "videos": 1090,
+    "channels": 70,
+    "seconds": 23,
+    "encoder": "all-MiniLM-L6-v2"
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.3498,
+      "spearman_ci": [
+        0.2492,
+        0.456
+      ],
+      "auc": 0.6883,
+      "auc_ci": [
+        0.6424,
+        0.7383
+      ],
+      "n_videos": 133,
+      "alpha": 100.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.3981,
+      "spearman_ci": [
+        0.3051,
+        0.4983
+      ],
+      "auc": 0.7126,
+      "auc_ci": [
+        0.6737,
+        0.7565
+      ],
+      "n_videos": 133,
+      "alpha": 1000.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+embed",
+      "spearman": 0.4166,
+      "spearman_ci": [
+        0.3242,
+        0.5135
+      ],
+      "auc": 0.7225,
+      "auc_ci": [
+        0.6856,
+        0.7641
+      ],
+      "n_videos": 133,
+      "alpha": 1000.0,
+      "n_features": 393
+    },
+    {
+      "rung": "content-only:embed",
+      "spearman": 0.2056,
+      "spearman_ci": [
+        0.1608,
+        0.2379
+      ],
+      "auc": 0.609,
+      "auc_ci": [
+        0.5863,
+        0.6261
+      ],
+      "n_videos": 133,
+      "alpha": 100.0,
+      "n_features": 384
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.3981,
+    "baseline_auc": 0.7126,
+    "embed": {
+      "spearman": {
+        "delta": 0.0185,
+        "ci": [
+          0.0135,
+          0.024
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0098,
+        "ci": [
+          0.0067,
+          0.0133
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0445,
+      "exposure_share_of_auc": 0.8463
+    }
+  }
+}

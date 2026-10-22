@@ -1,0 +1,375 @@
+{
+  "embed:en": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 5421217,
+      "videos": 3425,
+      "channels": 161,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6558,
+      "exposure+length": 0.6691,
+      "exposure+length+embed": 0.68,
+      "content-only:embed": 0.5877
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.864,
+          0.8211,
+          0.9097
+        ],
+        "text_share": [
+          0.0611,
+          0.0333,
+          0.0802
+        ],
+        "d_auc": [
+          0.011,
+          0.0064,
+          0.0167
+        ],
+        "d_spearman": [
+          0.0166,
+          0.0072,
+          0.0264
+        ]
+      }
+    }
+  },
+  "embed:ja": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 1125472,
+      "videos": 1681,
+      "channels": 80,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6702,
+      "exposure+length": 0.6773,
+      "exposure+length+embed": 0.6871,
+      "content-only:embed": 0.5818
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.9091,
+          0.8669,
+          0.9384
+        ],
+        "text_share": [
+          0.0524,
+          0.0363,
+          0.0713
+        ],
+        "d_auc": [
+          0.0097,
+          0.007,
+          0.0126
+        ],
+        "d_spearman": [
+          0.0256,
+          0.0192,
+          0.0319
+        ]
+      }
+    }
+  },
+  "embed:zh": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 606043,
+      "videos": 1090,
+      "channels": 70,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.7163,
+      "exposure+length": 0.7357,
+      "exposure+length+embed": 0.7407,
+      "content-only:embed": 0.6024
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.8996,
+          0.8463,
+          0.9583
+        ],
+        "text_share": [
+          0.0219,
+          0.0007,
+          0.0445
+        ],
+        "d_auc": [
+          0.005,
+          0.0003,
+          0.0098
+        ],
+        "d_spearman": [
+          0.0102,
+          0.002,
+          0.0185
+        ]
+      }
+    }
+  },
+  "tfidf:en": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 5421217,
+      "videos": 3425,
+      "channels": 161,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6558,
+      "exposure+length": 0.6691,
+      "exposure+length+tfidf": 0.68,
+      "content-only:tfidf": 0.588
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.8644,
+          0.8295,
+          0.8997
+        ],
+        "text_share": [
+          0.0604,
+          0.0439,
+          0.0789
+        ],
+        "d_auc": [
+          0.0109,
+          0.0078,
+          0.0165
+        ],
+        "d_spearman": [
+          0.0168,
+          0.011,
+          0.026
+        ]
+      }
+    }
+  },
+  "tfidf:ja": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 1125472,
+      "videos": 1681,
+      "channels": 80,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6702,
+      "exposure+length": 0.6773,
+      "exposure+length+tfidf": 0.6798,
+      "content-only:tfidf": 0.5649,
+      "exposure+length+chartfidf[exploratory]": 0.6954,
+      "content-only:chartfidf[exploratory]": 0.6049
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9465,
+          0.9253,
+          0.9788
+        ],
+        "text_share": [
+          0.0133,
+          0.0024,
+          0.0281
+        ],
+        "d_auc": [
+          0.0024,
+          0.0004,
+          0.0053
+        ],
+        "d_spearman": [
+          0.0082,
+          0.0043,
+          0.0142
+        ]
+      },
+      "chartfidf[exploratory]": {
+        "exposure_share": [
+          0.8705,
+          0.8148,
+          0.897
+        ],
+        "text_share": [
+          0.0927,
+          0.0719,
+          0.1272
+        ],
+        "d_auc": [
+          0.018,
+          0.0144,
+          0.0239
+        ],
+        "d_spearman": [
+          0.0461,
+          0.0368,
+          0.0611
+        ]
+      }
+    }
+  },
+  "tfidf:pooled": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 7152732,
+      "videos": 6196,
+      "channels": 311,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6748,
+      "exposure+length": 0.6889,
+      "exposure+length+tfidf": 0.6931,
+      "content-only:tfidf": 0.58
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9055,
+          0.8427,
+          0.9683
+        ],
+        "text_share": [
+          0.0224,
+          0.0094,
+          0.0404
+        ],
+        "d_auc": [
+          0.0043,
+          0.0018,
+          0.0078
+        ],
+        "d_spearman": [
+          0.0072,
+          0.0031,
+          0.0126
+        ]
+      }
+    }
+  },
+  "tfidf:zh": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 606043,
+      "videos": 1090,
+      "channels": 70,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.7163,
+      "exposure+length": 0.7357,
+      "exposure+length+tfidf": 0.7354,
+      "content-only:tfidf": 0.5838,
+      "exposure+length+chartfidf[exploratory]": 0.75,
+      "content-only:chartfidf[exploratory]": 0.625
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9196,
+          0.8706,
+          0.9792
+        ],
+        "text_share": [
+          0.0001,
+          -0.024,
+          0.0171
+        ],
+        "d_auc": [
+          -0.0002,
+          -0.0063,
+          0.0036
+        ],
+        "d_spearman": [
+          -0.0008,
+          -0.0135,
+          0.0064
+        ]
+      },
+      "chartfidf[exploratory]": {
+        "exposure_share": [
+          0.8656,
+          0.8205,
+          0.9131
+        ],
+        "text_share": [
+          0.0587,
+          0.0391,
+          0.0736
+        ],
+        "d_auc": [
+          0.0144,
+          0.0111,
+          0.0168
+        ],
+        "d_spearman": [
+          0.0263,
+          0.0227,
+          0.0315
+        ]
+      }
+    }
+  }
+}

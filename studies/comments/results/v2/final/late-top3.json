@@ -1,0 +1,22 @@
+{
+  "db": "data/runs/comments/panel-v2.snapshot-2026-10-21.sqlite",
+  "final_top3_slots": 1338,
+  "videos": 482,
+  "posted_after_24h": {
+    "slots": 207,
+    "share": 0.1547,
+    "videos": 150
+  },
+  "posted_after_48h": {
+    "slots": 122,
+    "share": 0.0912,
+    "videos": 104
+  },
+  "posted_after_7d": {
+    "slots": 39,
+    "share": 0.0291,
+    "videos": 34
+  },
+  "posted_after_48h_first_seen_rank_median": 6,
+  "posted_after_48h_first_seen_rank_gt10": 45
+}

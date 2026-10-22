@@ -1,0 +1,2348 @@
+{
+  "name": "panel-v2",
+  "compiled": "2026-09-19",
+  "channels": [
+    {
+      "handle": "@veritasium",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kurzgesagt",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@3blue1brown",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SmarterEveryDay",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NileRed",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PBSSpaceTime",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Computerphile",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TechnologyConnections",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CGPGrey",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@minutephysics",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SciShow",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Vsauce",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@stevemould",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AppliedScience",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mkbhd",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LinusTechTips",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@UnboxTherapy",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Fireship",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@markiplier",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jacksepticeye",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@DanTDM",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GameGrumps",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TomScottGo",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jacksfilms",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@drewisgooden",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Danny-Gonzalez",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@casey",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RickBeato",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AdamNeely",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Davie504",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Vox",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Wendoverproductions",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RealLifeLore",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@JohnnyHarris",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PolyMatter",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@bingingwithbabish",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@JoshuaWeissman",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@EthanChlebowski",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TheActionLab",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@numberphile",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PracticalEngineeringChannel",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RealEngineering",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ElectroBOOM",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@styropyro",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@standupmaths",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SabineHossenfelder",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@whatdamath",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@scottmanley",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@besmart",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CleoAbram",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kylehill",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@DrBecky",
+      "lang": "en",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Mrwhosetheboss",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Dave2D",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@austinevans",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@JerryRigEverything",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GamersNexus",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@techlinked",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ThePrimeTimeagen",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@t3dotgg",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NetworkChuck",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LowLevelTV",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Jayztwocents",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ColdFusion",
+      "lang": "en",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ludwig",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@videogamedunkey",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Smallant",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ThatMumboJumbo",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Grian",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CaptainSparklez",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CallMeKevin",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RTGame",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Northernlion",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AsmonTV",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@thespiffingbrit",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GameTheory",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@DougDoug",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@VaatiVidya",
+      "lang": "en",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@penguinz0",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kurtisconner",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CodyKo",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@thenoelmiller",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@EddyBurback",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ryan",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@MichelleKhare",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@safiya",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jarvis",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@dropout",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GoodMythicalMorning",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@YesTheory",
+      "lang": "en",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@drewbinsky",
+      "lang": "en",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RyanGeorge",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TheoVon",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@MrBallen",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Wendigoon",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@karljobst",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SunnyV2",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Coffeezilla",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HasanAbi",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RedLetterMedia",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AlexMeyersVids",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ColinandSamir",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Defunctland",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@baldandbankrupt",
+      "lang": "en",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SortedFood",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@JKenjiLopezAlt",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@aragusea",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@internetshaquille",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LifebyMikeG",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GugaFoods",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@FrenchGuyCooking",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ChefJeanPierre",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@BrianLagerstrom",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mrnigelng",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@MarkWiens",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@BestEverFoodReviewShow",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mythicalkitchen",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CharlesCornellStudios",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@DavidBennettPiano",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jacobcollier",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@andrewhuang",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@BennJordan",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PaulDavids",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@theneedledrop",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@MartyMusic",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TheCharismaticVoice",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@KurtHugoSchneider",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@twosetviolin",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@12tone",
+      "lang": "en",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@halfasinteresting",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@EconomicsExplained",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@neoexplains",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NotJustBikes",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TLDRnewsEU",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CaspianReport",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PerunAU",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AdamSomething",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@fern-tv",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PBoyle",
+      "lang": "en",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HowMoneyWorks",
+      "lang": "en",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GrahamStephan",
+      "lang": "en",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LegalEagle",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PhilipDeFranco",
+      "lang": "en",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@KingsandGenerals",
+      "lang": "en",
+      "genre": "history",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HistoryMatters",
+      "lang": "en",
+      "genre": "history",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HistoriaCivilis",
+      "lang": "en",
+      "genre": "history",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kallmekris",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Sambucha",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SeanDoesMagic",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@annamcnulty",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NutshellAnimations",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@IanBoggs",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@hafu",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@zackdfilms",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@JakeFellman",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jordanmatter",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@CircleToonsHD",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TuckerBudzyn",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LiamThompsonOfficial",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Lionfield",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SenpaiKai9000",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ChefRush",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@gordonramsay",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@sam_sulek",
+      "lang": "en",
+      "genre": "sports",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@DanielLaBelle",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ZachChoi",
+      "lang": "en",
+      "genre": "food",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@joeman",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TsaiAGa",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Muyao4",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@thisgroupofpeople",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@howfunofficial",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@laogao",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@crowd1111",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@FroggyChiu",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@crowndu",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@hanhanpovideo",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ATienDai",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@beautywu",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TKstorytw",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@黃氏兄弟",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "low"
+    },
+    {
+      "handle": "@WACKYBOYS520",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Saintjey1113",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@omgoosetw",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@huber0203",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@annie72127",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Terry-Films",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@STRNetworkasia",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@brianptseng",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@big_star_ken",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@goldfishbrain",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@nsfwstudio",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@xilanceylan",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AlanChannelJP",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SanyuanJAPAN2015",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@haileymocaixi",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@shasha77",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@EYECTV",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@bailingguo",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@fanamericantime",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@rayduenglish",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TaiwanBar",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@PanScitw",
+      "lang": "zh",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@bluepigeon0810",
+      "lang": "zh",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@cheapaoe",
+      "lang": "zh",
+      "genre": "history",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@呂捷-b2d",
+      "lang": "zh",
+      "genre": "history",
+      "shorts_heavy": false,
+      "confidence": "low"
+    },
+    {
+      "handle": "@vincent_reading",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@超粒方",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "low"
+    },
+    {
+      "handle": "@Ikulaoshi",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@326n.h2",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@andy0623",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ZRBro",
+      "lang": "zh",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@yutinghaofinance",
+      "lang": "zh",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@betterleaf",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@xiao_lin_shuo",
+      "lang": "zh",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@xiaohan-ufo",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@wangzhian",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@wenzhaoofficial",
+      "lang": "zh",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@3ctim",
+      "lang": "zh",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@aottergirls",
+      "lang": "zh",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AshanKouki",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@tolocat",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@oeurxhichocolate",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@AJin_Jin",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@bahagamecrazy",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@LadyFlavor",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Chienseating",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@WawaKu",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ChefgodFred",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RosalinaKitchen",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@masacooking",
+      "lang": "zh",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@panpianoatelier",
+      "lang": "zh",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ruruspiano",
+      "lang": "zh",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@nicechordwiwi",
+      "lang": "zh",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@namewee",
+      "lang": "zh",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@YEKON1",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@73_tricking",
+      "lang": "zh",
+      "genre": "sports",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jayleepainting",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RomanandSharon",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mingjai14",
+      "lang": "zh",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@trialanderror924",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "low"
+    },
+    {
+      "handle": "@FHProductionHK",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@pomatohk",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mm.millmilk",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mirasgarden",
+      "lang": "zh",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@smilingboris1118",
+      "lang": "zh",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@MannerProduction",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@shallow-knowledge",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ASHLYNICK258",
+      "lang": "zh",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@RyuuuTV",
+      "lang": "zh",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "low"
+    },
+    {
+      "handle": "@HikakinTV",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@hajimesyacho",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Fischers",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TokaiOnAir",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@hikaruYouTube",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@comdot",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mizutamaribond",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Skypeace",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HeiseiFlamingo",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@EGA-CHANNEL",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SeikinTV",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Yorunohitowarai",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@alternachannel",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@bakibakiDT",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kamaitachi.channel",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@shimofuritube",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@jarujaruisland8111",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@soshina",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mikuruasakura1",
+      "lang": "ja",
+      "genre": "sports",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@gairokuch",
+      "lang": "ja",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@takkutv",
+      "lang": "ja",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@toshiookada0701",
+      "lang": "ja",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@hirox246",
+      "lang": "ja",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@takaponjp",
+      "lang": "ja",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@rehacq",
+      "lang": "ja",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@pivot00",
+      "lang": "ja",
+      "genre": "news",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@reiwanotora",
+      "lang": "ja",
+      "genre": "finance",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SuitTravel",
+      "lang": "ja",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@gonzalesmaruyamathedeepworld",
+      "lang": "ja",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@joevlog7",
+      "lang": "ja",
+      "genre": "travel",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@QuizKnock",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NKTofficial",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@KevinsEnglishRoom",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@atsueigo",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@yobinori",
+      "lang": "ja",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@toaruotoko",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@yurugengo",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@GENKILABO",
+      "lang": "ja",
+      "genre": "science",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@donttellmearai",
+      "lang": "ja",
+      "genre": "education",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Kojiseto",
+      "lang": "ja",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kazuch0924",
+      "lang": "ja",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@yoshidaaaaaaaaaaaaaaaaaaaaaaaa",
+      "lang": "ja",
+      "genre": "tech",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@norunine",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@KIYOisGOD",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@retokani",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Gatchman666",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@pockysweets",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@dozle",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SHAKAch",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@junchannel",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@usadapekora",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HoushouMarine",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ShirakamiFubuki",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SakuraMiko",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Kuzuha",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HyakumantenbaraSalome",
+      "lang": "ja",
+      "genre": "gaming",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kimagurecook",
+      "lang": "ja",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ryuji825",
+      "lang": "ja",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kinoyuu0204",
+      "lang": "ja",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Tanisaki_Takahito",
+      "lang": "ja",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@KimonoMom",
+      "lang": "ja",
+      "genre": "food",
+      "shorts_heavy": false,
+      "confidence": "low"
+    },
+    {
+      "handle": "@haramipiano_main",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@marasy8",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@WoooRen1006",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Ado1024",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@YOASOBI_Official",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@FujiiKaze",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ooo0eve0ooo",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@ZUTOMAYO",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@Hujikoman",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@nbuna",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@minomusic",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@HoshimachiSuisei",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": false,
+      "confidence": "high"
+    },
+    {
+      "handle": "@おろちんゆー",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "low"
+    },
+    {
+      "handle": "@shinakoasmr475",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kee_sado",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@TYONNGE",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@mkod369",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@SuppokoPeppoko",
+      "lang": "ja",
+      "genre": "music",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@dekakinb",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@kyonkuma",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@NakamachiKyodai",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "high"
+    },
+    {
+      "handle": "@WANIVSPBAO",
+      "lang": "ja",
+      "genre": "entertainment",
+      "shorts_heavy": true,
+      "confidence": "low"
+    },
+    {
+      "handle": "@MrBeast",
+      "lang": "en",
+      "genre": "entertainment",
+      "shorts_heavy": false,
+      "confidence": "high",
+      "marquee": true
+    },
+    {
+      "handle": "@PewDiePie",
+      "lang": "en",
+      "genre": "commentary",
+      "shorts_heavy": false,
+      "confidence": "high",
+      "marquee": true
+    }
+  ],
+  "approved": "2026-09-19",
+  "amended": "2026-09-19 marquee stratum: @MrBeast, @PewDiePie (over the 15M cap; per-channel table only, excluded from pooled estimates)"
+}

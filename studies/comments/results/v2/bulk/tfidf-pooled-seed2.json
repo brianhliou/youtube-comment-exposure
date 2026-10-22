@@ -1,0 +1,110 @@
+{
+  "lang": "pooled",
+  "seed": 2,
+  "meta": {
+    "comments": 7152732,
+    "videos": 6196,
+    "channels": 311,
+    "seconds": 579,
+    "test_channels": [
+      "@GamersNexus",
+      "@HyakumantenbaraSalome",
+      "@NKTofficial",
+      "@Wendigoon",
+      "@fanamericantime",
+      "@kurzgesagt",
+      "@ryan",
+      "@yoshidaaaaaaaaaaaaaaaaaaaaaaaa"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.2864,
+      "spearman_ci": [
+        0.1764,
+        0.3792
+      ],
+      "auc": 0.6525,
+      "auc_ci": [
+        0.5955,
+        0.693
+      ],
+      "n_videos": 168,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.2947,
+      "spearman_ci": [
+        0.2095,
+        0.3725
+      ],
+      "auc": 0.6558,
+      "auc_ci": [
+        0.6162,
+        0.6819
+      ],
+      "n_videos": 168,
+      "alpha": 1000.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.2978,
+      "spearman_ci": [
+        0.2242,
+        0.3614
+      ],
+      "auc": 0.6575,
+      "auc_ci": [
+        0.6285,
+        0.6759
+      ],
+      "n_videos": 168,
+      "alpha": 100.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.0692,
+      "spearman_ci": [
+        0.0337,
+        0.1063
+      ],
+      "auc": 0.5674,
+      "auc_ci": [
+        0.5579,
+        0.5751
+      ],
+      "n_videos": 168,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.2947,
+    "baseline_auc": 0.6558,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.0031,
+        "ci": [
+          -0.0108,
+          0.0193
+        ],
+        "p_gt_0": 0.676
+      },
+      "auc": {
+        "delta": 0.0018,
+        "ci": [
+          -0.0075,
+          0.0116
+        ],
+        "p_gt_0": 0.6485
+      },
+      "text_share_of_auc": 0.0108,
+      "exposure_share_of_auc": 0.9683
+    }
+  }
+}

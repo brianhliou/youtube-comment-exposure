@@ -1,0 +1,614 @@
+start Fri Oct  9 14:54:25 PDT 2026
+[14:54:26] loading zh
+[14:54:30] zh: {'comments': 606043, 'videos': 1090, 'channels': 70}
+[14:54:30] zh s1 exposure auc=0.6883
+[14:54:31] zh s1 exposure+length auc=0.7126
+[14:54:47] zh s1 +tfidf auc=0.7163
+[14:54:49] zh s1 content-only:tfidf auc=0.5857
+[14:56:42] zh s1 +chartfidf[exploratory] auc=0.7295
+[14:57:03] zh s1 content-only:chartfidf[exploratory] auc=0.6256
+[14:57:03] wrote studies/comments/results/v2/bulk/tfidf-zh-seed1.json
+[14:57:04] zh s2 exposure auc=0.7069
+[14:57:05] zh s2 exposure+length auc=0.7102
+[14:57:20] zh s2 +tfidf auc=0.7113
+[14:57:22] zh s2 content-only:tfidf auc=0.5803
+[14:58:57] zh s2 +chartfidf[exploratory] auc=0.7266
+[14:59:12] zh s2 content-only:chartfidf[exploratory] auc=0.6014
+[14:59:12] wrote studies/comments/results/v2/bulk/tfidf-zh-seed2.json
+[14:59:13] zh s3 exposure auc=0.7138
+[14:59:13] zh s3 exposure+length auc=0.7317
+[14:59:28] zh s3 +tfidf auc=0.7321
+[14:59:29] zh s3 content-only:tfidf auc=0.5732
+[15:01:01] zh s3 +chartfidf[exploratory] auc=0.7466
+[15:01:16] zh s3 content-only:chartfidf[exploratory] auc=0.6255
+[15:01:17] wrote studies/comments/results/v2/bulk/tfidf-zh-seed3.json
+[15:01:17] zh s4 exposure auc=0.7318
+[15:01:18] zh s4 exposure+length auc=0.7512
+[15:01:33] zh s4 +tfidf auc=0.7513
+[15:01:34] zh s4 content-only:tfidf auc=0.5862
+[15:03:09] zh s4 +chartfidf[exploratory] auc=0.7638
+[15:03:25] zh s4 content-only:chartfidf[exploratory] auc=0.6279
+[15:03:25] wrote studies/comments/results/v2/bulk/tfidf-zh-seed4.json
+[15:03:27] loading ja
+[15:03:35] ja: {'comments': 1125472, 'videos': 1681, 'channels': 80}
+[15:03:36] ja s0 exposure auc=0.6531
+[15:03:37] ja s0 exposure+length auc=0.664
+[15:04:03] ja s0 +tfidf auc=0.6644
+[15:04:06] ja s0 content-only:tfidf auc=0.5527
+[15:07:19] ja s0 +chartfidf[exploratory] auc=0.6879
+[15:08:04] ja s0 content-only:chartfidf[exploratory] auc=0.6051
+[15:08:05] wrote studies/comments/results/v2/bulk/tfidf-ja-seed0.json
+[15:08:06] ja s1 exposure auc=0.6706
+[15:08:07] ja s1 exposure+length auc=0.6726
+[15:08:34] ja s1 +tfidf auc=0.6743
+[15:08:37] ja s1 content-only:tfidf auc=0.562
+[15:11:53] ja s1 +chartfidf[exploratory] auc=0.6902
+[15:12:41] ja s1 content-only:chartfidf[exploratory] auc=0.6024
+[15:12:42] wrote studies/comments/results/v2/bulk/tfidf-ja-seed1.json
+[15:12:43] ja s2 exposure auc=0.6794
+[15:12:44] ja s2 exposure+length auc=0.6834
+[15:13:15] ja s2 +tfidf auc=0.6887
+[15:13:19] ja s2 content-only:tfidf auc=0.5778
+[15:16:33] ja s2 +chartfidf[exploratory] auc=0.7031
+[15:17:24] ja s2 content-only:chartfidf[exploratory] auc=0.6052
+[15:17:24] wrote studies/comments/results/v2/bulk/tfidf-ja-seed2.json
+[15:17:25] ja s3 exposure auc=0.6793
+[15:17:27] ja s3 exposure+length auc=0.6859
+[15:18:04] ja s3 +tfidf auc=0.6895
+[15:18:07] ja s3 content-only:tfidf auc=0.5715
+[15:21:21] ja s3 +chartfidf[exploratory] auc=0.7003
+[15:22:10] ja s3 content-only:chartfidf[exploratory] auc=0.601
+[15:22:10] wrote studies/comments/results/v2/bulk/tfidf-ja-seed3.json
+[15:22:12] ja s4 exposure auc=0.6685
+[15:22:13] ja s4 exposure+length auc=0.6808
+[15:22:39] ja s4 +tfidf auc=0.6821
+[15:22:41] ja s4 content-only:tfidf auc=0.5603
+[15:25:40] ja s4 +chartfidf[exploratory] auc=0.6954
+[15:26:24] ja s4 content-only:chartfidf[exploratory] auc=0.6106
+[15:26:24] wrote studies/comments/results/v2/bulk/tfidf-ja-seed4.json
+[15:26:25] loading en
+[15:27:08] en: {'comments': 5421217, 'videos': 3425, 'channels': 161}
+[15:27:15] en s0 exposure auc=0.6772
+[15:27:21] en s0 exposure+length auc=0.6927
+[15:35:23] en s0 +tfidf auc=0.7092
+[15:37:35] en s0 content-only:tfidf auc=0.602
+[15:37:40] wrote studies/comments/results/v2/bulk/tfidf-en-seed0.json
+[15:37:47] en s1 exposure auc=0.6723
+[15:37:52] en s1 exposure+length auc=0.6831
+[15:45:18] en s1 +tfidf auc=0.6915
+[15:47:22] en s1 content-only:tfidf auc=0.5844
+[15:47:23] wrote studies/comments/results/v2/bulk/tfidf-en-seed1.json
+[15:47:30] en s2 exposure auc=0.6542
+[15:47:36] en s2 exposure+length auc=0.6667
+[15:54:49] en s2 +tfidf auc=0.6782
+[15:56:51] en s2 content-only:tfidf auc=0.5855
+[15:56:52] wrote studies/comments/results/v2/bulk/tfidf-en-seed2.json
+[15:56:59] en s3 exposure auc=0.6216
+[15:57:04] en s3 exposure+length auc=0.6364
+[16:04:05] en s3 +tfidf auc=0.6466
+[16:06:00] en s3 content-only:tfidf auc=0.583
+[16:06:01] wrote studies/comments/results/v2/bulk/tfidf-en-seed3.json
+[16:06:08] en s4 exposure auc=0.6536
+[16:06:13] en s4 exposure+length auc=0.6665
+[16:13:02] en s4 +tfidf auc=0.6744
+[16:14:58] en s4 content-only:tfidf auc=0.5853
+[16:14:59] wrote studies/comments/results/v2/bulk/tfidf-en-seed4.json
+[16:15:08] embedding 606,043 zh comments with sentence-transformers/all-MiniLM-L6-v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7329.34it/s]
+[16:16:02] zh embedded 250,000/606,043
+[16:16:54] zh embedded 500,000/606,043
+[16:17:20] zh embedded 606,043/606,043
+[16:17:20] wrote data/runs/comments/v2-embeddings-minilm-zh.npz (606043, 384)
+[16:17:29] embedding 1,125,472 ja comments with sentence-transformers/all-MiniLM-L6-v2
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7012.06it/s]
+[16:20:50] ja embedded 250,000/1,125,472
+[16:22:57] ja embedded 500,000/1,125,472
+[16:24:32] ja embedded 750,000/1,125,472
+[16:27:08] ja embedded 1,000,000/1,125,472
+[16:28:43] ja embedded 1,125,472/1,125,472
+[16:28:46] wrote data/runs/comments/v2-embeddings-minilm-ja.npz (1125472, 384)
+[16:29:28] embedding 5,421,217 en comments with sentence-transformers/all-MiniLM-L6-v2
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6954.72it/s]
+[16:35:50] en embedded 250,000/5,421,217
+[16:41:24] en embedded 500,000/5,421,217
+[16:46:31] en embedded 750,000/5,421,217
+[16:53:00] en embedded 1,000,000/5,421,217
+[16:58:59] en embedded 1,250,000/5,421,217
+[17:03:30] en embedded 1,500,000/5,421,217
+[17:08:46] en embedded 1,750,000/5,421,217
+[17:15:43] en embedded 2,000,000/5,421,217
+[17:22:45] en embedded 2,250,000/5,421,217
+[17:31:29] en embedded 2,500,000/5,421,217
+[17:39:35] en embedded 2,750,000/5,421,217
+[17:49:38] en embedded 3,000,000/5,421,217
+[17:59:06] en embedded 3,250,000/5,421,217
+[18:08:13] en embedded 3,500,000/5,421,217
+[18:18:29] en embedded 3,750,000/5,421,217
+[18:29:49] en embedded 4,000,000/5,421,217
+[18:41:15] en embedded 4,250,000/5,421,217
+[18:58:00] en embedded 4,500,000/5,421,217
+[19:10:25] en embedded 4,750,000/5,421,217
+[19:23:54] en embedded 5,000,000/5,421,217
+[19:36:17] en embedded 5,250,000/5,421,217
+[19:45:43] en embedded 5,421,217/5,421,217
+[19:46:13] wrote data/runs/comments/v2-embeddings-minilm-en.npz (5421217, 384)
+[19:46:29] zh s0 exposure auc=0.7408
+[19:46:29] zh s0 exposure+length auc=0.7726
+[19:46:51] zh s0 exposure+length+embed auc=0.7728
+[19:46:59] zh s0 content-only:embed auc=0.6235
+[19:46:59] wrote studies/comments/results/v2/bulk/embed-zh-seed0.json
+[19:47:00] zh s1 exposure auc=0.6883
+[19:47:00] zh s1 exposure+length auc=0.7126
+[19:47:15] zh s1 exposure+length+embed auc=0.7225
+[19:47:21] zh s1 content-only:embed auc=0.609
+[19:47:22] wrote studies/comments/results/v2/bulk/embed-zh-seed1.json
+[19:47:22] zh s2 exposure auc=0.7069
+[19:47:23] zh s2 exposure+length auc=0.7102
+[19:47:37] zh s2 exposure+length+embed auc=0.7159
+[19:47:44] zh s2 content-only:embed auc=0.5734
+[19:47:44] wrote studies/comments/results/v2/bulk/embed-zh-seed2.json
+[19:47:45] zh s3 exposure auc=0.7138
+[19:47:45] zh s3 exposure+length auc=0.7317
+[19:48:00] zh s3 exposure+length+embed auc=0.736
+[19:48:06] zh s3 content-only:embed auc=0.5999
+[19:48:06] wrote studies/comments/results/v2/bulk/embed-zh-seed3.json
+[19:48:06] zh s4 exposure auc=0.7318
+[19:48:07] zh s4 exposure+length auc=0.7512
+[19:48:22] zh s4 exposure+length+embed auc=0.7562
+[19:48:29] zh s4 content-only:embed auc=0.6062
+[19:48:29] wrote studies/comments/results/v2/bulk/embed-zh-seed4.json
+[19:48:38] ja s0 exposure auc=0.6531
+[19:48:39] ja s0 exposure+length auc=0.664
+[19:49:15] ja s0 exposure+length+embed auc=0.6766
+[19:49:30] ja s0 content-only:embed auc=0.5806
+[19:49:30] wrote studies/comments/results/v2/bulk/embed-ja-seed0.json
+[19:49:32] ja s1 exposure auc=0.6706
+[19:49:32] ja s1 exposure+length auc=0.6726
+[19:50:10] ja s1 exposure+length+embed auc=0.6818
+[19:50:25] ja s1 content-only:embed auc=0.5782
+[19:50:25] wrote studies/comments/results/v2/bulk/embed-ja-seed1.json
+[19:50:26] ja s2 exposure auc=0.6794
+[19:50:27] ja s2 exposure+length auc=0.6834
+[19:51:03] ja s2 exposure+length+embed auc=0.6944
+[19:51:16] ja s2 content-only:embed auc=0.5812
+[19:51:16] wrote studies/comments/results/v2/bulk/embed-ja-seed2.json
+[19:51:18] ja s3 exposure auc=0.6793
+[19:51:18] ja s3 exposure+length auc=0.6859
+[19:51:53] ja s3 exposure+length+embed auc=0.6929
+[19:52:05] ja s3 content-only:embed auc=0.578
+[19:52:05] wrote studies/comments/results/v2/bulk/embed-ja-seed3.json
+[19:52:06] ja s4 exposure auc=0.6685
+[19:52:07] ja s4 exposure+length auc=0.6808
+[19:52:38] ja s4 exposure+length+embed auc=0.6898
+[19:52:48] ja s4 content-only:embed auc=0.5912
+[19:52:48] wrote studies/comments/results/v2/bulk/embed-ja-seed4.json
+[19:53:38] en s0 exposure auc=0.6772
+[19:53:40] en s0 exposure+length auc=0.6927
+[20:00:52] en s0 exposure+length+embed auc=0.7095
+[20:03:52] en s0 content-only:embed auc=0.6001
+[20:03:53] wrote studies/comments/results/v2/bulk/embed-en-seed0.json
+[20:04:02] en s1 exposure auc=0.6723
+[20:04:04] en s1 exposure+length auc=0.6831
+[20:12:51] en s1 exposure+length+embed auc=0.6894
+[20:15:50] en s1 content-only:embed auc=0.581
+[20:15:50] wrote studies/comments/results/v2/bulk/embed-en-seed1.json
+[20:15:58] en s2 exposure auc=0.6542
+[20:16:01] en s2 exposure+length auc=0.6666
+[20:22:35] en s2 exposure+length+embed auc=0.6795
+[20:25:33] en s2 content-only:embed auc=0.5853
+[20:25:34] wrote studies/comments/results/v2/bulk/embed-en-seed2.json
+[20:25:42] en s3 exposure auc=0.6216
+[20:25:44] en s3 exposure+length auc=0.6364
+[20:30:41] en s3 exposure+length+embed auc=0.6481
+[20:33:15] en s3 content-only:embed auc=0.5836
+[20:33:16] wrote studies/comments/results/v2/bulk/embed-en-seed3.json
+[20:33:24] en s4 exposure auc=0.6536
+[20:33:26] en s4 exposure+length auc=0.6666
+[20:40:02] en s4 exposure+length+embed auc=0.6737
+[20:42:16] en s4 content-only:embed auc=0.5884
+[20:42:17] wrote studies/comments/results/v2/bulk/embed-en-seed4.json
+[20:42:19] loading pooled
+[20:43:11] pooled: {'comments': 7152732, 'videos': 6196, 'channels': 311}
+[20:43:19] pooled s0 exposure auc=0.6355
+[20:43:25] pooled s0 exposure+length auc=0.6543
+[20:50:20] pooled s0 +tfidf auc=0.6608
+[20:52:31] pooled s0 content-only:tfidf auc=0.5772
+[20:52:32] wrote studies/comments/results/v2/bulk/tfidf-pooled-seed0.json
+[20:52:41] pooled s1 exposure auc=0.6968
+[20:52:47] pooled s1 exposure+length auc=0.7098
+[20:59:58] pooled s1 +tfidf auc=0.7118
+[21:02:13] pooled s1 content-only:tfidf auc=0.5769
+[21:02:14] wrote studies/comments/results/v2/bulk/tfidf-pooled-seed1.json
+[21:02:23] pooled s2 exposure auc=0.6525
+[21:02:29] pooled s2 exposure+length auc=0.6558
+[21:09:44] pooled s2 +tfidf auc=0.6575
+[21:11:52] pooled s2 content-only:tfidf auc=0.5674
+[21:11:52] wrote studies/comments/results/v2/bulk/tfidf-pooled-seed2.json
+[21:12:01] pooled s3 exposure auc=0.693
+[21:12:07] pooled s3 exposure+length auc=0.707
+[21:19:19] pooled s3 +tfidf auc=0.7149
+[21:21:32] pooled s3 content-only:tfidf auc=0.5886
+[21:21:33] wrote studies/comments/results/v2/bulk/tfidf-pooled-seed3.json
+[21:21:42] pooled s4 exposure auc=0.6962
+[21:21:48] pooled s4 exposure+length auc=0.7175
+[21:29:05] pooled s4 +tfidf auc=0.7207
+[21:31:23] pooled s4 content-only:tfidf auc=0.5899
+[21:31:24] wrote studies/comments/results/v2/bulk/tfidf-pooled-seed4.json
+{
+  "embed:en": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 5421217,
+      "videos": 3425,
+      "channels": 161,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6558,
+      "exposure+length": 0.6691,
+      "exposure+length+embed": 0.68,
+      "content-only:embed": 0.5877
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.864,
+          0.8211,
+          0.9097
+        ],
+        "text_share": [
+          0.0611,
+          0.0333,
+          0.0802
+        ],
+        "d_auc": [
+          0.011,
+          0.0064,
+          0.0167
+        ],
+        "d_spearman": [
+          0.0166,
+          0.0072,
+          0.0264
+        ]
+      }
+    }
+  },
+  "embed:ja": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 1125472,
+      "videos": 1681,
+      "channels": 80,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6702,
+      "exposure+length": 0.6773,
+      "exposure+length+embed": 0.6871,
+      "content-only:embed": 0.5818
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.9091,
+          0.8669,
+          0.9384
+        ],
+        "text_share": [
+          0.0524,
+          0.0363,
+          0.0713
+        ],
+        "d_auc": [
+          0.0097,
+          0.007,
+          0.0126
+        ],
+        "d_spearman": [
+          0.0256,
+          0.0192,
+          0.0319
+        ]
+      }
+    }
+  },
+  "embed:zh": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 606043,
+      "videos": 1090,
+      "channels": 70,
+      "seconds": null,
+      "encoder": "all-MiniLM-L6-v2",
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.7163,
+      "exposure+length": 0.7357,
+      "exposure+length+embed": 0.7407,
+      "content-only:embed": 0.6024
+    },
+    "decomposition": {
+      "embed": {
+        "exposure_share": [
+          0.8996,
+          0.8463,
+          0.9583
+        ],
+        "text_share": [
+          0.0219,
+          0.0007,
+          0.0445
+        ],
+        "d_auc": [
+          0.005,
+          0.0003,
+          0.0098
+        ],
+        "d_spearman": [
+          0.0102,
+          0.002,
+          0.0185
+        ]
+      }
+    }
+  },
+  "tfidf:en": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 5421217,
+      "videos": 3425,
+      "channels": 161,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6558,
+      "exposure+length": 0.6691,
+      "exposure+length+tfidf": 0.68,
+      "content-only:tfidf": 0.588
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.8644,
+          0.8295,
+          0.8997
+        ],
+        "text_share": [
+          0.0604,
+          0.0439,
+          0.0789
+        ],
+        "d_auc": [
+          0.0109,
+          0.0078,
+          0.0165
+        ],
+        "d_spearman": [
+          0.0168,
+          0.011,
+          0.026
+        ]
+      }
+    }
+  },
+  "tfidf:ja": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 1125472,
+      "videos": 1681,
+      "channels": 80,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6702,
+      "exposure+length": 0.6773,
+      "exposure+length+tfidf": 0.6798,
+      "content-only:tfidf": 0.5649,
+      "exposure+length+chartfidf[exploratory]": 0.6954,
+      "content-only:chartfidf[exploratory]": 0.6049
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9465,
+          0.9253,
+          0.9788
+        ],
+        "text_share": [
+          0.0133,
+          0.0024,
+          0.0281
+        ],
+        "d_auc": [
+          0.0024,
+          0.0004,
+          0.0053
+        ],
+        "d_spearman": [
+          0.0082,
+          0.0043,
+          0.0142
+        ]
+      },
+      "chartfidf[exploratory]": {
+        "exposure_share": [
+          0.8705,
+          0.8148,
+          0.897
+        ],
+        "text_share": [
+          0.0927,
+          0.0719,
+          0.1272
+        ],
+        "d_auc": [
+          0.018,
+          0.0144,
+          0.0239
+        ],
+        "d_spearman": [
+          0.0461,
+          0.0368,
+          0.0611
+        ]
+      }
+    }
+  },
+  "tfidf:pooled": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 7152732,
+      "videos": 6196,
+      "channels": 311,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.6748,
+      "exposure+length": 0.6889,
+      "exposure+length+tfidf": 0.6931,
+      "content-only:tfidf": 0.58
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9055,
+          0.8427,
+          0.9683
+        ],
+        "text_share": [
+          0.0224,
+          0.0094,
+          0.0404
+        ],
+        "d_auc": [
+          0.0043,
+          0.0018,
+          0.0078
+        ],
+        "d_spearman": [
+          0.0072,
+          0.0031,
+          0.0126
+        ]
+      }
+    }
+  },
+  "tfidf:zh": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meta": {
+      "comments": 606043,
+      "videos": 1090,
+      "channels": 70,
+      "seconds": null,
+      "test_channels": null
+    },
+    "mean_auc": {
+      "exposure": 0.7163,
+      "exposure+length": 0.7357,
+      "exposure+length+tfidf": 0.7354,
+      "content-only:tfidf": 0.5838,
+      "exposure+length+chartfidf[exploratory]": 0.75,
+      "content-only:chartfidf[exploratory]": 0.625
+    },
+    "decomposition": {
+      "tfidf": {
+        "exposure_share": [
+          0.9196,
+          0.8706,
+          0.9792
+        ],
+        "text_share": [
+          0.0001,
+          -0.024,
+          0.0171
+        ],
+        "d_auc": [
+          -0.0002,
+          -0.0063,
+          0.0036
+        ],
+        "d_spearman": [
+          -0.0008,
+          -0.0135,
+          0.0064
+        ]
+      },
+      "chartfidf[exploratory]": {
+        "exposure_share": [
+          0.8656,
+          0.8205,
+          0.9131
+        ],
+        "text_share": [
+          0.0587,
+          0.0391,
+          0.0736
+        ],
+        "d_auc": [
+          0.0144,
+          0.0111,
+          0.0168
+        ],
+        "d_spearman": [
+          0.0263,
+          0.0227,
+          0.0315
+        ]
+      }
+    }
+  }
+}
+wrote studies/comments/results/v2/bulk-summary.json
+DONE Fri Oct  9 21:31:26 PDT 2026

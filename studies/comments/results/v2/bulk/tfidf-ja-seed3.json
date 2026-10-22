@@ -1,0 +1,162 @@
+{
+  "lang": "ja",
+  "seed": 3,
+  "meta": {
+    "comments": 1125472,
+    "videos": 1681,
+    "channels": 80,
+    "seconds": 286,
+    "test_channels": [
+      "@Ado1024",
+      "@Skypeace",
+      "@alternachannel",
+      "@bakibakiDT",
+      "@haramipiano_main",
+      "@kamaitachi.channel",
+      "@pockysweets",
+      "@reiwanotora"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.3599,
+      "spearman_ci": [
+        0.3035,
+        0.4342
+      ],
+      "auc": 0.6793,
+      "auc_ci": [
+        0.6514,
+        0.7143
+      ],
+      "n_videos": 182,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.3753,
+      "spearman_ci": [
+        0.3475,
+        0.4122
+      ],
+      "auc": 0.6859,
+      "auc_ci": [
+        0.6722,
+        0.7044
+      ],
+      "n_videos": 182,
+      "alpha": 1000.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.3839,
+      "spearman_ci": [
+        0.3571,
+        0.4182
+      ],
+      "auc": 0.6895,
+      "auc_ci": [
+        0.6774,
+        0.7064
+      ],
+      "n_videos": 182,
+      "alpha": 1000.0,
+      "n_features": 47560
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.0468,
+      "spearman_ci": [
+        0.0244,
+        0.0644
+      ],
+      "auc": 0.5715,
+      "auc_ci": [
+        0.5629,
+        0.5813
+      ],
+      "n_videos": 182,
+      "alpha": 10.0,
+      "n_features": 47551
+    },
+    {
+      "rung": "exposure+length+chartfidf[exploratory]",
+      "spearman": 0.4121,
+      "spearman_ci": [
+        0.3803,
+        0.4513
+      ],
+      "auc": 0.7003,
+      "auc_ci": [
+        0.6844,
+        0.7195
+      ],
+      "n_videos": 182,
+      "alpha": 100.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:chartfidf[exploratory]",
+      "spearman": 0.2127,
+      "spearman_ci": [
+        0.1803,
+        0.2488
+      ],
+      "auc": 0.601,
+      "auc_ci": [
+        0.5865,
+        0.6161
+      ],
+      "n_videos": 182,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.3753,
+    "baseline_auc": 0.6859,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.0086,
+        "ci": [
+          0.0048,
+          0.0129
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0036,
+        "ci": [
+          0.0018,
+          0.0055
+        ],
+        "p_gt_0": 0.999
+      },
+      "text_share_of_auc": 0.019,
+      "exposure_share_of_auc": 0.9462
+    },
+    "chartfidf[exploratory]": {
+      "spearman": {
+        "delta": 0.0368,
+        "ci": [
+          0.0235,
+          0.0539
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0144,
+        "ci": [
+          0.0075,
+          0.023
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0719,
+      "exposure_share_of_auc": 0.8952
+    }
+  }
+}

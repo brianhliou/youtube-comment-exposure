@@ -1,8 +1,16 @@
-# YouTube Comment Exposure Corpus v1
+# YouTube Comment Exposure Corpus
 
-1,345,353 top-level YouTube comments from 633 fully-enumerated videos across 34
-channels, with the field the existing public corpora leave out: **when each comment was
-posted**.
+YouTube comments with the field the existing public corpora leave out: **when each
+comment was posted**. Two releases live here:
+
+- **v1 (August 2026)**: 1,345,353 top-level comments from 633 fully-enumerated videos
+  across 34 English-language channels. Files at the repository root.
+- **v2 (October 2026)**: 7,152,754 comments from 6,240 fully-enumerated videos across
+  311 English, Japanese and Chinese-language channels, plus a panel that fetched the
+  displayed "Top comments" page of 500 new videos twice a day for 21 days (1,462,289
+  ranked rows). Files under `v2/`. Described in [v2](#v2-october-2026) below.
+
+Everything from "Why this exists" to "Reproducing it" describes v1 unless it says v2.
 
 ## Why this exists
 
@@ -78,11 +86,84 @@ split and nowhere near a representative sample of YouTube.
 **Collection order was smallest-video-first**, so any partial copy of this corpus is
 size-truncated rather than a random subsample.
 
+## v2 (October 2026)
+
+v2 asks how the ranking forms, and whether v1's result holds in other languages. It has
+two parts, collected with the same code and released with the same field conventions.
+The plan, its hypotheses, and every dated amendment are in `studies/comments/V2.md` in
+the code repository.
+
+### Files
+
+| config | file | rows | contents |
+|---|---|---|---|
+| `v2_bulk_comments` | `v2/bulk/comments.jsonl.gz` | 7,152,754 | one top-level comment per line, v1 fields |
+| `v2_bulk_videos` | `v2/bulk/videos.jsonl.gz` | 6,240 | v1 video fields plus `lang` and `marquee` |
+| `v2_panel_pages` | `v2/panel/pages.jsonl.gz` | 1,462,289 | one row per comment per fetched top page |
+| `v2_panel_videos` | `v2/panel/videos.jsonl.gz` | 500 | panel video metadata, enrollment and status |
+| `v2_panel_totals` | `v2/panel/totals.jsonl.gz` | 20,467 | view, like and comment totals per video per period |
+| `v2_panel_fetches` | `v2/panel/fetches.jsonl.gz` | 21,597 | one row per attempted page fetch, with outcome |
+| | `v2/manifest.json` | | row counts, field lists, SHA-256 and bytes per file |
+
+### Bulk: the replication
+
+Up to 25 videos per channel, published 2025-09-01 to 2026-08-19 with 200–20,000 reported
+comments, each enumerated completely as in v1. 311 channels: English (v1's channels and
+more), Japanese, and Chinese-language (Taiwan, Hong Kong and overseas). `lang` is the
+channel's language as assigned when the channel list was built, not a per-comment
+detection. Collected 2026-09-19 to 2026-10-01.
+
+By language: 5,421,217 English, 1,125,472 Japanese and 606,043 Chinese comments. The
+share with zero likes is 78.5%, 44.1% and 67.1%, against v1's 82.1%. The Japanese and
+Chinese videos are also smaller (median 348 and 299 comments against 798), so those
+differences mix language with video size.
+
+### Panel: the ranking over time
+
+500 videos, enrolled within 30 hours of upload between 2026-09-19 and 2026-09-27 (167
+English, 167 Japanese, 166 Chinese, from 205 channels, at most five per channel). Twice a
+day for 21 days the collector fetched each video's first page of `order=relevance`
+comment threads, up to 100, and recorded the rank, likes and post time of each. 487
+videos completed; 13 were dropped because comments were turned off, and
+`status_reason` records it.
+
+- `period` names the collection run, for example `2026-09-22b`. A period ending in `r`
+  is an immediate repeat of a page just fetched, kept to measure noise (`is_repeat`).
+- `is_creator` marks the channel owner's own comments, which are usually pinned. The
+  analysis drops them and re-ranks the page; the raw author ID that would let you do so
+  is not released, so this flag is.
+- `comment_age_hours` and `video_age_hours` are the comment's post time and the fetch
+  time, each measured from the video's publish time.
+- A missing page means the fetch was not attempted; `v2_panel_fetches` lists every
+  attempt and its outcome.
+
+`marquee = true` marks two very large channels, @MrBeast and @PewDiePie, added so the
+per-channel tables have rows people recognise. One panel video (@MrBeast) carries it, and
+the study's pooled estimates exclude it. No bulk video does.
+
+### v2 known limits
+
+**The page is one request's view.** The panel records what the API returned. Immediate
+repeats agree (median top-10 Jaccard 1.00 over 1,130 pairs), and a 2026-10-22 test on 250
+closed panel videos found the top 20 identical back to back, with and without a
+cache-busting request, and again 15 minutes later on 84 of them, with fresh etags; that
+test ran on month-old videos, so it does not cover the busier early days.
+A spot check of five videos opened logged out in a browser matched the API page about
+as well as two API pages 12 hours apart. Logged-in, personalised pages were not
+measured.
+
+**Established creators only.** Channels had 300K to 15M subscribers and comments open.
+Nothing here describes small channels.
+
+**Panel like counts are a time series, bulk like counts are one observation.** Bulk
+comments were fetched once, between 1 and 13 months after the video went up.
+
 ## Author identifiers
 
 `author_hash` is a SHA-256 of the author's channel ID with a random salt that was
 generated at export and never written down. That prevents linking an author between this
-dataset and any other one.
+dataset and any other one. v1 and v2 used different salts, so the same author has
+different hashes in the two releases; within v2, the bulk and panel files share one salt.
 
 It does not make the data anonymous. Comment text is public, indexed, and searchable, so
 anyone determined can recover an author from the text. Treat this as pseudonymized
@@ -101,6 +182,8 @@ specific comments will be honored.
 
 ## Citation
 
+For v1:
+
 ```bibtex
 @misc{liou2026commentexposure,
   title  = {YouTube Comment Exposure: 1,345,353 Comments with Post Timestamps},
@@ -110,7 +193,10 @@ specific comments will be honored.
 }
 ```
 
-The paper reports what the timestamps make measurable: exposure accounts for 83.5% of
+For v2, cite the same entry with the version, or the write-up:
+[brianhliou.com/posts/comment-ranking-keeps-moving](https://brianhliou.com/posts/comment-ranking-keeps-moving/).
+
+The v1 paper reports what the timestamps make measurable: exposure accounts for 83.5% of
 the ordering skill available above chance, against 8.2% for comment content.
 
 ## Reproducing it

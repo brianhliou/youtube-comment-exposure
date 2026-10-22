@@ -1,0 +1,3763 @@
+{
+  "generated_at": "2026-10-21T22:49:33-07:00",
+  "endpoint_hours": 480.0,
+  "videos_loaded": 500,
+  "videos_with_any_obs": 483,
+  "reliability": {
+    "pairs": 1130,
+    "top10_jaccard": {
+      "n": 1130,
+      "median": 1.0,
+      "q1": 1.0,
+      "q3": 1.0
+    },
+    "top20_jaccard": {
+      "n": 1130,
+      "median": 1.0,
+      "q1": 1.0,
+      "q3": 1.0
+    },
+    "spearman_shared": {
+      "n": 1130,
+      "median": 1.0,
+      "q1": 1.0,
+      "q3": 1.0
+    },
+    "threshold_clear": true
+  },
+  "lockin": {
+    "endpoint_hours": 480.0,
+    "excluded": {
+      "marquee": 1,
+      "no_endpoint_yet": 17,
+      "under_min_comments": 232
+    },
+    "pooled": {
+      "videos": 250,
+      "first_crossing_h": {
+        "n": 250,
+        "median": 137.82016892555555,
+        "q1": 54.73865771972221,
+        "q3": 331.9555345443056
+      },
+      "sustained_h": {
+        "n": 250,
+        "median": 464.00045452250004,
+        "q1": 390.74336180874997,
+        "q3": 484.015635334375
+      },
+      "already_locked_at_first_obs": 19,
+      "median_ci95_cluster": [
+        112.0137064538889,
+        176.01677513166666
+      ]
+    },
+    "by_lang": {
+      "en": {
+        "videos": 121,
+        "first_crossing_h": {
+          "n": 121,
+          "median": 116.28679620194444,
+          "q1": 44.20155296125,
+          "q3": 286.29379921347225
+        },
+        "sustained_h": {
+          "n": 121,
+          "median": 455.02086435027775,
+          "q1": 347.39778844694445,
+          "q3": 476.21721789083335
+        },
+        "already_locked_at_first_obs": 10,
+        "median_ci95_cluster": [
+          75.78430442152778,
+          147.26451232
+        ]
+      },
+      "ja": {
+        "videos": 78,
+        "first_crossing_h": {
+          "n": 78,
+          "median": 188.52811095777776,
+          "q1": 56.24166540909722,
+          "q3": 393.524498765
+        },
+        "sustained_h": {
+          "n": 78,
+          "median": 479.97258155180555,
+          "q1": 452.4024456152083,
+          "q3": 488.0244671966667
+        },
+        "already_locked_at_first_obs": 7,
+        "median_ci95_cluster": [
+          121.76908125888889,
+          321.03051407888887
+        ]
+      },
+      "zh": {
+        "videos": 51,
+        "first_crossing_h": {
+          "n": 51,
+          "median": 150.7528551375,
+          "q1": 67.03055423222222,
+          "q3": 334.2306918788889
+        },
+        "sustained_h": {
+          "n": 51,
+          "median": 460.3983624208333,
+          "q1": 376.02828934138887,
+          "q3": 475.9983168341667
+        },
+        "already_locked_at_first_obs": 2,
+        "median_ci95_cluster": [
+          90.07982243430556,
+          259.9229909747222
+        ]
+      }
+    },
+    "by_format": {
+      "short": {
+        "videos": 43,
+        "first_crossing_h": {
+          "n": 43,
+          "median": 97.01117137833333,
+          "q1": 41.763746635277776,
+          "q3": 393.9163150483334
+        },
+        "sustained_h": {
+          "n": 43,
+          "median": 461.7691286616666,
+          "q1": 314.75559728999997,
+          "q3": 484.01088600416665
+        },
+        "already_locked_at_first_obs": 4,
+        "median_ci95_cluster": [
+          58.07166410333333,
+          286.1173028613889
+        ]
+      },
+      "long": {
+        "videos": 207,
+        "first_crossing_h": {
+          "n": 207,
+          "median": 140.16428581833333,
+          "q1": 55.008576194166665,
+          "q3": 325.31677160277775
+        },
+        "sustained_h": {
+          "n": 207,
+          "median": 464.01212752444445,
+          "q1": 394.298138465,
+          "q3": 484.029883325
+        },
+        "already_locked_at_first_obs": 15,
+        "median_ci95_cluster": [
+          115.02720630041667,
+          182.03153969472223
+        ]
+      }
+    },
+    "per_channel": {
+      "@ATienDai": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 393.00660757249995
+      },
+      "@Ado1024": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 417.0180924661111
+      },
+      "@AsmonTV": {
+        "n": 5,
+        "lang": "en",
+        "median_first_h": 107.01704961083333
+      },
+      "@BennJordan": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 133.1870488525
+      },
+      "@BestEverFoodReviewShow": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 487.5225055533333
+      },
+      "@CallMeKevin": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 36.2644094325
+      },
+      "@CharlesCornellStudios": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 35.83215351208334
+      },
+      "@Chienseating": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 486.9474799097222
+      },
+      "@CircleToonsHD": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 41.763746635277776
+      },
+      "@CleoAbram": {
+        "n": 3,
+        "lang": "en",
+        "median_first_h": 136.47779664111113
+      },
+      "@Computerphile": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 115.78183114083333
+      },
+      "@DanTDM": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 219.0280798663889
+      },
+      "@Dave2D": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 30.99340172333333
+      },
+      "@EGA-CHANNEL": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 105.45809223944444
+      },
+      "@EconomicsExplained": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 148.5031774525
+      },
+      "@ElectroBOOM": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 315.93911184055554
+      },
+      "@EthanChlebowski": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 220.5158513486111
+      },
+      "@Fireship": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 38.72307594305556
+      },
+      "@FroggyChiu": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 468.1754930172222
+      },
+      "@GameGrumps": {
+        "n": 5,
+        "lang": "en",
+        "median_first_h": 63.01570238472222
+      },
+      "@GamersNexus": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 216.94972255888888
+      },
+      "@Gatchman666": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 180.7730782773611
+      },
+      "@GrahamStephan": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 423.1869785794444
+      },
+      "@GugaFoods": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 208.75313248861113
+      },
+      "@HasanAbi": {
+        "n": 4,
+        "lang": "en",
+        "median_first_h": 21.861148594583334
+      },
+      "@HeiseiFlamingo": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 189.02444162416666
+      },
+      "@HikakinTV": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 34.99631986111111
+      },
+      "@HoshimachiSuisei": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 485.0201011552778
+      },
+      "@HoushouMarine": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 484.13090982694445
+      },
+      "@HowMoneyWorks": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 140.31307580944446
+      },
+      "@IanBoggs": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 471.2772095627777
+      },
+      "@JerryRigEverything": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 129.094296815
+      },
+      "@KIYOisGOD": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 275.50948664027777
+      },
+      "@KevinsEnglishRoom": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 28.521013909444445
+      },
+      "@KimonoMom": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 18.12528324652778
+      },
+      "@KingsandGenerals": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 139.16254121
+      },
+      "@LinusTechTips": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 74.62022641861111
+      },
+      "@Lionfield": {
+        "n": 5,
+        "lang": "en",
+        "median_first_h": 88.02100215611111
+      },
+      "@LowLevelTV": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 136.98462323819444
+      },
+      "@MarkWiens": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 73.02101354888889
+      },
+      "@MrBallen": {
+        "n": 5,
+        "lang": "en",
+        "median_first_h": 182.03153969472223
+      },
+      "@Mrwhosetheboss": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 414.9955653416667
+      },
+      "@NKTofficial": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 190.02486122888888
+      },
+      "@NakamachiKyodai": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 101.01331547833334
+      },
+      "@NetworkChuck": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 329.9161986461111
+      },
+      "@Northernlion": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 36.01981738083333
+      },
+      "@NutshellAnimations": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 179.49654806111113
+      },
+      "@PBoyle": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 116.28679620194444
+      },
+      "@PanScitw": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 34.58965532888889
+      },
+      "@PaulDavids": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 59.926186720000004
+      },
+      "@PerunAU": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 42.40340562527778
+      },
+      "@PhilipDeFranco": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 81.95444216833333
+      },
+      "@QuizKnock": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 394.01420677416667
+      },
+      "@RTGame": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 33.00850502722223
+      },
+      "@RealLifeLore": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 257.35678762972225
+      },
+      "@SHAKAch": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 45.51587321111111
+      },
+      "@SabineHossenfelder": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 214.24495393986112
+      },
+      "@SakuraMiko": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 483.6636767672222
+      },
+      "@Sambucha": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 43.75465824333334
+      },
+      "@SciShow": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 278.9981407636111
+      },
+      "@SeanDoesMagic": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 286.1173028613889
+      },
+      "@SortedFood": {
+        "n": 3,
+        "lang": "en",
+        "median_first_h": 40.0111664625
+      },
+      "@SuitTravel": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 335.02636779333335
+      },
+      "@TLDRnewsEU": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 59.50338798
+      },
+      "@ThePrimeTimeagen": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 140.16428581833333
+      },
+      "@TheoVon": {
+        "n": 3,
+        "lang": "en",
+        "median_first_h": 55.25380149055555
+      },
+      "@TokaiOnAir": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 308.0302101763889
+      },
+      "@TomScottGo": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 41.021581314722226
+      },
+      "@UnboxTherapy": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 306.84216485319445
+      },
+      "@Vsauce": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 319.0446051275
+      },
+      "@ZachChoi": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 58.45198428944445
+      },
+      "@andy0623": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 334.2306918788889
+      },
+      "@annamcnulty": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 402.56996973763887
+      },
+      "@austinevans": {
+        "n": 3,
+        "lang": "en",
+        "median_first_h": 476.1575332788889
+      },
+      "@bakibakiDT": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 57.00630195819444
+      },
+      "@beautywu": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 56.087900061527776
+      },
+      "@bingingwithbabish": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 55.00115427361111
+      },
+      "@bluepigeon0810": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 286.01751766111107
+      },
+      "@brianptseng": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 89.6033951225
+      },
+      "@cheapaoe": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 271.01626624722223
+      },
+      "@crowndu": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 74.16405922444446
+      },
+      "@dekakinb": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 393.36126276194443
+      },
+      "@dozle": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 57.73356324361111
+      },
+      "@dropout": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 74.50454141083334
+      },
+      "@fanamericantime": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 440.01224614222224
+      },
+      "@gairokuch": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 95.03946276444444
+      },
+      "@goldfishbrain": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 129.00178101361112
+      },
+      "@hajimesyacho": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 8.082404784444444
+      },
+      "@halfasinteresting": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 94.9276870686111
+      },
+      "@hikaruYouTube": {
+        "n": 4,
+        "lang": "ja",
+        "median_first_h": 231.21682171930556
+      },
+      "@howfunofficial": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 43.052909381666666
+      },
+      "@jacksepticeye": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 316.00106177638884
+      },
+      "@jacobcollier": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 487.3397725088889
+      },
+      "@jarujaruisland8111": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 429.0209345608333
+      },
+      "@joeman": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 55.00705628819445
+      },
+      "@joevlog7": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 488.0047607916667
+      },
+      "@jordanmatter": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 486.0321797630556
+      },
+      "@kamaitachi.channel": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 40.39337794208333
+      },
+      "@kee_sado": {
+        "n": 3,
+        "lang": "ja",
+        "median_first_h": 418.64457513583335
+      },
+      "@kimagurecook": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 331.2724801838889
+      },
+      "@ludwig": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 41.29347590236111
+      },
+      "@mikuruasakura1": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 292.92662680374997
+      },
+      "@mingjai14": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 254.48881818638887
+      },
+      "@mm.millmilk": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 28.72512148361111
+      },
+      "@mrnigelng": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 182.49125888152778
+      },
+      "@numberphile": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 19.456135959166666
+      },
+      "@omgoosetw": {
+        "n": 3,
+        "lang": "zh",
+        "median_first_h": 175.03540187305555
+      },
+      "@ooo0eve0ooo": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 172.21019685541665
+      },
+      "@penguinz0": {
+        "n": 3,
+        "lang": "en",
+        "median_first_h": 91.50369324083333
+      },
+      "@pivot00": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 473.02590370194446
+      },
+      "@pockysweets": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 90.72991000972223
+      },
+      "@pomatohk": {
+        "n": 3,
+        "lang": "zh",
+        "median_first_h": 67.508920165
+      },
+      "@rehacq": {
+        "n": 4,
+        "lang": "ja",
+        "median_first_h": 433.27626815027776
+      },
+      "@reiwanotora": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 322.02247682319444
+      },
+      "@retokani": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 145.01788542652778
+      },
+      "@ruruspiano": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 488.5368489336111
+      },
+      "@ryan": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 377.15281544083336
+      },
+      "@ryuji825": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 207.87407480055555
+      },
+      "@safiya": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 403.72130576222224
+      },
+      "@sam_sulek": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 21.98258589138889
+      },
+      "@scottmanley": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 190.66098322375
+      },
+      "@shallow-knowledge": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 270.91352762444444
+      },
+      "@soshina": {
+        "n": 4,
+        "lang": "ja",
+        "median_first_h": 48.84988849041666
+      },
+      "@standupmaths": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 176.01677513166666
+      },
+      "@takkutv": {
+        "n": 5,
+        "lang": "ja",
+        "median_first_h": 116.02951055638889
+      },
+      "@theneedledrop": {
+        "n": 4,
+        "lang": "en",
+        "median_first_h": 48.77545213958333
+      },
+      "@thisgroupofpeople": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 52.004678778055556
+      },
+      "@toaruotoko": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 156.51915126999998
+      },
+      "@usadapekora": {
+        "n": 2,
+        "lang": "ja",
+        "median_first_h": 20.690017018749998
+      },
+      "@veritasium": {
+        "n": 1,
+        "lang": "en",
+        "median_first_h": 374.1821002938889
+      },
+      "@wangzhian": {
+        "n": 5,
+        "lang": "zh",
+        "median_first_h": 208.31711921527778
+      },
+      "@wenzhaoofficial": {
+        "n": 5,
+        "lang": "zh",
+        "median_first_h": 354.3921163575
+      },
+      "@whatdamath": {
+        "n": 2,
+        "lang": "en",
+        "median_first_h": 262.00212385583336
+      },
+      "@xiao_lin_shuo": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 119.00949118333334
+      },
+      "@xiaohan-ufo": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 103.17471160305556
+      },
+      "@xilanceylan": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 393.9163150483334
+      },
+      "@yobinori": {
+        "n": 1,
+        "lang": "ja",
+        "median_first_h": 259.2855001766667
+      },
+      "@yutinghaofinance": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 259.5864873
+      },
+      "@zackdfilms": {
+        "n": 4,
+        "lang": "en",
+        "median_first_h": 312.58542648875004
+      },
+      "@呂捷-b2d": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 125.71456138958334
+      },
+      "@超粒方": {
+        "n": 1,
+        "lang": "zh",
+        "median_first_h": 88.0008514513889
+      },
+      "@黃氏兄弟": {
+        "n": 2,
+        "lang": "zh",
+        "median_first_h": 139.57679203083333
+      }
+    },
+    "per_video": [
+      {
+        "video_id": "rIV4ZArQzSU",
+        "channel": "@hajimesyacho",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.93263290416667,
+        "first_obs_age_h": 8.082404784444444,
+        "lockin_first_h": 8.082404784444444,
+        "lockin_sustained_h": 8.082404784444444,
+        "n_obs": 42
+      },
+      {
+        "video_id": "oWhnytD3QoA",
+        "channel": "@bingingwithbabish",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.0271936413889,
+        "first_obs_age_h": 5.177617165000001,
+        "lockin_first_h": 55.00115427361111,
+        "lockin_sustained_h": 475.0211105686111,
+        "n_obs": 42
+      },
+      {
+        "video_id": "gxHr35Rsrko",
+        "channel": "@yobinori",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 487.27063478444444,
+        "first_obs_age_h": 5.4208557186111115,
+        "lockin_first_h": 259.2855001766667,
+        "lockin_sustained_h": 487.27063478444444,
+        "n_obs": 42
+      },
+      {
+        "video_id": "-z-UCGY0Dlo",
+        "channel": "@SuitTravel",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 491.0318301116667,
+        "first_obs_age_h": 9.181155476111112,
+        "lockin_first_h": 335.02636779333335,
+        "lockin_sustained_h": 491.0318301116667,
+        "n_obs": 42
+      },
+      {
+        "video_id": "IwpOqpDIt7g",
+        "channel": "@shallow-knowledge",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.91227029805555,
+        "first_obs_age_h": 29.06502906111111,
+        "lockin_first_h": 270.91352762444444,
+        "lockin_sustained_h": 486.91227029805555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "r47WiXh31eo",
+        "channel": "@annamcnulty",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.14097499666667,
+        "first_obs_age_h": 5.291312151666666,
+        "lockin_first_h": 487.14097499666667,
+        "lockin_sustained_h": 487.14097499666667,
+        "n_obs": 42
+      },
+      {
+        "video_id": "z-xhg5Y3k9g",
+        "channel": "@kamaitachi.channel",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 484.029883325,
+        "first_obs_age_h": 14.185960986666666,
+        "lockin_first_h": 40.0044207,
+        "lockin_sustained_h": 484.029883325,
+        "n_obs": 41
+      },
+      {
+        "video_id": "BFP5WwdU5aQ",
+        "channel": "@omgoosetw",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.0369258222222,
+        "first_obs_age_h": 29.18960441,
+        "lockin_first_h": 175.03540187305555,
+        "lockin_sustained_h": 331.0376720438889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "xrSDHyL2FT4",
+        "channel": "@LowLevelTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.08744013527775,
+        "first_obs_age_h": 27.24020279138889,
+        "lockin_first_h": 77.06406743222222,
+        "lockin_sustained_h": 485.08744013527775,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ZIG3XC7aU1E",
+        "channel": "@DanTDM",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.0290318616667,
+        "first_obs_age_h": 1.1796958927777779,
+        "lockin_first_h": 219.0280798663889,
+        "lockin_sustained_h": 291.0258050711111,
+        "n_obs": 42
+      },
+      {
+        "video_id": "jKLsOWzNIF0",
+        "channel": "@CharlesCornellStudios",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.9404079775,
+        "first_obs_age_h": 21.096290050555556,
+        "lockin_first_h": 34.93657471694444,
+        "lockin_sustained_h": 490.9404079775,
+        "n_obs": 41
+      },
+      {
+        "video_id": "YcTE6TP8gJc",
+        "channel": "@austinevans",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 489.7429853591667,
+        "first_obs_age_h": 19.89894511888889,
+        "lockin_first_h": 489.7429853591667,
+        "lockin_sustained_h": 489.7429853591667,
+        "n_obs": 41
+      },
+      {
+        "video_id": "EEZIaGsSjr8",
+        "channel": "@austinevans",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 486.0315735722222,
+        "first_obs_age_h": 16.187587695833333,
+        "lockin_first_h": 30.027882869444447,
+        "lockin_sustained_h": 354.0358065086111,
+        "n_obs": 41
+      },
+      {
+        "video_id": "9F0d6ukjfxw",
+        "channel": "@MrBallen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.03479181805557,
+        "first_obs_age_h": 26.187573584444443,
+        "lockin_first_h": 316.03503894166664,
+        "lockin_sustained_h": 400.0342888886111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "lUoum8IdWLU",
+        "channel": "@MrBallen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.02901391833336,
+        "first_obs_age_h": 24.181913135,
+        "lockin_first_h": 182.03153969472223,
+        "lockin_sustained_h": 482.02901391833336,
+        "n_obs": 40
+      },
+      {
+        "video_id": "RLJR6bL5b5U",
+        "channel": "@gairokuch",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 491.0382996222222,
+        "first_obs_age_h": 9.18760182111111,
+        "lockin_first_h": 95.03946276444444,
+        "lockin_sustained_h": 479.03144110777777,
+        "n_obs": 42
+      },
+      {
+        "video_id": "qHPKyLcKzOI",
+        "channel": "@pomatohk",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.53729666444445,
+        "first_obs_age_h": 29.689919291666666,
+        "lockin_first_h": 463.5492141261111,
+        "lockin_sustained_h": 463.5492141261111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "kHvJtqqvAl0",
+        "channel": "@pomatohk",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.0345105733333,
+        "first_obs_age_h": 5.184881792222223,
+        "lockin_first_h": 31.003163608055555,
+        "lockin_sustained_h": 31.003163608055555,
+        "n_obs": 42
+      },
+      {
+        "video_id": "M6J_J9d1t2s",
+        "channel": "@HoushouMarine",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 484.13090982694445,
+        "first_obs_age_h": 2.2814830586111112,
+        "lockin_first_h": 484.13090982694445,
+        "lockin_sustained_h": 484.13090982694445,
+        "n_obs": 42
+      },
+      {
+        "video_id": "1rJmhk7JCUI",
+        "channel": "@mikuruasakura1",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 487.49438920166665,
+        "first_obs_age_h": 29.647027471944444,
+        "lockin_first_h": 487.49438920166665,
+        "lockin_sustained_h": 487.49438920166665,
+        "n_obs": 40
+      },
+      {
+        "video_id": "xa5SVGq55SY",
+        "channel": "@mikuruasakura1",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 482.35090727194444,
+        "first_obs_age_h": 12.507005334722223,
+        "lockin_first_h": 98.35886440583333,
+        "lockin_sustained_h": 482.35090727194444,
+        "n_obs": 41
+      },
+      {
+        "video_id": "3XdG_Ft6PP0",
+        "channel": "@dekakinb",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.3633669661111,
+        "first_obs_age_h": 7.513181194722223,
+        "lockin_first_h": 393.36126276194443,
+        "lockin_sustained_h": 477.35699261888885,
+        "n_obs": 42
+      },
+      {
+        "video_id": "1UQOEO35DC8",
+        "channel": "@reiwanotora",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.03057298416667,
+        "first_obs_age_h": 8.180128258333333,
+        "lockin_first_h": 490.03057298416667,
+        "lockin_sustained_h": 490.03057298416667,
+        "n_obs": 42
+      },
+      {
+        "video_id": "WiRLNEl-4bk",
+        "channel": "@RealLifeLore",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.3429829069444,
+        "first_obs_age_h": 3.49352178,
+        "lockin_first_h": 257.35678762972225,
+        "lockin_sustained_h": 461.33941270722227,
+        "n_obs": 42
+      },
+      {
+        "video_id": "kDZkYlcBGmY",
+        "channel": "@xiaohan-ufo",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.1717974711111,
+        "first_obs_age_h": 29.324422358055553,
+        "lockin_first_h": 103.17471160305556,
+        "lockin_sustained_h": 463.1836711686111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "VFdRb0D6gSY",
+        "channel": "@MarkWiens",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 481.0237872038889,
+        "first_obs_age_h": 11.179949925555556,
+        "lockin_first_h": 73.02101354888889,
+        "lockin_sustained_h": 109.01587965944444,
+        "n_obs": 41
+      },
+      {
+        "video_id": "xLP-d7kRIb0",
+        "channel": "@BestEverFoodReviewShow",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.5225055533333,
+        "first_obs_age_h": 29.675137426666666,
+        "lockin_first_h": 487.5225055533333,
+        "lockin_sustained_h": 487.5225055533333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "vydVRIK1SLg",
+        "channel": "@ruruspiano",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.5368489336111,
+        "first_obs_age_h": 6.686811961111111,
+        "lockin_first_h": 488.5368489336111,
+        "lockin_sustained_h": 488.5368489336111,
+        "n_obs": 42
+      },
+      {
+        "video_id": "sJ4Zn7PB9XM",
+        "channel": "@NKTofficial",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.02929530194444,
+        "first_obs_age_h": 8.178892292222223,
+        "lockin_first_h": 190.02486122888888,
+        "lockin_sustained_h": 490.02929530194444,
+        "n_obs": 42
+      },
+      {
+        "video_id": "XRYNcsUAx7M",
+        "channel": "@QuizKnock",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 486.96572063055555,
+        "first_obs_age_h": 29.118405222222222,
+        "lockin_first_h": 450.96247658166664,
+        "lockin_sustained_h": 486.96572063055555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "T1QaaRpfK9U",
+        "channel": "@QuizKnock",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 484.03255297388887,
+        "first_obs_age_h": 14.18857965361111,
+        "lockin_first_h": 316.0362721169444,
+        "lockin_sustained_h": 472.0354317041667,
+        "n_obs": 41
+      },
+      {
+        "video_id": "sOoVMMfisEQ",
+        "channel": "@ooo0eve0ooo",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 490.35651991472224,
+        "first_obs_age_h": 8.505877121666666,
+        "lockin_first_h": 286.3487296075,
+        "lockin_sustained_h": 478.3497323261111,
+        "n_obs": 42
+      },
+      {
+        "video_id": "uoTRDgfSOGE",
+        "channel": "@ZachChoi",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.4552739827778,
+        "first_obs_age_h": 20.611228738055555,
+        "lockin_first_h": 58.45198428944445,
+        "lockin_sustained_h": 58.45198428944445,
+        "n_obs": 41
+      },
+      {
+        "video_id": "GRzuXmePHmU",
+        "channel": "@soshina",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 483.67962188083334,
+        "first_obs_age_h": 13.835681197777777,
+        "lockin_first_h": 51.67639808722222,
+        "lockin_sustained_h": 447.6938300097222,
+        "n_obs": 41
+      },
+      {
+        "video_id": "PfT7o0i2nlo",
+        "channel": "@soshina",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.03323723666665,
+        "first_obs_age_h": 8.182696571944444,
+        "lockin_first_h": 46.02337889361111,
+        "lockin_sustained_h": 478.026522255,
+        "n_obs": 42
+      },
+      {
+        "video_id": "Q55aB238Qbo",
+        "channel": "@dozle",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.7368200325,
+        "first_obs_age_h": 19.89279510861111,
+        "lockin_first_h": 57.73356324361111,
+        "lockin_sustained_h": 405.74183437888894,
+        "n_obs": 41
+      },
+      {
+        "video_id": "NKEdhyrCmD8",
+        "channel": "@dozle",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 485.02790163916666,
+        "first_obs_age_h": 15.183931558333335,
+        "lockin_first_h": 29.02422654,
+        "lockin_sustained_h": 89.0318178188889,
+        "n_obs": 41
+      },
+      {
+        "video_id": "wsobLd4sOzo",
+        "channel": "@黃氏兄弟",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.0327420422222,
+        "first_obs_age_h": 16.188756242222222,
+        "lockin_first_h": 114.02490204444445,
+        "lockin_sustained_h": 450.0472130944445,
+        "n_obs": 41
+      },
+      {
+        "video_id": "I-pLXup3_wg",
+        "channel": "@takkutv",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 488.03598768305557,
+        "first_obs_age_h": 6.186055953888889,
+        "lockin_first_h": 188.03178029138888,
+        "lockin_sustained_h": 476.02976915722223,
+        "n_obs": 42
+      },
+      {
+        "video_id": "TF6-RYW-A00",
+        "channel": "@takkutv",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.03003969083335,
+        "first_obs_age_h": 6.180179518888889,
+        "lockin_first_h": 68.02069443055555,
+        "lockin_sustained_h": 392.02815525722224,
+        "n_obs": 42
+      },
+      {
+        "video_id": "Z4ctrDNF6aQ",
+        "channel": "@wenzhaoofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.42003999222226,
+        "first_obs_age_h": 17.576030855833334,
+        "lockin_first_h": 379.4245475527778,
+        "lockin_sustained_h": 487.42003999222226,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Kua9v6ckZVs",
+        "channel": "@howfunofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 484.02335150944447,
+        "first_obs_age_h": 14.179401844166668,
+        "lockin_first_h": 64.00321807583333,
+        "lockin_sustained_h": 448.0376104658333,
+        "n_obs": 41
+      },
+      {
+        "video_id": "H_t7JeENNao",
+        "channel": "@ryuji825",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.9116961736111,
+        "first_obs_age_h": 21.903265304722222,
+        "lockin_first_h": 153.9064144547222,
+        "lockin_sustained_h": 489.9116961736111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "MRdj7bbVSbQ",
+        "channel": "@CallMeKevin",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 480.2728198719444,
+        "first_obs_age_h": 12.265287795555556,
+        "lockin_first_h": 36.2644094325,
+        "lockin_sustained_h": 36.2644094325,
+        "n_obs": 40
+      },
+      {
+        "video_id": "VO4sy65QALc",
+        "channel": "@rehacq",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.52784036833333,
+        "first_obs_age_h": 29.524908164722223,
+        "lockin_first_h": 485.52784036833333,
+        "lockin_sustained_h": 485.52784036833333,
+        "n_obs": 39
+      },
+      {
+        "video_id": "b488xl7uOuo",
+        "channel": "@rehacq",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.0320779777778,
+        "first_obs_age_h": 21.023710645555557,
+        "lockin_first_h": 321.03051407888887,
+        "lockin_sustained_h": 489.0320779777778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ec_4Un6JrAY",
+        "channel": "@TLDRnewsEU",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 491.5289995075,
+        "first_obs_age_h": 23.52035964555556,
+        "lockin_first_h": 59.50338798,
+        "lockin_sustained_h": 383.5248930175,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Phhng6K3CGs",
+        "channel": "@CircleToonsHD",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.7722910194444,
+        "first_obs_age_h": 17.764206470277777,
+        "lockin_first_h": 41.763746635277776,
+        "lockin_sustained_h": 461.7691286616666,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ZedB_7OQHW0",
+        "channel": "@TokaiOnAir",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.0323504216667,
+        "first_obs_age_h": 20.024252775555553,
+        "lockin_first_h": 308.0302101763889,
+        "lockin_sustained_h": 488.0323504216667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "2eYJ4pJzXlo",
+        "channel": "@KimonoMom",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 485.3758598277778,
+        "first_obs_age_h": 5.373217034444444,
+        "lockin_first_h": 17.350696818055553,
+        "lockin_sustained_h": 233.37791587833334,
+        "n_obs": 41
+      },
+      {
+        "video_id": "VAOc7e9L_HQ",
+        "channel": "@KevinsEnglishRoom",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 484.52390905305555,
+        "first_obs_age_h": 28.521013909444445,
+        "lockin_first_h": 28.521013909444445,
+        "lockin_sustained_h": 448.5359766255556,
+        "n_obs": 39
+      },
+      {
+        "video_id": "wWAkf7MT3kU",
+        "channel": "@HasanAbi",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.3441355933333,
+        "first_obs_age_h": 17.336080929999998,
+        "lockin_first_h": 17.336080929999998,
+        "lockin_sustained_h": 137.3461595138889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "5Ff9ugHZIwU",
+        "channel": "@HasanAbi",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.0221238583334,
+        "first_obs_age_h": 17.014222842222225,
+        "lockin_first_h": 17.014222842222225,
+        "lockin_sustained_h": 245.01941386777779,
+        "n_obs": 40
+      },
+      {
+        "video_id": "R4lmaZYd3Gw",
+        "channel": "@bakibakiDT",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.03048679611106,
+        "first_obs_age_h": 21.022178614999998,
+        "lockin_first_h": 57.00516452611111,
+        "lockin_sustained_h": 393.0290447591667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "8h5P3cpRWzI",
+        "channel": "@cheapaoe",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 484.02460458,
+        "first_obs_age_h": 28.021707190833336,
+        "lockin_first_h": 208.0278348688889,
+        "lockin_sustained_h": 376.02828934138887,
+        "n_obs": 39
+      },
+      {
+        "video_id": "zBnInSNXS0Y",
+        "channel": "@SakuraMiko",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.026907045,
+        "first_obs_age_h": 29.02400314111111,
+        "lockin_first_h": 485.026907045,
+        "lockin_sustained_h": 485.026907045,
+        "n_obs": 39
+      },
+      {
+        "video_id": "y23FjDx1t9M",
+        "channel": "@HikakinTV",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 491.0272245652778,
+        "first_obs_age_h": 23.018616484444443,
+        "lockin_first_h": 34.99631986111111,
+        "lockin_sustained_h": 479.0213885386111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "TPAJ8q6v9kQ",
+        "channel": "@safiya",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.7201708072222,
+        "first_obs_age_h": 7.717520249722222,
+        "lockin_first_h": 403.72130576222224,
+        "lockin_sustained_h": 475.72484184083334,
+        "n_obs": 41
+      },
+      {
+        "video_id": "pZtbooPsPJU",
+        "channel": "@dozle",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.78370034833335,
+        "first_obs_age_h": 22.77512621611111,
+        "lockin_first_h": 382.7796023038889,
+        "lockin_sustained_h": 490.78370034833335,
+        "n_obs": 40
+      },
+      {
+        "video_id": "LznzElgHjG0",
+        "channel": "@jordanmatter",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 486.0321797630556,
+        "first_obs_age_h": 18.024027253333333,
+        "lockin_first_h": 486.0321797630556,
+        "lockin_sustained_h": 486.0321797630556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Wrps-lZQME8",
+        "channel": "@CleoAbram",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.47567112083334,
+        "first_obs_age_h": 16.4677764475,
+        "lockin_first_h": 136.47779664111113,
+        "lockin_sustained_h": 448.52560710277777,
+        "n_obs": 40
+      },
+      {
+        "video_id": "hLJV3m7-9kg",
+        "channel": "@mm.millmilk",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 480.94999366555555,
+        "first_obs_age_h": 12.924866487222221,
+        "lockin_first_h": 24.94631473388889,
+        "lockin_sustained_h": 24.94631473388889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "pJzuFc52oWk",
+        "channel": "@UnboxTherapy",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 481.41579231944445,
+        "first_obs_age_h": 13.408187777777778,
+        "lockin_first_h": 373.41219774083334,
+        "lockin_sustained_h": 469.4103513102778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "I6nYySJavMg",
+        "channel": "@UnboxTherapy",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 480.27487418333334,
+        "first_obs_age_h": 12.26730775,
+        "lockin_first_h": 240.27213196555556,
+        "lockin_sustained_h": 480.27487418333334,
+        "n_obs": 40
+      },
+      {
+        "video_id": "0GhMmMs4SpY",
+        "channel": "@HeiseiFlamingo",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.02843079333337,
+        "first_obs_age_h": 21.02017099527778,
+        "lockin_first_h": 189.02444162416666,
+        "lockin_sustained_h": 489.02843079333337,
+        "n_obs": 40
+      },
+      {
+        "video_id": "f1nKJ7zdfRk",
+        "channel": "@MrBallen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.03126736166666,
+        "first_obs_age_h": 14.0235794725,
+        "lockin_first_h": 146.0258471875,
+        "lockin_sustained_h": 470.0257786377778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "luXnftoxCaM",
+        "channel": "@PBoyle",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.28247397083334,
+        "first_obs_age_h": 20.274396228333334,
+        "lockin_first_h": 116.28679620194444,
+        "lockin_sustained_h": 476.2769025027778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "G-wL2Qq8ST4",
+        "channel": "@mrnigelng",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 490.9816844011111,
+        "first_obs_age_h": 10.978840366666669,
+        "lockin_first_h": 94.97301166111112,
+        "lockin_sustained_h": 358.9838927152778,
+        "n_obs": 41
+      },
+      {
+        "video_id": "BNiOKPo1zOA",
+        "channel": "@GameGrumps",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.02253439888887,
+        "first_obs_age_h": 15.014844456944445,
+        "lockin_first_h": 75.01522820694444,
+        "lockin_sustained_h": 303.0205875627778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "cbR2k7LTLNg",
+        "channel": "@GameGrumps",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.52747941916664,
+        "first_obs_age_h": 14.519793803055554,
+        "lockin_first_h": 338.524850625,
+        "lockin_sustained_h": 482.52747941916664,
+        "n_obs": 40
+      },
+      {
+        "video_id": "VSGHc3wcJO0",
+        "channel": "@RTGame",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.0232179133333,
+        "first_obs_age_h": 15.01544676111111,
+        "lockin_first_h": 50.99832062166667,
+        "lockin_sustained_h": 363.0208121213889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "9K1TCQuxNSA",
+        "channel": "@Lionfield",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.0221787641667,
+        "first_obs_age_h": 16.014409631666666,
+        "lockin_first_h": 16.014409631666666,
+        "lockin_sustained_h": 244.01945825527778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "p73d6sL8gVo",
+        "channel": "@HowMoneyWorks",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.3108845072222,
+        "first_obs_age_h": 20.302789571666665,
+        "lockin_first_h": 140.31307580944446,
+        "lockin_sustained_h": 308.3087265075,
+        "n_obs": 40
+      },
+      {
+        "video_id": "2i8tttnntBk",
+        "channel": "@AsmonTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.0239173433333,
+        "first_obs_age_h": 17.015953888333332,
+        "lockin_first_h": 461.02076983166666,
+        "lockin_sustained_h": 485.0239173433333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "YpGM_KknUrc",
+        "channel": "@AsmonTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.0247774897222,
+        "first_obs_age_h": 14.017134796944445,
+        "lockin_first_h": 86.0282562861111,
+        "lockin_sustained_h": 470.01931407750004,
+        "n_obs": 40
+      },
+      {
+        "video_id": "lsYEE-_4nIA",
+        "channel": "@IanBoggs",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 483.2726836008333,
+        "first_obs_age_h": 3.270043795,
+        "lockin_first_h": 471.2772095627777,
+        "lockin_sustained_h": 471.2772095627777,
+        "n_obs": 41
+      },
+      {
+        "video_id": "uawOCxZU7cM",
+        "channel": "@hikaruYouTube",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.21539921500005,
+        "first_obs_age_h": 9.212650109722222,
+        "lockin_first_h": 189.21734691749998,
+        "lockin_sustained_h": 477.2200451944444,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Pc1JzImPw_M",
+        "channel": "@JerryRigEverything",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 489.0875074983333,
+        "first_obs_age_h": 9.084815619722223,
+        "lockin_first_h": 129.094296815,
+        "lockin_sustained_h": 129.094296815,
+        "n_obs": 41
+      },
+      {
+        "video_id": "p9zqcBjav-8",
+        "channel": "@FroggyChiu",
+        "lang": "zh",
+        "short": true,
+        "endpoint_age_h": 480.17306422111113,
+        "first_obs_age_h": 24.170175466388887,
+        "lockin_first_h": 468.1754930172222,
+        "lockin_sustained_h": 468.1754930172222,
+        "n_obs": 39
+      },
+      {
+        "video_id": "4zMcbrVZjkg",
+        "channel": "@retokani",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 481.020643805,
+        "first_obs_age_h": 1.0180062258333333,
+        "lockin_first_h": 121.02737030944444,
+        "lockin_sustained_h": 469.02518402388887,
+        "n_obs": 41
+      },
+      {
+        "video_id": "vCG8DOL74yY",
+        "channel": "@HoshimachiSuisei",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.0201011552778,
+        "first_obs_age_h": 29.017208085555556,
+        "lockin_first_h": 485.0201011552778,
+        "lockin_sustained_h": 485.0201011552778,
+        "n_obs": 39
+      },
+      {
+        "video_id": "TTY6zULI8JQ",
+        "channel": "@ryan",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.15653596249996,
+        "first_obs_age_h": 17.148540651944444,
+        "lockin_first_h": 377.15281544083336,
+        "lockin_sustained_h": 485.15653596249996,
+        "n_obs": 40
+      },
+      {
+        "video_id": "5UK1c05oLaM",
+        "channel": "@usadapekora",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 484.0269023763889,
+        "first_obs_age_h": 28.024009564444444,
+        "lockin_first_h": 28.024009564444444,
+        "lockin_sustained_h": 28.024009564444444,
+        "n_obs": 39
+      },
+      {
+        "video_id": "3mFTTwnyBPg",
+        "channel": "@SHAKAch",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.5191983869444,
+        "first_obs_age_h": 21.514609606388888,
+        "lockin_first_h": 45.51587321111111,
+        "lockin_sustained_h": 489.5191983869444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "-JInjUmzmQE",
+        "channel": "@HasanAbi",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.4064042383333,
+        "first_obs_age_h": 14.402411407222221,
+        "lockin_first_h": 26.386216259166666,
+        "lockin_sustained_h": 26.386216259166666,
+        "n_obs": 40
+      },
+      {
+        "video_id": "y2Ei5efYZnk",
+        "channel": "@HasanAbi",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.29687720083336,
+        "first_obs_age_h": 14.2929316025,
+        "lockin_first_h": 38.2942625425,
+        "lockin_sustained_h": 458.2996209727778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "k4aGI2XNPq4",
+        "channel": "@rehacq",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.52459446611107,
+        "first_obs_age_h": 29.520903127222223,
+        "lockin_first_h": 473.5291397575,
+        "lockin_sustained_h": 473.5291397575,
+        "n_obs": 39
+      },
+      {
+        "video_id": "I2W6mHJ6N_c",
+        "channel": "@rehacq",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.02379791722217,
+        "first_obs_age_h": 21.019251409166664,
+        "lockin_first_h": 393.0233965430555,
+        "lockin_sustained_h": 489.02379791722217,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Fob38Jo9F_k",
+        "channel": "@Vsauce",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.7891956197222,
+        "first_obs_age_h": 15.7851959925,
+        "lockin_first_h": 351.78944710916664,
+        "lockin_sustained_h": 351.78944710916664,
+        "n_obs": 40
+      },
+      {
+        "video_id": "YzCYvNhgA6M",
+        "channel": "@EthanChlebowski",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.51498734694445,
+        "first_obs_age_h": 16.51081178361111,
+        "lockin_first_h": 220.5158513486111,
+        "lockin_sustained_h": 448.51326910138886,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ym-h31h4WlQ",
+        "channel": "@GameGrumps",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.0170362083333,
+        "first_obs_age_h": 15.013077896111112,
+        "lockin_first_h": 51.008814745555554,
+        "lockin_sustained_h": 363.0192494927778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "JR1W7dOYJ6w",
+        "channel": "@hikaruYouTube",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.44203893277773,
+        "first_obs_age_h": 9.227648467222224,
+        "lockin_first_h": 21.21131352638889,
+        "lockin_sustained_h": 490.44203893277773,
+        "n_obs": 41
+      },
+      {
+        "video_id": "hwOdozSgTVg",
+        "channel": "@pivot00",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.0213324825,
+        "first_obs_age_h": 29.01768373111111,
+        "lockin_first_h": 473.02590370194446,
+        "lockin_sustained_h": 473.02590370194446,
+        "n_obs": 39
+      },
+      {
+        "video_id": "0Uy4p5SK304",
+        "channel": "@brianptseng",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 480.92630732555557,
+        "first_obs_age_h": 24.906189790000003,
+        "lockin_first_h": 132.9299630802778,
+        "lockin_sustained_h": 480.92630732555557,
+        "n_obs": 39
+      },
+      {
+        "video_id": "qtfzLyj6-DI",
+        "channel": "@jarujaruisland8111",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.23077957305554,
+        "first_obs_age_h": 9.016455580277778,
+        "lockin_first_h": 429.0209345608333,
+        "lockin_sustained_h": 490.23077957305554,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Faab-j17up0",
+        "channel": "@soshina",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 480.74214515361115,
+        "first_obs_age_h": 24.738550063055555,
+        "lockin_first_h": 24.738550063055555,
+        "lockin_sustained_h": 468.7466548563889,
+        "n_obs": 39
+      },
+      {
+        "video_id": "1mCIV3d7c5A",
+        "channel": "@SeanDoesMagic",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 491.3265681125,
+        "first_obs_age_h": 10.112137737222222,
+        "lockin_first_h": 286.1173028613889,
+        "lockin_sustained_h": 491.3265681125,
+        "n_obs": 41
+      },
+      {
+        "video_id": "D4kSw7ITQpA",
+        "channel": "@EGA-CHANNEL",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 482.1889939841667,
+        "first_obs_age_h": 14.185097827222222,
+        "lockin_first_h": 386.188781225,
+        "lockin_sustained_h": 482.1889939841667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "nrXSww6Db10",
+        "channel": "@takkutv",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.0222956397222,
+        "first_obs_age_h": 29.01861287722222,
+        "lockin_first_h": 29.01861287722222,
+        "lockin_sustained_h": 29.01861287722222,
+        "n_obs": 39
+      },
+      {
+        "video_id": "x2lR_67QcMw",
+        "channel": "@takkutv",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.02441010861116,
+        "first_obs_age_h": 20.019958180833335,
+        "lockin_first_h": 116.02951055638889,
+        "lockin_sustained_h": 464.0274899769444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ybVB75k86ZU",
+        "channel": "@呂捷-b2d",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.02280218333334,
+        "first_obs_age_h": 19.018479716944444,
+        "lockin_first_h": 67.03055423222222,
+        "lockin_sustained_h": 367.0250538677778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ieyuaVDO2M4",
+        "channel": "@AsmonTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 491.02283118,
+        "first_obs_age_h": 23.01789451888889,
+        "lockin_first_h": 107.01704961083333,
+        "lockin_sustained_h": 455.02086435027775,
+        "n_obs": 40
+      },
+      {
+        "video_id": "uMG4WIJKsyk",
+        "channel": "@AsmonTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.0168098216667,
+        "first_obs_age_h": 19.012572869444444,
+        "lockin_first_h": 55.008576194166665,
+        "lockin_sustained_h": 259.0145716911111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "56-sD-T2YEY",
+        "channel": "@kamaitachi.channel",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 486.00165316,
+        "first_obs_age_h": 4.7873559777777785,
+        "lockin_first_h": 40.78233518416667,
+        "lockin_sustained_h": 352.7933023255556,
+        "n_obs": 41
+      },
+      {
+        "video_id": "erypLS0SqQc",
+        "channel": "@kimagurecook",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 487.27357818194446,
+        "first_obs_age_h": 19.269155565000002,
+        "lockin_first_h": 331.2724801838889,
+        "lockin_sustained_h": 487.27357818194446,
+        "n_obs": 40
+      },
+      {
+        "video_id": "-DpkxWzhATc",
+        "channel": "@Lionfield",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.0230015447222,
+        "first_obs_age_h": 16.01896071611111,
+        "lockin_first_h": 364.02536387777775,
+        "lockin_sustained_h": 460.0258772433333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "wWT9GHSDX4Y",
+        "channel": "@joevlog7",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.0047607916667,
+        "first_obs_age_h": 20.00035517722222,
+        "lockin_first_h": 488.0047607916667,
+        "lockin_sustained_h": 488.0047607916667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "vznu6pLMPXA",
+        "channel": "@toaruotoko",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 481.73026231638886,
+        "first_obs_age_h": 0.5160540194444445,
+        "lockin_first_h": 156.51915126999998,
+        "lockin_sustained_h": 481.73026231638886,
+        "n_obs": 41
+      },
+      {
+        "video_id": "CKxC0ndDuxs",
+        "channel": "@PanScitw",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 481.65682219611114,
+        "first_obs_age_h": 0.4426841586111111,
+        "lockin_first_h": 36.43725591555555,
+        "lockin_sustained_h": 204.4470491475,
+        "n_obs": 41
+      },
+      {
+        "video_id": "RR5sJNvkXEE",
+        "channel": "@pockysweets",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.95935883305555,
+        "first_obs_age_h": 17.95513502361111,
+        "lockin_first_h": 53.95116805805556,
+        "lockin_sustained_h": 449.9575604575,
+        "n_obs": 40
+      },
+      {
+        "video_id": "b7fr7M28EEg",
+        "channel": "@SakuraMiko",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 485.8450528947222,
+        "first_obs_age_h": 17.840879655,
+        "lockin_first_h": 353.8453020975,
+        "lockin_sustained_h": 485.8450528947222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "dzZlf2OYRnU",
+        "channel": "@Mrwhosetheboss",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 486.98783417416666,
+        "first_obs_age_h": 18.983571361944445,
+        "lockin_first_h": 414.9955653416667,
+        "lockin_sustained_h": 486.98783417416666,
+        "n_obs": 40
+      },
+      {
+        "video_id": "fRIx8Nyq8pU",
+        "channel": "@SortedFood",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.0156827216667,
+        "first_obs_age_h": 16.011663221944445,
+        "lockin_first_h": 16.011663221944445,
+        "lockin_sustained_h": 460.018538755,
+        "n_obs": 40
+      },
+      {
+        "video_id": "jSFyFwegRYs",
+        "channel": "@bakibakiDT",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.0154640788889,
+        "first_obs_age_h": 21.010969366666664,
+        "lockin_first_h": 57.00743939027778,
+        "lockin_sustained_h": 369.01756626916665,
+        "n_obs": 40
+      },
+      {
+        "video_id": "1T-SoBspShU",
+        "channel": "@kee_sado",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 491.1732608772223,
+        "first_obs_age_h": 23.16830397777778,
+        "lockin_first_h": 395.1728429447222,
+        "lockin_sustained_h": 491.1732608772223,
+        "n_obs": 40
+      },
+      {
+        "video_id": "SSVqbgHt1JE",
+        "channel": "@NakamachiKyodai",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 491.01951114583335,
+        "first_obs_age_h": 23.014701416944444,
+        "lockin_first_h": 23.014701416944444,
+        "lockin_sustained_h": 491.01951114583335,
+        "n_obs": 40
+      },
+      {
+        "video_id": "6ax9wDFo_Oc",
+        "channel": "@TokaiOnAir",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.021839455,
+        "first_obs_age_h": 20.017393312777777,
+        "lockin_first_h": 440.02245089472217,
+        "lockin_sustained_h": 488.021839455,
+        "n_obs": 40
+      },
+      {
+        "video_id": "sw3LEOjOs1w",
+        "channel": "@sam_sulek",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.07416710222225,
+        "first_obs_age_h": 16.070115681666667,
+        "lockin_first_h": 16.070115681666667,
+        "lockin_sustained_h": 484.07416710222225,
+        "n_obs": 40
+      },
+      {
+        "video_id": "NZT6oXfggR8",
+        "channel": "@zackdfilms",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 487.51751423666667,
+        "first_obs_age_h": 19.515577432222223,
+        "lockin_first_h": 67.52538846305555,
+        "lockin_sustained_h": 476.48156356500004,
+        "n_obs": 40
+      },
+      {
+        "video_id": "R2gxwlEa0kk",
+        "channel": "@zackdfilms",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.51013010583335,
+        "first_obs_age_h": 17.508496618333336,
+        "lockin_first_h": 485.51013010583335,
+        "lockin_sustained_h": 485.51013010583335,
+        "n_obs": 40
+      },
+      {
+        "video_id": "JsBZOcqZerk",
+        "channel": "@veritasium",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.1850515188889,
+        "first_obs_age_h": 14.183937560555554,
+        "lockin_first_h": 374.1821002938889,
+        "lockin_sustained_h": 458.18460586055556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "c79PsbkHw4A",
+        "channel": "@standupmaths",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.01765479805556,
+        "first_obs_age_h": 20.015655119999998,
+        "lockin_first_h": 176.01677513166666,
+        "lockin_sustained_h": 476.98169480444443,
+        "n_obs": 40
+      },
+      {
+        "video_id": "emppW1HIBsg",
+        "channel": "@whatdamath",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.0089530591667,
+        "first_obs_age_h": 10.007690196111112,
+        "lockin_first_h": 45.999700297222226,
+        "lockin_sustained_h": 430.0095467558333,
+        "n_obs": 41
+      },
+      {
+        "video_id": "dbAOZNki2i4",
+        "channel": "@KIYOisGOD",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 480.71965522722223,
+        "first_obs_age_h": 23.50706282138889,
+        "lockin_first_h": 275.50948664027777,
+        "lockin_sustained_h": 480.71965522722223,
+        "n_obs": 39
+      },
+      {
+        "video_id": "OvxPJ2amUsM",
+        "channel": "@hikaruYouTube",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.5114916055556,
+        "first_obs_age_h": 21.509339822500003,
+        "lockin_first_h": 441.5130754519445,
+        "lockin_sustained_h": 489.5114916055556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "8KsNxtJx54o",
+        "channel": "@hikaruYouTube",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.21805160583335,
+        "first_obs_age_h": 9.216805436666666,
+        "lockin_first_h": 273.21629652111113,
+        "lockin_sustained_h": 453.21740733444443,
+        "n_obs": 41
+      },
+      {
+        "video_id": "0AZYZRvNv1M",
+        "channel": "@GameGrumps",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.00744866888886,
+        "first_obs_age_h": 15.006242109444445,
+        "lockin_first_h": 63.01570238472222,
+        "lockin_sustained_h": 255.00607571305554,
+        "n_obs": 40
+      },
+      {
+        "video_id": "KT0SfraenB8",
+        "channel": "@SortedFood",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.0116407408333,
+        "first_obs_age_h": 16.01031332361111,
+        "lockin_first_h": 136.01190632694446,
+        "lockin_sustained_h": 472.97560050305555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "jZonQ-5GV0Q",
+        "channel": "@ooo0eve0ooo",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 490.0808636166667,
+        "first_obs_age_h": 22.07846315722222,
+        "lockin_first_h": 58.07166410333333,
+        "lockin_sustained_h": 418.0813033430556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "S-LM_EvzZlQ",
+        "channel": "@andy0623",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.23077163138885,
+        "first_obs_age_h": 22.228321445833334,
+        "lockin_first_h": 334.2306918788889,
+        "lockin_sustained_h": 334.2306918788889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "mCpcr2P6ykQ",
+        "channel": "@Gatchman666",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 480.23868004694447,
+        "first_obs_age_h": 0.23763851166666666,
+        "lockin_first_h": 36.229384951944446,
+        "lockin_sustained_h": 276.23744784194446,
+        "n_obs": 41
+      },
+      {
+        "video_id": "G2b0JOgLpeg",
+        "channel": "@EconomicsExplained",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.5046329375,
+        "first_obs_age_h": 16.503198700833334,
+        "lockin_first_h": 148.5031774525,
+        "lockin_sustained_h": 424.50282121861113,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Nulx8d0vOhQ",
+        "channel": "@brianptseng",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.2686364897222,
+        "first_obs_age_h": 22.266158045833336,
+        "lockin_first_h": 46.27682716472222,
+        "lockin_sustained_h": 479.4783689525,
+        "n_obs": 40
+      },
+      {
+        "video_id": "6tGrDy1KBnc",
+        "channel": "@LowLevelTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.90504283888885,
+        "first_obs_age_h": 16.90356403277778,
+        "lockin_first_h": 196.9051790441667,
+        "lockin_sustained_h": 484.90504283888885,
+        "n_obs": 40
+      },
+      {
+        "video_id": "y4Pn1e_mvP8",
+        "channel": "@mingjai14",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 482.48933588222224,
+        "first_obs_age_h": 14.4752836675,
+        "lockin_first_h": 254.48881818638887,
+        "lockin_sustained_h": 446.4886956783334,
+        "n_obs": 40
+      },
+      {
+        "video_id": "5_TGUG0pISw",
+        "channel": "@ryuji825",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.84296876250005,
+        "first_obs_age_h": 21.840784986666666,
+        "lockin_first_h": 261.8417351463889,
+        "lockin_sustained_h": 489.84296876250005,
+        "n_obs": 40
+      },
+      {
+        "video_id": "zr39pMkdXv8",
+        "channel": "@wangzhian",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.0182183175,
+        "first_obs_age_h": 20.016087735277775,
+        "lockin_first_h": 488.0182183175,
+        "lockin_sustained_h": 488.0182183175,
+        "n_obs": 40
+      },
+      {
+        "video_id": "uUFz0r_93qM",
+        "channel": "@reiwanotora",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.0158602030556,
+        "first_obs_age_h": 22.01353581388889,
+        "lockin_first_h": 154.01438066222224,
+        "lockin_sustained_h": 479.22550787638886,
+        "n_obs": 40
+      },
+      {
+        "video_id": "AQqVcdTH5bQ",
+        "channel": "@TomScottGo",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.0129042158333,
+        "first_obs_age_h": 17.011390091944442,
+        "lockin_first_h": 41.021581314722226,
+        "lockin_sustained_h": 425.0111161680556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "tc_BTgvlm48",
+        "channel": "@wenzhaoofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.2599050119444,
+        "first_obs_age_h": 8.258698670555555,
+        "lockin_first_h": 260.25949464944443,
+        "lockin_sustained_h": 465.22326900999997,
+        "n_obs": 41
+      },
+      {
+        "video_id": "hC-opwplpEQ",
+        "channel": "@Lionfield",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.0159219736111,
+        "first_obs_age_h": 16.0145328675,
+        "lockin_first_h": 88.02100215611111,
+        "lockin_sustained_h": 472.9798669705555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "81d9sqhdzQk",
+        "channel": "@TheoVon",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 481.0131482705555,
+        "first_obs_age_h": 13.012063149166666,
+        "lockin_first_h": 97.01117137833333,
+        "lockin_sustained_h": 193.0131826661111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "XOVhaBWZjyg",
+        "channel": "@SakuraMiko",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 483.6636767672222,
+        "first_obs_age_h": 15.662422121111112,
+        "lockin_first_h": 483.6636767672222,
+        "lockin_sustained_h": 483.6636767672222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "dDVsNmiSzwQ",
+        "channel": "@Dave2D",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.0051760575,
+        "first_obs_age_h": 19.00338787861111,
+        "lockin_first_h": 30.99340172333333,
+        "lockin_sustained_h": 343.0061297847222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "AerIslGlL2s",
+        "channel": "@takkutv",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.01810583194447,
+        "first_obs_age_h": 20.016022460833334,
+        "lockin_first_h": 152.01649455749998,
+        "lockin_sustained_h": 488.01810583194447,
+        "n_obs": 40
+      },
+      {
+        "video_id": "quU1RD3L3OU",
+        "channel": "@PerunAU",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 486.39480741805556,
+        "first_obs_age_h": 18.393058305,
+        "lockin_first_h": 42.40340562527778,
+        "lockin_sustained_h": 475.3588756391667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "f0eIQxchKWE",
+        "channel": "@AsmonTV",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.2890336416667,
+        "first_obs_age_h": 22.28649011888889,
+        "lockin_first_h": 286.28783528111114,
+        "lockin_sustained_h": 490.2890336416667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "GaX0frxNwfQ",
+        "channel": "@LinusTechTips",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.7534771825,
+        "first_obs_age_h": 14.752314942222222,
+        "lockin_first_h": 26.740494830555555,
+        "lockin_sustained_h": 26.740494830555555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "AOMfJKUXKyc",
+        "channel": "@bluepigeon0810",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.01878570388885,
+        "first_obs_age_h": 22.016436154166666,
+        "lockin_first_h": 286.01751766111107,
+        "lockin_sustained_h": 334.0187218719445,
+        "n_obs": 40
+      },
+      {
+        "video_id": "UlB-JQQ1b2A",
+        "channel": "@CharlesCornellStudios",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 480.71889009583333,
+        "first_obs_age_h": 12.717856301388888,
+        "lockin_first_h": 36.727732307222226,
+        "lockin_sustained_h": 288.7178226711111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ZCAWxX1oRBU",
+        "channel": "@usadapekora",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 481.3571063275,
+        "first_obs_age_h": 13.356024473055555,
+        "lockin_first_h": 13.356024473055555,
+        "lockin_sustained_h": 385.3615783030555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Ym8DeVkQ2Oo",
+        "channel": "@KimonoMom",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 486.91395007250003,
+        "first_obs_age_h": 6.912755961666666,
+        "lockin_first_h": 18.899869675,
+        "lockin_sustained_h": 186.9135660838889,
+        "n_obs": 41
+      },
+      {
+        "video_id": "2oN_fsWZ_40",
+        "channel": "@kee_sado",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.6442501969445,
+        "first_obs_age_h": 22.641609140277776,
+        "lockin_first_h": 418.64457513583335,
+        "lockin_sustained_h": 490.6442501969445,
+        "n_obs": 40
+      },
+      {
+        "video_id": "TyG61q3TjFI",
+        "channel": "@pockysweets",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 487.5112975516667,
+        "first_obs_age_h": 19.50940022611111,
+        "lockin_first_h": 127.50865196138889,
+        "lockin_sustained_h": 463.51075189277776,
+        "n_obs": 40
+      },
+      {
+        "video_id": "8GYDQU5ftBs",
+        "channel": "@SabineHossenfelder",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.0183112072222,
+        "first_obs_age_h": 17.0167327025,
+        "lockin_first_h": 365.0175996430556,
+        "lockin_sustained_h": 461.0178369919444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "dYVa9J45Duk",
+        "channel": "@Ado1024",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.01776294083334,
+        "first_obs_age_h": 21.015649616666664,
+        "lockin_first_h": 417.0180924661111,
+        "lockin_sustained_h": 489.01776294083334,
+        "n_obs": 40
+      },
+      {
+        "video_id": "_52B0SPrKGo",
+        "channel": "@soshina",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.0115364558333,
+        "first_obs_age_h": 22.009250335277777,
+        "lockin_first_h": 298.0105994983333,
+        "lockin_sustained_h": 479.22118431694446,
+        "n_obs": 40
+      },
+      {
+        "video_id": "lgobZU-OHro",
+        "channel": "@theneedledrop",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.1021665769444,
+        "first_obs_age_h": 26.889585043055554,
+        "lockin_first_h": 38.882220061111106,
+        "lockin_sustained_h": 386.8889814633333,
+        "n_obs": 39
+      },
+      {
+        "video_id": "7Iy6GD5Vq9w",
+        "channel": "@theneedledrop",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.37762858555556,
+        "first_obs_age_h": 7.376404552777778,
+        "lockin_first_h": 31.386178090555553,
+        "lockin_sustained_h": 451.3769887091667,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Tuxgh8SrzbQ",
+        "channel": "@ElectroBOOM",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.93906368166665,
+        "first_obs_age_h": 15.937769747777777,
+        "lockin_first_h": 315.93911184055554,
+        "lockin_sustained_h": 411.9395387808333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "tsjJrJtRuCU",
+        "channel": "@kee_sado",
+        "lang": "ja",
+        "short": true,
+        "endpoint_age_h": 486.69353806333334,
+        "first_obs_age_h": 6.7052595252777785,
+        "lockin_first_h": 486.69353806333334,
+        "lockin_sustained_h": 486.69353806333334,
+        "n_obs": 41
+      },
+      {
+        "video_id": "e4ZGtJKuA4Q",
+        "channel": "@penguinz0",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.01162155138894,
+        "first_obs_age_h": 16.022500773055558,
+        "lockin_first_h": 112.0137064538889,
+        "lockin_sustained_h": 400.0112398938889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "dRMlrwU3psM",
+        "channel": "@penguinz0",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.50435148805553,
+        "first_obs_age_h": 7.515959290555555,
+        "lockin_first_h": 91.50369324083333,
+        "lockin_sustained_h": 487.50435148805553,
+        "n_obs": 41
+      },
+      {
+        "video_id": "77LNuXgDuWQ",
+        "channel": "@Gatchman666",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 481.31631395,
+        "first_obs_age_h": 1.3281423144444446,
+        "lockin_first_h": 325.31677160277775,
+        "lockin_sustained_h": 481.31631395,
+        "n_obs": 41
+      },
+      {
+        "video_id": "2s3VCpoolxE",
+        "channel": "@NakamachiKyodai",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 491.0111128625,
+        "first_obs_age_h": 23.021020096388888,
+        "lockin_first_h": 179.01192953972225,
+        "lockin_sustained_h": 419.01280445249995,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Raq6fLEFJDE",
+        "channel": "@Lionfield",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.01088600416665,
+        "first_obs_age_h": 16.02186798027778,
+        "lockin_first_h": 400.0105961383333,
+        "lockin_sustained_h": 484.01088600416665,
+        "n_obs": 40
+      },
+      {
+        "video_id": "GuKY-HzcdY8",
+        "channel": "@omgoosetw",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.0096949469444,
+        "first_obs_age_h": 19.02016815972222,
+        "lockin_first_h": 67.01515221972222,
+        "lockin_sustained_h": 403.0091570644445,
+        "n_obs": 40
+      },
+      {
+        "video_id": "8i_TFTyLzqo",
+        "channel": "@mrnigelng",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 486.00949397361114,
+        "first_obs_age_h": 18.02004393777778,
+        "lockin_first_h": 270.00950610194445,
+        "lockin_sustained_h": 450.973718,
+        "n_obs": 40
+      },
+      {
+        "video_id": "V6HRAcwFyec",
+        "channel": "@Vsauce",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.2983224069444,
+        "first_obs_age_h": 10.309812083333332,
+        "lockin_first_h": 286.29976314583337,
+        "lockin_sustained_h": 394.298138465,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Z8YLfjJNRj8",
+        "channel": "@QuizKnock",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 490.0128739738889,
+        "first_obs_age_h": 22.022815309444447,
+        "lockin_first_h": 394.01420677416667,
+        "lockin_sustained_h": 478.0141925938889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "UmuMgA_RxnU",
+        "channel": "@numberphile",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.4457378633333,
+        "first_obs_age_h": 19.456135959166666,
+        "lockin_first_h": 19.456135959166666,
+        "lockin_sustained_h": 67.45132435527778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "MdFYPn-xVQY",
+        "channel": "@TokaiOnAir",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 488.01113313472223,
+        "first_obs_age_h": 20.021383337499998,
+        "lockin_first_h": 128.01086216555555,
+        "lockin_sustained_h": 464.01212752444445,
+        "n_obs": 40
+      },
+      {
+        "video_id": "0ZJHEL3RHmw",
+        "channel": "@PanScitw",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.75016692444444,
+        "first_obs_age_h": 20.76027597888889,
+        "lockin_first_h": 32.74205474222222,
+        "lockin_sustained_h": 116.75179568944444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "KHFs2ZkOqdw",
+        "channel": "@Sambucha",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 482.7538821419444,
+        "first_obs_age_h": 14.765106852777778,
+        "lockin_first_h": 26.746220471111112,
+        "lockin_sustained_h": 314.75559728999997,
+        "n_obs": 40
+      },
+      {
+        "video_id": "p78e3tF-zNc",
+        "channel": "@Sambucha",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 480.7574311322222,
+        "first_obs_age_h": 12.768658853333333,
+        "lockin_first_h": 60.76309601555556,
+        "lockin_sustained_h": 384.7589868155556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Dhg3SuKMXeM",
+        "channel": "@EGA-CHANNEL",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 484.78750017083337,
+        "first_obs_age_h": 16.798200099444443,
+        "lockin_first_h": 88.79184092861111,
+        "lockin_sustained_h": 460.78849695583335,
+        "n_obs": 40
+      },
+      {
+        "video_id": "tCDBj7oKTII",
+        "channel": "@EGA-CHANNEL",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 489.45543177250005,
+        "first_obs_age_h": 9.4669680975,
+        "lockin_first_h": 105.45809223944444,
+        "lockin_sustained_h": 489.45543177250005,
+        "n_obs": 41
+      },
+      {
+        "video_id": "TcG5ExmhWN4",
+        "channel": "@beautywu",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.0067793911111,
+        "first_obs_age_h": 20.01700670583333,
+        "lockin_first_h": 20.01700670583333,
+        "lockin_sustained_h": 320.00833891999997,
+        "n_obs": 40
+      },
+      {
+        "video_id": "mLcwdttjGaI",
+        "channel": "@retokani",
+        "lang": "ja",
+        "short": false,
+        "endpoint_age_h": 481.0084404491667,
+        "first_obs_age_h": 1.0203060297222222,
+        "lockin_first_h": 169.00840054361112,
+        "lockin_sustained_h": 433.45765073694446,
+        "n_obs": 41
+      },
+      {
+        "video_id": "zgPOenXO7Vg",
+        "channel": "@GamersNexus",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.0119928722222,
+        "first_obs_age_h": 19.02244331611111,
+        "lockin_first_h": 127.01177580749999,
+        "lockin_sustained_h": 403.01145121444443,
+        "n_obs": 40
+      },
+      {
+        "video_id": "a4aei6i7OAg",
+        "channel": "@wangzhian",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.00440885,
+        "first_obs_age_h": 20.01469383388889,
+        "lockin_first_h": 104.00284384055556,
+        "lockin_sustained_h": 464.00532729444444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "lU_gjuCHFoQ",
+        "channel": "@joeman",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.0118624208333,
+        "first_obs_age_h": 22.021780472222222,
+        "lockin_first_h": 82.01084439083334,
+        "lockin_sustained_h": 454.97605775027773,
+        "n_obs": 40
+      },
+      {
+        "video_id": "jGW2FLbvup0",
+        "channel": "@thisgroupofpeople",
+        "lang": "zh",
+        "short": true,
+        "endpoint_age_h": 483.9988865541667,
+        "first_obs_age_h": 4.010693720833333,
+        "lockin_first_h": 52.004678778055556,
+        "lockin_sustained_h": 423.9999526069445,
+        "n_obs": 41
+      },
+      {
+        "video_id": "3c0NxWhdn0c",
+        "channel": "@CleoAbram",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.09761539916667,
+        "first_obs_age_h": 17.108276651666667,
+        "lockin_first_h": 65.10299688305555,
+        "lockin_sustained_h": 461.0986132430556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "R1-j8TFlqCo",
+        "channel": "@xiao_lin_shuo",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 491.0079482086111,
+        "first_obs_age_h": 23.017874542222224,
+        "lockin_first_h": 119.00949118333334,
+        "lockin_sustained_h": 443.00862017,
+        "n_obs": 40
+      },
+      {
+        "video_id": "CADSkeHyPVc",
+        "channel": "@Northernlion",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 480.00902733333334,
+        "first_obs_age_h": 12.020277203055555,
+        "lockin_first_h": 36.01981738083333,
+        "lockin_sustained_h": 456.01022996722224,
+        "n_obs": 40
+      },
+      {
+        "video_id": "48DDcJ49U8Q",
+        "channel": "@fanamericantime",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.01147426777777,
+        "first_obs_age_h": 20.021695850555556,
+        "lockin_first_h": 440.01224614222224,
+        "lockin_sustained_h": 488.01147426777777,
+        "n_obs": 40
+      },
+      {
+        "video_id": "AxMRJXS9odM",
+        "channel": "@scottmanley",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 491.64294619888886,
+        "first_obs_age_h": 11.6543549775,
+        "lockin_first_h": 227.64314483305554,
+        "lockin_sustained_h": 335.6433952233333,
+        "n_obs": 41
+      },
+      {
+        "video_id": "Pp2MTVy71e4",
+        "channel": "@scottmanley",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.7844482763889,
+        "first_obs_age_h": 8.79601240861111,
+        "lockin_first_h": 153.67882161444444,
+        "lockin_sustained_h": 236.78488484916664,
+        "n_obs": 41
+      },
+      {
+        "video_id": "7ZvtDYYg0RQ",
+        "channel": "@SabineHossenfelder",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.46668649500003,
+        "first_obs_age_h": 15.47777760027778,
+        "lockin_first_h": 63.47230823666666,
+        "lockin_sustained_h": 243.4671338022222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "0ZvH40m2YGE",
+        "channel": "@ATienDai",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 489.00523237333334,
+        "first_obs_age_h": 21.015312490555555,
+        "lockin_first_h": 393.00660757249995,
+        "lockin_sustained_h": 465.00630197305554,
+        "n_obs": 40
+      },
+      {
+        "video_id": "r0ZIKsXxMhQ",
+        "channel": "@TheoVon",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 487.2573368922222,
+        "first_obs_age_h": 19.267757709166666,
+        "lockin_first_h": 55.25380149055555,
+        "lockin_sustained_h": 175.25789969555555,
+        "n_obs": 40
+      },
+      {
+        "video_id": "DJ2wZBbs5iI",
+        "channel": "@jacobcollier",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.3397725088889,
+        "first_obs_age_h": 7.351438141666667,
+        "lockin_first_h": 487.3397725088889,
+        "lockin_sustained_h": 487.3397725088889,
+        "n_obs": 41
+      },
+      {
+        "video_id": "cqtOsiEbS7k",
+        "channel": "@pomatohk",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.5033168008333,
+        "first_obs_age_h": 19.513687636666667,
+        "lockin_first_h": 67.508920165,
+        "lockin_sustained_h": 67.508920165,
+        "n_obs": 40
+      },
+      {
+        "video_id": "aJTT7YeG-9A",
+        "channel": "@GameGrumps",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.00492194472224,
+        "first_obs_age_h": 15.016050909722223,
+        "lockin_first_h": 15.016050909722223,
+        "lockin_sustained_h": 399.00462004805553,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Zt2esoyoTgs",
+        "channel": "@theneedledrop",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.6628344233333,
+        "first_obs_age_h": 10.674311696388887,
+        "lockin_first_h": 58.66868421805555,
+        "lockin_sustained_h": 490.6628344233333,
+        "n_obs": 41
+      },
+      {
+        "video_id": "hR2_tySR4iE",
+        "channel": "@RTGame",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.0078757597222,
+        "first_obs_age_h": 15.018689432777778,
+        "lockin_first_h": 15.018689432777778,
+        "lockin_sustained_h": 267.0080166691667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "CbWySQdAM60",
+        "channel": "@NetworkChuck",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 485.9183664813889,
+        "first_obs_age_h": 17.9286093725,
+        "lockin_first_h": 329.9161986461111,
+        "lockin_sustained_h": 473.9169994036111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "XM04mbymDsE",
+        "channel": "@LinusTechTips",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.50020855444444,
+        "first_obs_age_h": 14.51121193861111,
+        "lockin_first_h": 122.49995800666666,
+        "lockin_sustained_h": 434.5000496366667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "TVKacGhmAm4",
+        "channel": "@yutinghaofinance",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.5853126569445,
+        "first_obs_age_h": 7.59813675111111,
+        "lockin_first_h": 259.5864873,
+        "lockin_sustained_h": 463.58529029944447,
+        "n_obs": 41
+      },
+      {
+        "video_id": "elQMVt36aKU",
+        "channel": "@penguinz0",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.0060074913889,
+        "first_obs_age_h": 14.017163592222223,
+        "lockin_first_h": 26.002492786388892,
+        "lockin_sustained_h": 458.00484681583333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "EYQhySOoNyw",
+        "channel": "@ludwig",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 482.7218648863889,
+        "first_obs_age_h": 26.73320363861111,
+        "lockin_first_h": 26.73320363861111,
+        "lockin_sustained_h": 410.7219236594444,
+        "n_obs": 39
+      },
+      {
+        "video_id": "oKF50NpmTjk",
+        "channel": "@ludwig",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 487.8476028966667,
+        "first_obs_age_h": 7.8604206705555555,
+        "lockin_first_h": 55.85374816611111,
+        "lockin_sustained_h": 55.85374816611111,
+        "n_obs": 41
+      },
+      {
+        "video_id": "ayERZsp3IsQ",
+        "channel": "@SciShow",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.9991234394444,
+        "first_obs_age_h": 15.00999542111111,
+        "lockin_first_h": 278.9981407636111,
+        "lockin_sustained_h": 470.9978302588889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "YD8shEgooK8",
+        "channel": "@mm.millmilk",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 488.50824582944443,
+        "first_obs_age_h": 20.518047304166668,
+        "lockin_first_h": 32.50392823333333,
+        "lockin_sustained_h": 440.50794912861113,
+        "n_obs": 40
+      },
+      {
+        "video_id": "uXLJaEDvtHU",
+        "channel": "@MrBallen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.00125814750004,
+        "first_obs_age_h": 16.011967216944445,
+        "lockin_first_h": 472.00002841444444,
+        "lockin_sustained_h": 472.00002841444444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "xWKix5xwI0g",
+        "channel": "@MrBallen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.0072894947222,
+        "first_obs_age_h": 14.018365135277778,
+        "lockin_first_h": 158.006412045,
+        "lockin_sustained_h": 482.0072894947222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Ad9S062Fbqc",
+        "channel": "@GugaFoods",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.7540457933333,
+        "first_obs_age_h": 16.764483470833333,
+        "lockin_first_h": 208.75313248861113,
+        "lockin_sustained_h": 472.7527736061111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "giTmBaNGaHw",
+        "channel": "@Computerphile",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.0042018405556,
+        "first_obs_age_h": 19.014342752222223,
+        "lockin_first_h": 115.78183114083333,
+        "lockin_sustained_h": 475.00278695027777,
+        "n_obs": 40
+      },
+      {
+        "video_id": "cSB6d4aomJA",
+        "channel": "@wangzhian",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.99973654944444,
+        "first_obs_age_h": 20.00978666111111,
+        "lockin_first_h": 68.00359533194444,
+        "lockin_sustained_h": 475.9983168341667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "tyE3Mg9C5vM",
+        "channel": "@wangzhian",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 489.3918017147222,
+        "first_obs_age_h": 9.40448984,
+        "lockin_first_h": 309.39227797861116,
+        "lockin_sustained_h": 465.3917981275,
+        "n_obs": 41
+      },
+      {
+        "video_id": "ylO0DQeVEBQ",
+        "channel": "@Fireship",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.7184851163889,
+        "first_obs_age_h": 14.729392589722222,
+        "lockin_first_h": 38.72307594305556,
+        "lockin_sustained_h": 38.72307594305556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "7ACzEgKPdLg",
+        "channel": "@黃氏兄弟",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 489.13033075361113,
+        "first_obs_age_h": 21.140071131111114,
+        "lockin_first_h": 165.12868201722222,
+        "lockin_sustained_h": 441.1300456288889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "hA2SMgxpfig",
+        "channel": "@cheapaoe",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.0073146472222,
+        "first_obs_age_h": 22.01695161361111,
+        "lockin_first_h": 334.00469762555554,
+        "lockin_sustained_h": 478.0055826544445,
+        "n_obs": 40
+      },
+      {
+        "video_id": "K7UvJQsjMOM",
+        "channel": "@GrahamStephan",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 483.00752360638893,
+        "first_obs_age_h": 15.018363545277778,
+        "lockin_first_h": 423.1869785794444,
+        "lockin_sustained_h": 423.1869785794444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "31W4jdRfi7A",
+        "channel": "@PhilipDeFranco",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 489.9509488838889,
+        "first_obs_age_h": 9.963565000555556,
+        "lockin_first_h": 81.95444216833333,
+        "lockin_sustained_h": 465.9509120597222,
+        "n_obs": 41
+      },
+      {
+        "video_id": "lbETfnazVlA",
+        "channel": "@TheoVon",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 489.71890040249997,
+        "first_obs_age_h": 9.731526346944445,
+        "lockin_first_h": 9.731526346944445,
+        "lockin_sustained_h": 9.731526346944445,
+        "n_obs": 41
+      },
+      {
+        "video_id": "DmfVLp51M58",
+        "channel": "@CleoAbram",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.7271072163889,
+        "first_obs_age_h": 17.73742893861111,
+        "lockin_first_h": 161.72577781444446,
+        "lockin_sustained_h": 161.72577781444446,
+        "n_obs": 40
+      },
+      {
+        "video_id": "fjR5G_fZh8g",
+        "channel": "@jacksepticeye",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.0018906119445,
+        "first_obs_age_h": 16.01257968111111,
+        "lockin_first_h": 316.00106177638884,
+        "lockin_sustained_h": 436.001885285,
+        "n_obs": 40
+      },
+      {
+        "video_id": "iuccfEQgIeY",
+        "channel": "@ThePrimeTimeagen",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.0020760616667,
+        "first_obs_age_h": 20.012077445,
+        "lockin_first_h": 140.16428581833333,
+        "lockin_sustained_h": 476.0006117208333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "37MpxDjKXdE",
+        "channel": "@BennJordan",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 481.18698936861114,
+        "first_obs_age_h": 1.2000387475,
+        "lockin_first_h": 133.1870488525,
+        "lockin_sustained_h": 445.18673500805556,
+        "n_obs": 41
+      },
+      {
+        "video_id": "kluV_x2CYZM",
+        "channel": "@austinevans",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 488.1568423983333,
+        "first_obs_age_h": 8.169627828333333,
+        "lockin_first_h": 476.1575332788889,
+        "lockin_sustained_h": 476.1575332788889,
+        "n_obs": 41
+      },
+      {
+        "video_id": "oCs-c9i51Nc",
+        "channel": "@呂捷-b2d",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 484.3997624766667,
+        "first_obs_age_h": 16.41027380138889,
+        "lockin_first_h": 184.39856854694446,
+        "lockin_sustained_h": 460.3983624208333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "QeaxW0reRCU",
+        "channel": "@dropout",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 482.506189975,
+        "first_obs_age_h": 14.517091191111112,
+        "lockin_first_h": 74.50454141083334,
+        "lockin_sustained_h": 218.50516412916667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Smwo493IAfw",
+        "channel": "@GamersNexus",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 486.8871251563889,
+        "first_obs_age_h": 6.899966536666667,
+        "lockin_first_h": 306.8876693102778,
+        "lockin_sustained_h": 474.8877812627778,
+        "n_obs": 41
+      },
+      {
+        "video_id": "HZxhGjpbSxE",
+        "channel": "@wenzhaoofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.3908706947222,
+        "first_obs_age_h": 6.403782264722222,
+        "lockin_first_h": 354.3921163575,
+        "lockin_sustained_h": 474.39152474583335,
+        "n_obs": 41
+      },
+      {
+        "video_id": "_qcn2z9zjPc",
+        "channel": "@annamcnulty",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 486.0001220419444,
+        "first_obs_age_h": 18.010322904444443,
+        "lockin_first_h": 317.9989644786111,
+        "lockin_sustained_h": 461.99855473527776,
+        "n_obs": 40
+      },
+      {
+        "video_id": "ENkbkzeCYYM",
+        "channel": "@halfasinteresting",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.92754992972226,
+        "first_obs_age_h": 10.940075238888888,
+        "lockin_first_h": 94.9276870686111,
+        "lockin_sustained_h": 94.9276870686111,
+        "n_obs": 41
+      },
+      {
+        "video_id": "yUa90sZ0LA8",
+        "channel": "@whatdamath",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 490.0035900308333,
+        "first_obs_age_h": 10.016122745277777,
+        "lockin_first_h": 478.00454741444446,
+        "lockin_sustained_h": 478.00454741444446,
+        "n_obs": 41
+      },
+      {
+        "video_id": "azc2tJjgUYQ",
+        "channel": "@sam_sulek",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 483.8887312388889,
+        "first_obs_age_h": 3.9017527391666667,
+        "lockin_first_h": 27.895056101111113,
+        "lockin_sustained_h": 423.8894011288889,
+        "n_obs": 41
+      },
+      {
+        "video_id": "zdoEcUYjNiw",
+        "channel": "@Lionfield",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 484.00256418388886,
+        "first_obs_age_h": 16.013204030277777,
+        "lockin_first_h": 40.007150637777784,
+        "lockin_sustained_h": 364.00279134361114,
+        "n_obs": 40
+      },
+      {
+        "video_id": "VeMT-b9lobE",
+        "channel": "@SortedFood",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 484.0065744072222,
+        "first_obs_age_h": 16.017151439166668,
+        "lockin_first_h": 40.0111664625,
+        "lockin_sustained_h": 436.0065631011111,
+        "n_obs": 40
+      },
+      {
+        "video_id": "h4dBRGZOUuU",
+        "channel": "@KingsandGenerals",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 487.00024004666665,
+        "first_obs_age_h": 19.01039404722222,
+        "lockin_first_h": 139.16254121,
+        "lockin_sustained_h": 487.00024004666665,
+        "n_obs": 40
+      },
+      {
+        "video_id": "n_QTIiw6PUI",
+        "channel": "@PaulDavids",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 491.92024363555555,
+        "first_obs_age_h": 11.932730827222223,
+        "lockin_first_h": 59.926186720000004,
+        "lockin_sustained_h": 479.921299325,
+        "n_obs": 41
+      },
+      {
+        "video_id": "QU0v6Qeu7qs",
+        "channel": "@zackdfilms",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 487.50848132916667,
+        "first_obs_age_h": 19.518574597500002,
+        "lockin_first_h": 139.67080341333332,
+        "lockin_sustained_h": 487.50848132916667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "DYySyw8nZns",
+        "channel": "@zackdfilms",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 485.5000495641667,
+        "first_obs_age_h": 17.510425630555556,
+        "lockin_first_h": 485.5000495641667,
+        "lockin_sustained_h": 485.5000495641667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "hfHrQxH6YWE",
+        "channel": "@theneedledrop",
+        "lang": "en",
+        "short": false,
+        "endpoint_age_h": 489.6818853011111,
+        "first_obs_age_h": 9.694538834722223,
+        "lockin_first_h": 117.682855905,
+        "lockin_sustained_h": 429.6826849380555,
+        "n_obs": 41
+      },
+      {
+        "video_id": "eKECQkEutZo",
+        "channel": "@NutshellAnimations",
+        "lang": "en",
+        "short": true,
+        "endpoint_age_h": 491.4962794811111,
+        "first_obs_age_h": 11.50876116361111,
+        "lockin_first_h": 179.49654806111113,
+        "lockin_sustained_h": 467.4962592894444,
+        "n_obs": 41
+      },
+      {
+        "video_id": "7dlLYeph3wo",
+        "channel": "@Chienseating",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.9474799097222,
+        "first_obs_age_h": 18.95336675888889,
+        "lockin_first_h": 486.9474799097222,
+        "lockin_sustained_h": 486.9474799097222,
+        "n_obs": 40
+      },
+      {
+        "video_id": "OPI_9iQIEIA",
+        "channel": "@joeman",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 483.9965114263889,
+        "first_obs_age_h": 4.00326138,
+        "lockin_first_h": 28.003268185555555,
+        "lockin_sustained_h": 399.9969419286111,
+        "n_obs": 41
+      },
+      {
+        "video_id": "KDWy8roM_60",
+        "channel": "@xilanceylan",
+        "lang": "zh",
+        "short": true,
+        "endpoint_age_h": 489.9162701358333,
+        "first_obs_age_h": 21.921915106666667,
+        "lockin_first_h": 393.9163150483334,
+        "lockin_sustained_h": 489.9162701358333,
+        "n_obs": 40
+      },
+      {
+        "video_id": "zNR1vTa-pO8",
+        "channel": "@wangzhian",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 484.3170365966667,
+        "first_obs_age_h": 16.32300438111111,
+        "lockin_first_h": 208.31711921527778,
+        "lockin_sustained_h": 484.3170365966667,
+        "n_obs": 40
+      },
+      {
+        "video_id": "IkkAEhqxA3c",
+        "channel": "@wenzhaoofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.7522937894444,
+        "first_obs_age_h": 6.758956686944445,
+        "lockin_first_h": 150.7528551375,
+        "lockin_sustained_h": 486.7522937894444,
+        "n_obs": 41
+      },
+      {
+        "video_id": "NyeTphpN5no",
+        "channel": "@goldfishbrain",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 489.0023932977778,
+        "first_obs_age_h": 21.008146406666665,
+        "lockin_first_h": 129.00178101361112,
+        "lockin_sustained_h": 393.0024786038889,
+        "n_obs": 40
+      },
+      {
+        "video_id": "GolmUEtQ0no",
+        "channel": "@howfunofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 490.0970007516667,
+        "first_obs_age_h": 22.1026006875,
+        "lockin_first_h": 22.1026006875,
+        "lockin_sustained_h": 226.09683843694444,
+        "n_obs": 40
+      },
+      {
+        "video_id": "iOsJBksofvE",
+        "channel": "@超粒方",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 484.00056944805556,
+        "first_obs_age_h": 4.0072138880555555,
+        "lockin_first_h": 88.0008514513889,
+        "lockin_sustained_h": 448.00060985888894,
+        "n_obs": 41
+      },
+      {
+        "video_id": "I0LBdet5f-4",
+        "channel": "@beautywu",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 487.9954100661111,
+        "first_obs_age_h": 20.001781405000003,
+        "lockin_first_h": 92.15879341722221,
+        "lockin_sustained_h": 463.9955817505556,
+        "n_obs": 40
+      },
+      {
+        "video_id": "Vo0koj_nFfU",
+        "channel": "@omgoosetw",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.64857374444443,
+        "first_obs_age_h": 18.655099389444445,
+        "lockin_first_h": 426.64856961,
+        "lockin_sustained_h": 462.6486223052778,
+        "n_obs": 40
+      },
+      {
+        "video_id": "wXCpaYSwAhs",
+        "channel": "@crowndu",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 482.0003465425,
+        "first_obs_age_h": 2.0070890991666666,
+        "lockin_first_h": 74.16405922444446,
+        "lockin_sustained_h": 326.00045894083337,
+        "n_obs": 41
+      },
+      {
+        "video_id": "kQZPgKQ1Zaw",
+        "channel": "@wenzhaoofficial",
+        "lang": "zh",
+        "short": false,
+        "endpoint_age_h": 486.9984687986111,
+        "first_obs_age_h": 7.0050468469444445,
+        "lockin_first_h": 474.9984679163889,
+        "lockin_sustained_h": 474.9984679163889,
+        "n_obs": 41
+      }
+    ]
+  },
+  "persistence": {
+    "0-6h": {
+      "n": 25,
+      "mean_top20_jaccard": 0.21023865279871093,
+      "mean_spearman_shared": 0.5698490301223977
+    },
+    "6-12h": {
+      "n": 62,
+      "mean_top20_jaccard": 0.3234344366661425,
+      "mean_spearman_shared": 0.6293716956517322
+    },
+    "12-24h": {
+      "n": 239,
+      "mean_top20_jaccard": 0.4436017830925314,
+      "mean_spearman_shared": 0.6979444891913805
+    },
+    "24-48h": {
+      "n": 510,
+      "mean_top20_jaccard": 0.5070332583200703,
+      "mean_spearman_shared": 0.727415170387533
+    },
+    "48-72h": {
+      "n": 500,
+      "mean_top20_jaccard": 0.5587056597646439,
+      "mean_spearman_shared": 0.7570116791494467
+    },
+    "72-96h": {
+      "n": 500,
+      "mean_top20_jaccard": 0.5893773399878043,
+      "mean_spearman_shared": 0.7715554040935145
+    },
+    "96-120h": {
+      "n": 500,
+      "mean_top20_jaccard": 0.6094213203633068,
+      "mean_spearman_shared": 0.7884750491286582
+    },
+    "120-144h": {
+      "n": 498,
+      "mean_top20_jaccard": 0.6307001369304029,
+      "mean_spearman_shared": 0.7979690537010112
+    },
+    "144-168h": {
+      "n": 501,
+      "mean_top20_jaccard": 0.6453033413452808,
+      "mean_spearman_shared": 0.8025384552805179
+    },
+    "168-240h": {
+      "n": 1496,
+      "mean_top20_jaccard": 0.6686697680533722,
+      "mean_spearman_shared": 0.8201158175697361
+    },
+    "240-336h": {
+      "n": 2005,
+      "mean_top20_jaccard": 0.7113671531971077,
+      "mean_spearman_shared": 0.8505678707673217
+    },
+    "336-504h": {
+      "n": 3249,
+      "mean_top20_jaccard": 0.7744679393660565,
+      "mean_spearman_shared": 0.8898965274765577
+    }
+  },
+  "entry_age": {
+    "pooled": {
+      "n": 5000,
+      "within_1h": 0.3292,
+      "within_6h": 0.6296,
+      "within_24h": 0.8158,
+      "median_h": 2.741111111111111
+    },
+    "by_lang": {
+      "en": {
+        "n": 2420,
+        "within_1h": 0.34917355371900827,
+        "within_6h": 0.6276859504132232,
+        "within_24h": 0.8136363636363636,
+        "median_h": 2.6943055555555557
+      },
+      "ja": {
+        "n": 1560,
+        "within_1h": 0.3641025641025641,
+        "within_6h": 0.676923076923077,
+        "within_24h": 0.833974358974359,
+        "median_h": 2.109861111111111
+      },
+      "zh": {
+        "n": 1020,
+        "within_1h": 0.2284313725490196,
+        "within_6h": 0.5617647058823529,
+        "within_24h": 0.7931372549019607,
+        "median_h": 4.281944444444445
+      }
+    }
+  },
+  "late_entrants": {
+    "videos": 250,
+    "late_entrants_per_video": {
+      "n": 250,
+      "median": 13.0,
+      "q1": 8.0,
+      "q3": 21.0
+    },
+    "share_videos_with_any": 1.0,
+    "late_entrant_post_age_h": {
+      "n": 4042,
+      "median": 40.05388888888889,
+      "q1": 5.946527777777778,
+      "q3": 109.9373611111111
+    },
+    "late_posts_share": 0.35947550717466603
+  },
+  "feedback": {
+    "within_comment": {
+      "movers": 2484,
+      "mean_gain_per_h_at_top10": 0.5354155957207535,
+      "mean_gain_per_h_at_51plus": 0.2899291789803229,
+      "ratio": 1.8467116611160115,
+      "median_paired_diff": 0.0,
+      "share_positive_diff": 0.4669887278582931
+    },
+    "pooled_secondary": {
+      "intervals_top10": 186263,
+      "intervals_51plus": 483301,
+      "mean_gain_per_h_at_top10": 0.7157090402939804,
+      "mean_gain_per_h_at_51plus": 0.009179000403635304
+    }
+  },
+  "hypotheses": {
+    "H1_lockin_le_72h_and_floor_clear": false,
+    "H2_entry_age_70pct_24h_30pct_1h": true,
+    "H3_within_comment_ratio_ge_3": false,
+    "H4_by_lang_within_tolerance": {
+      "en": true,
+      "ja": false,
+      "zh": true
+    },
+    "H5_shorts_faster_by_24h": true,
+    "gate_200_videos_with_endpoint": true
+  }
+}

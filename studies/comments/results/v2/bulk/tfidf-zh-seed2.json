@@ -1,0 +1,162 @@
+{
+  "lang": "zh",
+  "seed": 2,
+  "meta": {
+    "comments": 606043,
+    "videos": 1090,
+    "channels": 70,
+    "seconds": 129,
+    "test_channels": [
+      "@PanScitw",
+      "@SanyuanJAPAN2015",
+      "@bluepigeon0810",
+      "@howfunofficial",
+      "@panpianoatelier",
+      "@shasha77",
+      "@wangzhian",
+      "@wenzhaoofficial"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.3857,
+      "spearman_ci": [
+        0.3365,
+        0.4278
+      ],
+      "auc": 0.7069,
+      "auc_ci": [
+        0.6538,
+        0.7459
+      ],
+      "n_videos": 153,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.3921,
+      "spearman_ci": [
+        0.3001,
+        0.4647
+      ],
+      "auc": 0.7102,
+      "auc_ci": [
+        0.632,
+        0.7646
+      ],
+      "n_videos": 153,
+      "alpha": 1.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.3941,
+      "spearman_ci": [
+        0.3044,
+        0.4649
+      ],
+      "auc": 0.7113,
+      "auc_ci": [
+        0.6341,
+        0.7647
+      ],
+      "n_videos": 153,
+      "alpha": 100.0,
+      "n_features": 20998
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.0362,
+      "spearman_ci": [
+        0.0269,
+        0.0434
+      ],
+      "auc": 0.5803,
+      "auc_ci": [
+        0.5612,
+        0.5927
+      ],
+      "n_videos": 153,
+      "alpha": 1.0,
+      "n_features": 20989
+    },
+    {
+      "rung": "exposure+length+chartfidf[exploratory]",
+      "spearman": 0.421,
+      "spearman_ci": [
+        0.3459,
+        0.4853
+      ],
+      "auc": 0.7266,
+      "auc_ci": [
+        0.6574,
+        0.776
+      ],
+      "n_videos": 153,
+      "alpha": 100.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:chartfidf[exploratory]",
+      "spearman": 0.1851,
+      "spearman_ci": [
+        0.1375,
+        0.2245
+      ],
+      "auc": 0.6014,
+      "auc_ci": [
+        0.5643,
+        0.6282
+      ],
+      "n_videos": 153,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.3921,
+    "baseline_auc": 0.7102,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.0019,
+        "ci": [
+          -0.0004,
+          0.0046
+        ],
+        "p_gt_0": 0.9285
+      },
+      "auc": {
+        "delta": 0.0011,
+        "ci": [
+          -0.0004,
+          0.0027
+        ],
+        "p_gt_0": 0.912
+      },
+      "text_share_of_auc": 0.0052,
+      "exposure_share_of_auc": 0.9792
+    },
+    "chartfidf[exploratory]": {
+      "spearman": {
+        "delta": 0.0289,
+        "ci": [
+          0.0169,
+          0.0434
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0164,
+        "ci": [
+          0.0099,
+          0.0237
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0724,
+      "exposure_share_of_auc": 0.9131
+    }
+  }
+}

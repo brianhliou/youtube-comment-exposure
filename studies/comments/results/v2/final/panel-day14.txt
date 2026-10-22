@@ -1,0 +1,27 @@
+panel analysis · endpoint 336 h · 500 videos loaded, 483 observed
+reliability floor: 1130 pairs · top-10 Jaccard median 1.00 (IQR 1.00–1.00) · top-20 1.00 · threshold clear: True
+lock-in (first crossing ≥0.8 with endpoint top-10): 243 videos · median 146.0 h (IQR 57.0–290.5) · cluster CI95 [117.03263115777779, 176.01677513166666] · sustained median 321.1 h · already locked at first obs: 25
+  excluded: {'marquee': 1, 'no_endpoint_yet': 17, 'under_min_comments': 239}
+  en: n=119 median 146.0 h CI [103.34257735472222, 173.5093049]
+  ja: n=77 median 165.1 h CI [95.86190389236111, 275.50948664027777]
+  zh: n=47 median 129.0 h CI [88.50857944250001, 203.59832342541665]
+  short: n=41 median 122.8 h
+  long: n=202 median 147.5 h
+persistence (mean top-20 Jaccard vs endpoint, by age):
+        0-6h n=25   J20 0.24  rho 0.60
+       6-12h n=61   J20 0.37  rho 0.67
+      12-24h n=232  J20 0.47  rho 0.72
+      24-48h n=496  J20 0.52  rho 0.73
+      48-72h n=486  J20 0.57  rho 0.77
+      72-96h n=486  J20 0.61  rho 0.78
+     96-120h n=486  J20 0.63  rho 0.80
+    120-144h n=484  J20 0.65  rho 0.81
+    144-168h n=487  J20 0.66  rho 0.81
+    168-240h n=1454 J20 0.68  rho 0.82
+    240-336h n=1949 J20 0.74  rho 0.87
+    336-504h n=243  J20 1.00  rho 1.00
+entry age of endpoint top-20: n=4860 · within 1h 35% · 6h 65% · 24h 83% · median 2.5 h
+late entrants (first in top-20 at ≥72h): per video median 11.0 · videos with any 1.00 · late *posts* share 0.34
+feedback loop (within-comment): movers 2484 · gain/h at top-10 0.54 vs 51+ 0.29 · ratio 1.85 · share positive 0.47
+hypotheses: {"H1_lockin_le_72h_and_floor_clear": false, "H2_entry_age_70pct_24h_30pct_1h": true, "H3_within_comment_ratio_ge_3": false, "H4_by_lang_within_tolerance": {"en": true, "ja": true, "zh": true}, "H5_shorts_faster_by_24h": true, "gate_200_videos_with_endpoint": true}
+wrote studies/comments/results/v2/final/panel-day14.json

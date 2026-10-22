@@ -1,0 +1,110 @@
+{
+  "lang": "en",
+  "seed": 0,
+  "meta": {
+    "comments": 5421217,
+    "videos": 3425,
+    "channels": 161,
+    "seconds": 632,
+    "test_channels": [
+      "@CallMeKevin",
+      "@Grian",
+      "@RickBeato",
+      "@kylehill",
+      "@mythicalkitchen",
+      "@safiya",
+      "@t3dotgg",
+      "@thespiffingbrit"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.2857,
+      "spearman_ci": [
+        0.2288,
+        0.3415
+      ],
+      "auc": 0.6772,
+      "auc_ci": [
+        0.6444,
+        0.7075
+      ],
+      "n_videos": 189,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.3117,
+      "spearman_ci": [
+        0.2591,
+        0.3694
+      ],
+      "auc": 0.6927,
+      "auc_ci": [
+        0.6639,
+        0.7215
+      ],
+      "n_videos": 189,
+      "alpha": 1.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.3376,
+      "spearman_ci": [
+        0.2909,
+        0.3866
+      ],
+      "auc": 0.7092,
+      "auc_ci": [
+        0.6901,
+        0.7325
+      ],
+      "n_videos": 189,
+      "alpha": 100.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.1633,
+      "spearman_ci": [
+        0.1419,
+        0.1824
+      ],
+      "auc": 0.602,
+      "auc_ci": [
+        0.5921,
+        0.6109
+      ],
+      "n_videos": 189,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.3117,
+    "baseline_auc": 0.6927,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.026,
+        "ci": [
+          0.0134,
+          0.0443
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0165,
+        "ci": [
+          0.009,
+          0.0272
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0789,
+      "exposure_share_of_auc": 0.847
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "lang": "en",
+  "seed": 2,
+  "meta": {
+    "comments": 5421217,
+    "videos": 3425,
+    "channels": 161,
+    "seconds": 569,
+    "test_channels": [
+      "@JKenjiLopezAlt",
+      "@JerryRigEverything",
+      "@RedLetterMedia",
+      "@SabineHossenfelder",
+      "@jordanmatter",
+      "@numberphile",
+      "@sam_sulek",
+      "@thespiffingbrit"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.2561,
+      "spearman_ci": [
+        0.1892,
+        0.3181
+      ],
+      "auc": 0.6542,
+      "auc_ci": [
+        0.6151,
+        0.6869
+      ],
+      "n_videos": 197,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.2792,
+      "spearman_ci": [
+        0.2149,
+        0.3445
+      ],
+      "auc": 0.6667,
+      "auc_ci": [
+        0.6292,
+        0.7006
+      ],
+      "n_videos": 197,
+      "alpha": 1.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.2982,
+      "spearman_ci": [
+        0.2332,
+        0.3647
+      ],
+      "auc": 0.6782,
+      "auc_ci": [
+        0.641,
+        0.7116
+      ],
+      "n_videos": 197,
+      "alpha": 1000.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.143,
+      "spearman_ci": [
+        0.1087,
+        0.175
+      ],
+      "auc": 0.5855,
+      "auc_ci": [
+        0.5646,
+        0.6028
+      ],
+      "n_videos": 197,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.2792,
+    "baseline_auc": 0.6667,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.019,
+        "ci": [
+          0.0156,
+          0.0224
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0116,
+        "ci": [
+          0.0091,
+          0.014
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0645,
+      "exposure_share_of_auc": 0.8653
+    }
+  }
+}

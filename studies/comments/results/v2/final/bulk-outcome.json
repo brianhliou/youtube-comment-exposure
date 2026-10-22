@@ -1,0 +1,67 @@
+{
+  "db": "data/runs/comments/v2.sqlite",
+  "by_lang": {
+    "en": {
+      "comments": 5421234,
+      "zero_like_share": 0.7848,
+      "le1_like_share": 0.9012,
+      "top1pct_like_share": 0.924,
+      "videos": 3442,
+      "channels": 161,
+      "median_comments_per_video": 798.0,
+      "median_video_zero_like_share": 0.7551,
+      "exploratory_mean_log1p_likes_by_age": {
+        "<1h": 0.8457,
+        "1-6h": 0.4303,
+        "6-24h": 0.2693,
+        "1-7d": 0.2136,
+        "7-30d": 0.1919,
+        ">30d": 0.1504
+      }
+    },
+    "ja": {
+      "comments": 1125474,
+      "zero_like_share": 0.4409,
+      "le1_like_share": 0.6224,
+      "top1pct_like_share": 0.6064,
+      "videos": 1683,
+      "channels": 80,
+      "median_comments_per_video": 348.0,
+      "median_video_zero_like_share": 0.4324,
+      "exploratory_mean_log1p_likes_by_age": {
+        "<1h": 1.3039,
+        "1-6h": 1.0716,
+        "6-24h": 0.9249,
+        "1-7d": 0.84,
+        "7-30d": 0.8163,
+        ">30d": 0.6604
+      }
+    },
+    "zh": {
+      "comments": 606046,
+      "zero_like_share": 0.671,
+      "le1_like_share": 0.8088,
+      "top1pct_like_share": 0.7115,
+      "videos": 1093,
+      "channels": 70,
+      "median_comments_per_video": 299.0,
+      "median_video_zero_like_share": 0.5934,
+      "exploratory_mean_log1p_likes_by_age": {
+        "<1h": 1.2707,
+        "1-6h": 0.736,
+        "6-24h": 0.4542,
+        "1-7d": 0.3404,
+        "7-30d": 0.2835,
+        ">30d": 0.2108
+      }
+    },
+    "pooled": {
+      "comments": 7152754,
+      "zero_like_share": 0.7211,
+      "le1_like_share": 0.8495,
+      "top1pct_like_share": 0.8678,
+      "videos": 6218,
+      "channels": 311
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "videos": 250,
+  "from_age_h": 96,
+  "mean_top10_jaccard_by_lag_h": {
+    "12": {
+      "n": 8411,
+      "mean": 0.8051
+    },
+    "24": {
+      "n": 8161,
+      "mean": 0.7492
+    },
+    "48": {
+      "n": 7661,
+      "mean": 0.726
+    },
+    "72": {
+      "n": 7161,
+      "mean": 0.7208
+    },
+    "120": {
+      "n": 6161,
+      "mean": 0.695
+    },
+    "168": {
+      "n": 5161,
+      "mean": 0.6834
+    },
+    "240": {
+      "n": 3661,
+      "mean": 0.6564
+    }
+  },
+  "leavers": {
+    "n": 8947,
+    "median_rank_after": 13,
+    "share_rank_le_15_after": 0.6551,
+    "share_back_next_look": 0.3021,
+    "share_back_within_two_looks": 0.4589
+  }
+}

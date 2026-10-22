@@ -1,0 +1,113 @@
+{
+  "name": "youtube-comment-exposure",
+  "version": "2.0",
+  "files": {
+    "bulk/comments.jsonl.gz": {
+      "rows": 7152754,
+      "sha256": "4385f96af55ec2c5c125eeaaf508cc20117f7bc8effae0d55df6bbc07e36d0b5",
+      "bytes": 711715493
+    },
+    "bulk/videos.jsonl.gz": {
+      "rows": 6240,
+      "sha256": "c97a85c3946c39697749dd1438328190e0c64f1fd15fd79908e80963508b5334",
+      "bytes": 665304
+    },
+    "panel/videos.jsonl.gz": {
+      "rows": 500,
+      "sha256": "7b3c140c470b00ef099605d71dc4c9c92402c1ef7ce385add040785216c31732",
+      "bytes": 49261
+    },
+    "panel/pages.jsonl.gz": {
+      "rows": 1462289,
+      "sha256": "9486b0270a3bb4415a42b5d8c31a2acc9461d82cff96ecc686c38551ad3570d2",
+      "bytes": 137163520
+    },
+    "panel/totals.jsonl.gz": {
+      "rows": 20467,
+      "sha256": "0b4ae089eadf0392902ef81974ce0cb93ecd755625558a0662b608c0fecb1d60",
+      "bytes": 343638
+    },
+    "panel/fetches.jsonl.gz": {
+      "rows": 21597,
+      "sha256": "2d88e9b8f4c590203ccc380738bbae5d575ea9a069fa53a6483718ee384b1e2b",
+      "bytes": 242281
+    }
+  },
+  "fields": {
+    "bulk/comments": [
+      "comment_id",
+      "video_id",
+      "author_hash",
+      "text",
+      "like_count",
+      "reply_count",
+      "published_at",
+      "fetched_at",
+      "age_hours",
+      "relevance_rank"
+    ],
+    "bulk/videos": [
+      "video_id",
+      "channel_handle",
+      "lang",
+      "marquee",
+      "published_at",
+      "title",
+      "category_id",
+      "duration_seconds",
+      "is_short",
+      "view_count",
+      "like_count",
+      "comment_count",
+      "stats_fetched_at",
+      "collected_comments"
+    ],
+    "panel/pages": [
+      "video_id",
+      "period",
+      "is_repeat",
+      "rank",
+      "comment_id",
+      "author_hash",
+      "is_creator",
+      "text",
+      "like_count",
+      "reply_count",
+      "published_at",
+      "fetched_at",
+      "comment_age_hours",
+      "video_age_hours"
+    ],
+    "panel/videos": [
+      "video_id",
+      "channel_handle",
+      "lang",
+      "marquee",
+      "published_at",
+      "enrolled_day",
+      "enrolled_at",
+      "title",
+      "category_id",
+      "duration_seconds",
+      "is_short",
+      "status",
+      "status_reason"
+    ],
+    "panel/totals": [
+      "video_id",
+      "period",
+      "fetched_at",
+      "view_count",
+      "like_count",
+      "comment_count"
+    ],
+    "panel/fetches": [
+      "video_id",
+      "period",
+      "fetched_at",
+      "n_items",
+      "outcome"
+    ]
+  },
+  "author_ids": "salted sha256, one salt for both corpora, discarded after export"
+}

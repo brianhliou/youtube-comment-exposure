@@ -1,0 +1,562 @@
+{
+  "reliability_extras": {
+    "repeat_gap_seconds": {
+      "n": 860,
+      "median": 56.017303999999996,
+      "q1": 26.477371500000004,
+      "q3": 101.17439875
+    },
+    "pairs_below_1": 78,
+    "min_top10_jaccard": 0.42857142857142855
+  },
+  "gate_and_channels": {
+    "videos_with_ge_7_observation_days_nonmarquee": 482,
+    "last_discovery": "2026-09-27",
+    "quiet_channels_30d_before_last_discovery": 52,
+    "quiet_by_lang": {
+      "en": 32,
+      "ja": 5,
+      "zh": 15
+    },
+    "unresolved_channels": 0,
+    "enrollment_by_day": [
+      {
+        "enrolled_day": "2026-09-19",
+        "n": 80
+      },
+      {
+        "enrolled_day": "2026-09-20",
+        "n": 80
+      },
+      {
+        "enrolled_day": "2026-09-21",
+        "n": 80
+      },
+      {
+        "enrolled_day": "2026-09-22",
+        "n": 80
+      },
+      {
+        "enrolled_day": "2026-09-23",
+        "n": 80
+      },
+      {
+        "enrolled_day": "2026-09-24",
+        "n": 67
+      },
+      {
+        "enrolled_day": "2026-09-25",
+        "n": 19
+      },
+      {
+        "enrolled_day": "2026-09-26",
+        "n": 11
+      },
+      {
+        "enrolled_day": "2026-09-27",
+        "n": 3
+      }
+    ]
+  },
+  "feedback": {
+    "movers": 2377,
+    "movers_channels": 163,
+    "ratio_per_hour": 1.889934127565823,
+    "ratio_per_hour_ci95": [
+      1.0427,
+      3.4802
+    ],
+    "exploratory_ratio_per_period": 1.869587869787384,
+    "exploratory_median_of_per_comment_ratios": 0.9271633848144359,
+    "movers_with_zero_or_negative_gain_at_51plus": 1242
+  },
+  "exploratory_adjacent_overlap": {
+    "0-6h": {
+      "n": 3,
+      "mean_top10_jaccard": 0.725,
+      "share_ge_0.8": 0.667
+    },
+    "6-12h": {
+      "n": 15,
+      "mean_top10_jaccard": 0.691,
+      "share_ge_0.8": 0.533
+    },
+    "12-24h": {
+      "n": 82,
+      "mean_top10_jaccard": 0.55,
+      "share_ge_0.8": 0.268
+    },
+    "24-48h": {
+      "n": 478,
+      "mean_top10_jaccard": 0.688,
+      "share_ge_0.8": 0.45
+    },
+    "48-72h": {
+      "n": 492,
+      "mean_top10_jaccard": 0.74,
+      "share_ge_0.8": 0.545
+    },
+    "72-96h": {
+      "n": 492,
+      "mean_top10_jaccard": 0.783,
+      "share_ge_0.8": 0.646
+    },
+    "96-120h": {
+      "n": 492,
+      "mean_top10_jaccard": 0.806,
+      "share_ge_0.8": 0.703
+    },
+    "120-144h": {
+      "n": 490,
+      "mean_top10_jaccard": 0.809,
+      "share_ge_0.8": 0.704
+    },
+    "144-168h": {
+      "n": 493,
+      "mean_top10_jaccard": 0.801,
+      "share_ge_0.8": 0.688
+    },
+    "168-240h": {
+      "n": 1472,
+      "mean_top10_jaccard": 0.793,
+      "share_ge_0.8": 0.66
+    },
+    "240-336h": {
+      "n": 1973,
+      "mean_top10_jaccard": 0.798,
+      "share_ge_0.8": 0.657
+    },
+    "336-504h": {
+      "n": 2290,
+      "mean_top10_jaccard": 0.799,
+      "share_ge_0.8": 0.667
+    },
+    "504h+": {
+      "n": 10,
+      "mean_top10_jaccard": 0.779,
+      "share_ge_0.8": 0.6
+    }
+  },
+  "endpoint_168h": {
+    "drops_by_lang": {
+      "en": {
+        "enrolled": 167,
+        "under_min_comments": 47,
+        "included": 119,
+        "marquee": 1
+      },
+      "ja": {
+        "enrolled": 167,
+        "included": 73,
+        "under_min_comments": 83,
+        "no_endpoint_yet": 11
+      },
+      "zh": {
+        "enrolled": 166,
+        "under_min_comments": 113,
+        "included": 47,
+        "no_endpoint_yet": 6
+      }
+    },
+    "entry_age": {
+      "en": {
+        "within_1h_ci95": [
+          0.3191,
+          0.4029
+        ],
+        "within_6h_ci95": [
+          0.6004,
+          0.6935
+        ],
+        "within_24h_ci95": [
+          0.8098,
+          0.8729
+        ],
+        "within_1h": 0.3613,
+        "within_6h": 0.6475,
+        "within_24h": 0.8437,
+        "channels": 69
+      },
+      "ja": {
+        "within_1h_ci95": [
+          0.3077,
+          0.4435
+        ],
+        "within_6h_ci95": [
+          0.6287,
+          0.7583
+        ],
+        "within_24h_ci95": [
+          0.7944,
+          0.9014
+        ],
+        "within_1h": 0.3788,
+        "within_6h": 0.6952,
+        "within_24h": 0.8514,
+        "channels": 39
+      },
+      "zh": {
+        "within_1h_ci95": [
+          0.178,
+          0.3
+        ],
+        "within_6h_ci95": [
+          0.5138,
+          0.6784
+        ],
+        "within_24h_ci95": [
+          0.7714,
+          0.8804
+        ],
+        "within_1h": 0.2447,
+        "within_6h": 0.6085,
+        "within_24h": 0.834,
+        "channels": 27
+      },
+      "pooled": {
+        "within_1h": 0.3437,
+        "within_6h": 0.6544,
+        "within_24h": 0.8441,
+        "within_1h_ci95": [
+          0.3098,
+          0.3747
+        ],
+        "within_6h_ci95": [
+          0.6167,
+          0.6881
+        ],
+        "within_24h_ci95": [
+          0.8189,
+          0.8679
+        ],
+        "channels": 135
+      }
+    },
+    "lockin": {
+      "per_genre_first_crossing_h": {
+        "commentary": {
+          "n": 29,
+          "median": 76.01108661666666,
+          "q1": 28.51094053138889,
+          "q3": 143.96147562902777
+        },
+        "education": {
+          "n": 8,
+          "median": 152.5018359161111,
+          "q1": 86.12106241152777,
+          "q3": 170.85330322368054
+        },
+        "entertainment": {
+          "n": 58,
+          "median": 55.75197541208334,
+          "q1": 26.296244036805554,
+          "q3": 95.52510467979167
+        },
+        "finance": {
+          "n": 7,
+          "median": 119.00949118333334,
+          "q1": 104.29717650833332,
+          "q3": 166.02938275388888
+        },
+        "food": {
+          "n": 21,
+          "median": 79.49904154666667,
+          "q1": 37.49456572402778,
+          "q3": 162.95895290333334
+        },
+        "gaming": {
+          "n": 35,
+          "median": 63.014869923333336,
+          "q1": 29.02422654,
+          "q3": 133.31722047361112
+        },
+        "history": {
+          "n": 4,
+          "median": 68.52069675847221,
+          "q1": 65.06068719305556,
+          "q3": 74.51898440805556
+        },
+        "music": {
+          "n": 14,
+          "median": 69.01766218833333,
+          "q1": 43.30101917840278,
+          "q3": 133.68084007062498
+        },
+        "news": {
+          "n": 20,
+          "median": 120.67302547680556,
+          "q1": 79.28445981166666,
+          "q3": 174.44629539722223
+        },
+        "science": {
+          "n": 21,
+          "median": 104.0155435786111,
+          "q1": 62.63546062208333,
+          "q3": 158.45922062569446
+        },
+        "sports": {
+          "n": 4,
+          "median": 135.1178927401389,
+          "q1": 72.63628257034722,
+          "q3": 165.59184829930558
+        },
+        "tech": {
+          "n": 17,
+          "median": 85.41926802027778,
+          "q1": 26.990348810972222,
+          "q3": 141.1750583526389
+        },
+        "travel": {
+          "n": 1,
+          "median": 95.03300128694444,
+          "q1": 95.03300128694444,
+          "q3": 95.03300128694444
+        }
+      },
+      "long_minus_short_median_h": 15.619658018611112,
+      "long_minus_short_ci95": [
+        -24.4835,
+        39.1793
+      ],
+      "h1_median_le_72h_by_lang": {
+        "en": false,
+        "ja": true,
+        "zh": false
+      },
+      "share_locked_by_72h": 0.477,
+      "first_obs_age_h": {
+        "n": 239,
+        "median": 16.070115681666667,
+        "q1": 10.112137737222222,
+        "q3": 20.302789571666665
+      },
+      "endpoint_obs_minus_target_h": {
+        "n": 239,
+        "median": 6.887409613611112,
+        "q1": 4.001229506666675,
+        "q3": 9.02399143611109
+      },
+      "never_crossed_before_endpoint": 27
+    },
+    "marquee": [
+      {
+        "channel": "@MrBeast",
+        "video_id": "v9QtM6qnG50",
+        "n_obs": 40,
+        "lockin_first_h": 172.02696859055555,
+        "comment_count": 85541
+      }
+    ]
+  },
+  "endpoint_336h": {
+    "drops_by_lang": {
+      "en": {
+        "enrolled": 167,
+        "under_min_comments": 47,
+        "included": 119,
+        "marquee": 1
+      },
+      "ja": {
+        "enrolled": 167,
+        "included": 77,
+        "under_min_comments": 79,
+        "no_endpoint_yet": 11
+      },
+      "zh": {
+        "enrolled": 166,
+        "under_min_comments": 108,
+        "included": 44,
+        "no_endpoint_yet": 14
+      }
+    },
+    "entry_age": {
+      "en": {
+        "within_1h_ci95": [
+          0.3328,
+          0.4121
+        ],
+        "within_6h_ci95": [
+          0.6068,
+          0.6996
+        ],
+        "within_24h_ci95": [
+          0.7971,
+          0.863
+        ],
+        "within_1h": 0.3718,
+        "within_6h": 0.6546,
+        "within_24h": 0.8311,
+        "channels": 69
+      },
+      "ja": {
+        "within_1h_ci95": [
+          0.298,
+          0.4426
+        ],
+        "within_6h_ci95": [
+          0.6354,
+          0.752
+        ],
+        "within_24h_ci95": [
+          0.7934,
+          0.8911
+        ],
+        "within_1h": 0.3714,
+        "within_6h": 0.6935,
+        "within_24h": 0.8448,
+        "channels": 41
+      },
+      "zh": {
+        "within_1h_ci95": [
+          0.1716,
+          0.2942
+        ],
+        "within_6h_ci95": [
+          0.4917,
+          0.659
+        ],
+        "within_24h_ci95": [
+          0.7079,
+          0.858
+        ],
+        "within_1h": 0.2386,
+        "within_6h": 0.5852,
+        "within_24h": 0.7932,
+        "channels": 26
+      },
+      "pooled": {
+        "within_1h": 0.3473,
+        "within_6h": 0.6544,
+        "within_24h": 0.8285,
+        "within_1h_ci95": [
+          0.3153,
+          0.3779
+        ],
+        "within_6h_ci95": [
+          0.6183,
+          0.6848
+        ],
+        "within_24h_ci95": [
+          0.7998,
+          0.8525
+        ],
+        "channels": 136
+      }
+    },
+    "lockin": {
+      "per_genre_first_crossing_h": {
+        "commentary": {
+          "n": 27,
+          "median": 134.03583522277776,
+          "q1": 28.003268185555555,
+          "q3": 228.1779153911111
+        },
+        "education": {
+          "n": 8,
+          "median": 332.57185058930554,
+          "q1": 226.0652369054167,
+          "q3": 342.2355478006944
+        },
+        "entertainment": {
+          "n": 60,
+          "median": 119.89319706875,
+          "q1": 46.94445474215278,
+          "q3": 248.42239700541668
+        },
+        "finance": {
+          "n": 7,
+          "median": 140.31307580944446,
+          "q1": 116.28679620194444,
+          "q3": 346.0171233197222
+        },
+        "food": {
+          "n": 21,
+          "median": 199.51957507666665,
+          "q1": 56.72656928152777,
+          "q3": 301.7494043719445
+        },
+        "gaming": {
+          "n": 35,
+          "median": 75.01522820694444,
+          "q1": 36.2644094325,
+          "q3": 275.50948664027777
+        },
+        "history": {
+          "n": 3,
+          "median": 67.03055423222222,
+          "q1": 22.01695161361111,
+          "q3": 208.0278348688889
+        },
+        "music": {
+          "n": 14,
+          "median": 163.95426735291664,
+          "q1": 52.73568115430556,
+          "q3": 339.42434684284717
+        },
+        "news": {
+          "n": 21,
+          "median": 258.39202726888885,
+          "q1": 93.14236296430556,
+          "q3": 324.77241920847223
+        },
+        "science": {
+          "n": 21,
+          "median": 176.01677513166666,
+          "q1": 111.85926299208333,
+          "q3": 259.5547823008333
+        },
+        "sports": {
+          "n": 4,
+          "median": 213.98372342125,
+          "q1": 107.78861027451389,
+          "q3": 330.59606047902776
+        },
+        "tech": {
+          "n": 17,
+          "median": 161.97317183222222,
+          "q1": 52.89189507458333,
+          "q3": 246.70180636972222
+        },
+        "travel": {
+          "n": 2,
+          "median": 285.51548048305557,
+          "q1": 260.00233540944447,
+          "q3": 311.02862555666667
+        }
+      },
+      "long_minus_short_median_h": 25.7494144727778,
+      "long_minus_short_ci95": [
+        -37.4315,
+        116.5775
+      ],
+      "h1_median_le_72h_by_lang": {
+        "en": false,
+        "ja": false,
+        "zh": false
+      },
+      "share_locked_by_72h": 0.3125,
+      "first_obs_age_h": {
+        "n": 240,
+        "median": 16.255880311666665,
+        "q1": 10.740752582013888,
+        "q3": 20.723014168680557
+      },
+      "endpoint_obs_minus_target_h": {
+        "n": 240,
+        "median": 6.928487620416661,
+        "q1": 4.008141344166674,
+        "q3": 9.023243505486107
+      },
+      "never_crossed_before_endpoint": 30
+    },
+    "marquee": [
+      {
+        "channel": "@MrBeast",
+        "video_id": "v9QtM6qnG50",
+        "n_obs": 40,
+        "lockin_first_h": 340.0299255055556,
+        "comment_count": 98377
+      }
+    ]
+  }
+}

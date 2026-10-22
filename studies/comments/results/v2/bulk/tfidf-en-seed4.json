@@ -1,0 +1,110 @@
+{
+  "lang": "en",
+  "seed": 4,
+  "meta": {
+    "comments": 5421217,
+    "videos": 3425,
+    "channels": 161,
+    "seconds": 537,
+    "test_channels": [
+      "@AdamSomething",
+      "@ChefRush",
+      "@GameTheory",
+      "@HowMoneyWorks",
+      "@JohnnyHarris",
+      "@Lionfield",
+      "@NotJustBikes",
+      "@jacobcollier"
+    ]
+  },
+  "rungs": [
+    {
+      "rung": "exposure",
+      "spearman": 0.2531,
+      "spearman_ci": [
+        0.2165,
+        0.3004
+      ],
+      "auc": 0.6536,
+      "auc_ci": [
+        0.6341,
+        0.6793
+      ],
+      "n_videos": 177,
+      "alpha": 1000.0,
+      "n_features": 5
+    },
+    {
+      "rung": "exposure+length",
+      "spearman": 0.2763,
+      "spearman_ci": [
+        0.2321,
+        0.3387
+      ],
+      "auc": 0.6665,
+      "auc_ci": [
+        0.6448,
+        0.6975
+      ],
+      "n_videos": 177,
+      "alpha": 1000.0,
+      "n_features": 9
+    },
+    {
+      "rung": "exposure+length+tfidf",
+      "spearman": 0.2893,
+      "spearman_ci": [
+        0.2425,
+        0.3554
+      ],
+      "auc": 0.6744,
+      "auc_ci": [
+        0.6522,
+        0.7062
+      ],
+      "n_videos": 177,
+      "alpha": 1000.0,
+      "n_features": 200009
+    },
+    {
+      "rung": "content-only:tfidf",
+      "spearman": 0.1426,
+      "spearman_ci": [
+        0.1167,
+        0.1889
+      ],
+      "auc": 0.5853,
+      "auc_ci": [
+        0.573,
+        0.606
+      ],
+      "n_videos": 177,
+      "alpha": 100.0,
+      "n_features": 200000
+    }
+  ],
+  "gate": {
+    "baseline_spearman": 0.2763,
+    "baseline_auc": 0.6665,
+    "tfidf": {
+      "spearman": {
+        "delta": 0.0129,
+        "ci": [
+          0.01,
+          0.0163
+        ],
+        "p_gt_0": 1.0
+      },
+      "auc": {
+        "delta": 0.0078,
+        "ci": [
+          0.0063,
+          0.0097
+        ],
+        "p_gt_0": 1.0
+      },
+      "text_share_of_auc": 0.0453,
+      "exposure_share_of_auc": 0.8807
+    }
+  }
+}
