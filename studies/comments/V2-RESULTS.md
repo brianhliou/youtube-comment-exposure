@@ -225,7 +225,7 @@ ways, since better CJK text features (char n-grams) score higher, not lower.
 
 - **The logged-out reliability check at scale.** Only the day-3 five-video spot check exists (deviation 3). The 2026-10-22 noise-floor test (below) covers the API side only.
 - **A control for video size in H7** (language and video size are confounded).
-- **Dataset release.** Staged 2026-10-22 by `v2_export.py` (850 MB, six files, manifest with SHA-256), not uploaded.
+- **Dataset release.** Staged 2026-10-22 by `v2_export.py` (850 MB, six files, manifest with SHA-256) and published the same day to the Hugging Face dataset under `v2/`.
 
 ## Before publishing
 

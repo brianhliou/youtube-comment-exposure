@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="300" viewBox="0 0 680 300" role="img" aria-label="Mean top-10 Jaccard between consecutive looks rises from 0.55 at 12 to 24 hours to about 0.80 by day 4 and stays near 0.80 through day 21">
+<style>
+  text { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .ttl { font-size: 12px; font-weight: 600; fill: #1F2328; }
+  .ax  { font-size: 10px; fill: #6B7280; }
+  .val { font-size: 10px; font-weight: 600; fill: #1F2328; }
+  .grid { stroke: #E5E7EB; stroke-width: 1; }
+  .thr { stroke: #6B7280; stroke-width: 1.5; stroke-dasharray: 5 4; }
+  .ln  { fill: none; stroke: #1a7f37; stroke-width: 2; stroke-linejoin: round; }
+  .pt  { fill: #1a7f37; stroke: #FFFFFF; stroke-width: 2; }
+  .cap { font-size: 10px; fill: #6B7280; }
+</style>
+<rect width="680" height="300" fill="#FFFFFF"/>
+<text x="46" y="20" class="ttl">Top-10 overlap between looks 12 hours apart, by video age</text>
+<line x1="46" y1="75.6" x2="656" y2="75.6" class="thr"/>
+<line x1="46" y1="242.0" x2="656" y2="242.0" class="grid"/>
+<text x="36" y="246.0" class="ax" text-anchor="end">0.0</text>
+<line x1="46" y1="200.4" x2="656" y2="200.4" class="grid"/>
+<text x="36" y="204.4" class="ax" text-anchor="end">0.2</text>
+<line x1="46" y1="158.8" x2="656" y2="158.8" class="grid"/>
+<text x="36" y="162.8" class="ax" text-anchor="end">0.4</text>
+<line x1="46" y1="117.2" x2="656" y2="117.2" class="grid"/>
+<text x="36" y="121.2" class="ax" text-anchor="end">0.6</text>
+<line x1="46" y1="75.6" x2="656" y2="75.6" class="grid"/>
+<text x="36" y="79.6" class="ax" text-anchor="end">0.8</text>
+<line x1="46" y1="34.0" x2="656" y2="34.0" class="grid"/>
+<text x="36" y="38.0" class="ax" text-anchor="end">1.0</text>
+<text x="74.4" y="260.0" class="ax" text-anchor="middle">day 1</text>
+<text x="159.5" y="260.0" class="ax" text-anchor="middle">day 4</text>
+<text x="244.6" y="260.0" class="ax" text-anchor="middle">day 7</text>
+<text x="443.2" y="260.0" class="ax" text-anchor="middle">day 14</text>
+<text x="641.8" y="260.0" class="ax" text-anchor="middle">day 21</text>
+<text x="46" y="292" class="cap">Mean top-10 Jaccard, 250 videos, 10,229 pairs of consecutive looks. Dashed: the 0.8 lock-in threshold (about 9 of 10 comments shared).</text>
+<path d="M67.3,127.6 L88.6,99.3 L116.9,88.1 L145.3,79.6 L173.7,74.1 L202.0,73.7 L230.4,75.0 L287.2,77.1 L386.5,76.0 L542.5,72.5 L644.2,76.4" class="ln"/>
+<circle cx="67.3" cy="127.6" r="4" class="pt"/>
+<circle cx="88.6" cy="99.3" r="4" class="pt"/>
+<circle cx="116.9" cy="88.1" r="4" class="pt"/>
+<circle cx="145.3" cy="79.6" r="4" class="pt"/>
+<circle cx="173.7" cy="74.1" r="4" class="pt"/>
+<circle cx="202.0" cy="73.7" r="4" class="pt"/>
+<circle cx="230.4" cy="75.0" r="4" class="pt"/>
+<circle cx="287.2" cy="77.1" r="4" class="pt"/>
+<circle cx="386.5" cy="76.0" r="4" class="pt"/>
+<circle cx="542.5" cy="72.5" r="4" class="pt"/>
+<circle cx="644.2" cy="76.4" r="4" class="pt"/>
+<text x="75.3" y="143.6" class="val">0.55</text>
+<text x="644.2" y="64.4" class="val" text-anchor="middle">0.80</text>
+<text x="656" y="91.6" class="ax" text-anchor="end">lock-in 0.8</text>
+</svg>
