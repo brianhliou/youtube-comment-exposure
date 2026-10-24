@@ -81,7 +81,7 @@ cat > "$TEX" <<'PREAMBLE'
 \title{YouTube Comment Exposure:\\
 timestamped comments and a 21-day panel of the ranking}
 \author{Brian H. Liou}
-\date{October 2026 (version 2; version 1 August 2026)}
+\date{October 2026 (version 2.1; version 1 August 2026)}
 
 \begin{document}
 \maketitle

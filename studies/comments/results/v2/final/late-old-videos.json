@@ -1,0 +1,445 @@
+{
+  "note": "exploratory, not pre-registered",
+  "late_days": [
+    30,
+    90
+  ],
+  "tops": [
+    3,
+    20
+  ],
+  "v1": {
+    "db": "data/runs/comments/stratified.sqlite",
+    "bands": {
+      "<3mo": {
+        "videos": 87,
+        "video_age_days_median": 63.4,
+        "comments": 149775,
+        "posted_after_30d_share_of_all_comments": 0.0377,
+        "top3_posted_after_30d": {
+          "slots": 261,
+          "late": 4,
+          "share": 0.0153,
+          "videos_with_one": 3,
+          "ratio_to_all": 0.41
+        },
+        "top20_posted_after_30d": {
+          "slots": 1740,
+          "late": 39,
+          "share": 0.0224,
+          "videos_with_one": 23,
+          "ratio_to_all": 0.59
+        },
+        "posted_after_90d_share_of_all_comments": 0.0,
+        "top3_posted_after_90d": {
+          "slots": 261,
+          "late": 0,
+          "share": 0.0,
+          "videos_with_one": 0,
+          "ratio_to_all": null
+        },
+        "top20_posted_after_90d": {
+          "slots": 1740,
+          "late": 0,
+          "share": 0.0,
+          "videos_with_one": 0,
+          "ratio_to_all": null
+        }
+      },
+      "3-6mo": {
+        "videos": 123,
+        "video_age_days_median": 140.4,
+        "comments": 213967,
+        "posted_after_30d_share_of_all_comments": 0.0654,
+        "top3_posted_after_30d": {
+          "slots": 369,
+          "late": 7,
+          "share": 0.019,
+          "videos_with_one": 6,
+          "ratio_to_all": 0.29
+        },
+        "top20_posted_after_30d": {
+          "slots": 2460,
+          "late": 72,
+          "share": 0.0293,
+          "videos_with_one": 33,
+          "ratio_to_all": 0.45
+        },
+        "posted_after_90d_share_of_all_comments": 0.0212,
+        "top3_posted_after_90d": {
+          "slots": 369,
+          "late": 3,
+          "share": 0.0081,
+          "videos_with_one": 2,
+          "ratio_to_all": 0.38
+        },
+        "top20_posted_after_90d": {
+          "slots": 2460,
+          "late": 29,
+          "share": 0.0118,
+          "videos_with_one": 14,
+          "ratio_to_all": 0.56
+        }
+      },
+      "6-12mo": {
+        "videos": 193,
+        "video_age_days_median": 275.3,
+        "comments": 460479,
+        "posted_after_30d_share_of_all_comments": 0.1359,
+        "top3_posted_after_30d": {
+          "slots": 579,
+          "late": 23,
+          "share": 0.0397,
+          "videos_with_one": 20,
+          "ratio_to_all": 0.29
+        },
+        "top20_posted_after_30d": {
+          "slots": 3860,
+          "late": 328,
+          "share": 0.085,
+          "videos_with_one": 108,
+          "ratio_to_all": 0.63
+        },
+        "posted_after_90d_share_of_all_comments": 0.0794,
+        "top3_posted_after_90d": {
+          "slots": 579,
+          "late": 9,
+          "share": 0.0155,
+          "videos_with_one": 7,
+          "ratio_to_all": 0.2
+        },
+        "top20_posted_after_90d": {
+          "slots": 3860,
+          "late": 191,
+          "share": 0.0495,
+          "videos_with_one": 78,
+          "ratio_to_all": 0.62
+        }
+      },
+      ">12mo": {
+        "videos": 230,
+        "video_age_days_median": 447.2,
+        "comments": 520921,
+        "posted_after_30d_share_of_all_comments": 0.2007,
+        "top3_posted_after_30d": {
+          "slots": 690,
+          "late": 43,
+          "share": 0.0623,
+          "videos_with_one": 34,
+          "ratio_to_all": 0.31
+        },
+        "top20_posted_after_30d": {
+          "slots": 4600,
+          "late": 516,
+          "share": 0.1122,
+          "videos_with_one": 143,
+          "ratio_to_all": 0.56
+        },
+        "posted_after_90d_share_of_all_comments": 0.1175,
+        "top3_posted_after_90d": {
+          "slots": 690,
+          "late": 24,
+          "share": 0.0348,
+          "videos_with_one": 20,
+          "ratio_to_all": 0.3
+        },
+        "top20_posted_after_90d": {
+          "slots": 4600,
+          "late": 309,
+          "share": 0.0672,
+          "videos_with_one": 112,
+          "ratio_to_all": 0.57
+        }
+      }
+    },
+    "late_top3_examples_by_likes": [
+      {
+        "video_id": "BmH6Rr4hwRI",
+        "page_rank": 1,
+        "posted_days_after_upload": 36.1,
+        "video_age_days": 425.0,
+        "likes": 60515
+      },
+      {
+        "video_id": "JdG0xiu2I6Y",
+        "page_rank": 1,
+        "posted_days_after_upload": 67.1,
+        "video_age_days": 438.1,
+        "likes": 35481
+      },
+      {
+        "video_id": "4HbYUB1J1io",
+        "page_rank": 3,
+        "posted_days_after_upload": 173.8,
+        "video_age_days": 252.9,
+        "likes": 15284
+      },
+      {
+        "video_id": "NDxrme-S2cE",
+        "page_rank": 3,
+        "posted_days_after_upload": 86.4,
+        "video_age_days": 387.1,
+        "likes": 11195
+      },
+      {
+        "video_id": "-dXBYYe85cU",
+        "page_rank": 1,
+        "posted_days_after_upload": 80.8,
+        "video_age_days": 430.0,
+        "likes": 9404
+      },
+      {
+        "video_id": "CYlon2tvywA",
+        "page_rank": 2,
+        "posted_days_after_upload": 32.1,
+        "video_age_days": 318.8,
+        "likes": 4621
+      },
+      {
+        "video_id": "tnX42vPpU_0",
+        "page_rank": 1,
+        "posted_days_after_upload": 55.3,
+        "video_age_days": 503.4,
+        "likes": 4463
+      },
+      {
+        "video_id": "CmZriB9AFHM",
+        "page_rank": 2,
+        "posted_days_after_upload": 30.6,
+        "video_age_days": 444.6,
+        "likes": 4215
+      },
+      {
+        "video_id": "-dXBYYe85cU",
+        "page_rank": 3,
+        "posted_days_after_upload": 139.9,
+        "video_age_days": 430.0,
+        "likes": 3976
+      },
+      {
+        "video_id": "BHdbsHFs2P0",
+        "page_rank": 2,
+        "posted_days_after_upload": 34.1,
+        "video_age_days": 195.6,
+        "likes": 2999
+      }
+    ]
+  },
+  "v2": {
+    "db": "data/runs/comments/v2.sqlite",
+    "bands": {
+      "<3mo": {
+        "videos": 1044,
+        "video_age_days_median": 60.8,
+        "comments": 1037123,
+        "posted_after_30d_share_of_all_comments": 0.0431,
+        "top3_posted_after_30d": {
+          "slots": 3129,
+          "late": 40,
+          "share": 0.0128,
+          "videos_with_one": 32,
+          "ratio_to_all": 0.3
+        },
+        "top20_posted_after_30d": {
+          "slots": 20843,
+          "late": 389,
+          "share": 0.0187,
+          "videos_with_one": 195,
+          "ratio_to_all": 0.43
+        },
+        "posted_after_90d_share_of_all_comments": 0.0,
+        "top3_posted_after_90d": {
+          "slots": 3129,
+          "late": 0,
+          "share": 0.0,
+          "videos_with_one": 0,
+          "ratio_to_all": null
+        },
+        "top20_posted_after_90d": {
+          "slots": 20843,
+          "late": 0,
+          "share": 0.0,
+          "videos_with_one": 0,
+          "ratio_to_all": null
+        }
+      },
+      "3-6mo": {
+        "videos": 1590,
+        "video_age_days_median": 133.8,
+        "comments": 1840612,
+        "posted_after_30d_share_of_all_comments": 0.08,
+        "top3_posted_after_30d": {
+          "slots": 4767,
+          "late": 85,
+          "share": 0.0178,
+          "videos_with_one": 66,
+          "ratio_to_all": 0.22
+        },
+        "top20_posted_after_30d": {
+          "slots": 31746,
+          "late": 1044,
+          "share": 0.0329,
+          "videos_with_one": 440,
+          "ratio_to_all": 0.41
+        },
+        "posted_after_90d_share_of_all_comments": 0.0251,
+        "top3_posted_after_90d": {
+          "slots": 4767,
+          "late": 38,
+          "share": 0.008,
+          "videos_with_one": 24,
+          "ratio_to_all": 0.32
+        },
+        "top20_posted_after_90d": {
+          "slots": 31746,
+          "late": 353,
+          "share": 0.0111,
+          "videos_with_one": 175,
+          "ratio_to_all": 0.44
+        }
+      },
+      "6-12mo": {
+        "videos": 3213,
+        "video_age_days_median": 272.3,
+        "comments": 3830016,
+        "posted_after_30d_share_of_all_comments": 0.1257,
+        "top3_posted_after_30d": {
+          "slots": 9635,
+          "late": 365,
+          "share": 0.0379,
+          "videos_with_one": 269,
+          "ratio_to_all": 0.3
+        },
+        "top20_posted_after_30d": {
+          "slots": 64210,
+          "late": 3797,
+          "share": 0.0591,
+          "videos_with_one": 1296,
+          "ratio_to_all": 0.47
+        },
+        "posted_after_90d_share_of_all_comments": 0.0705,
+        "top3_posted_after_90d": {
+          "slots": 9635,
+          "late": 219,
+          "share": 0.0227,
+          "videos_with_one": 156,
+          "ratio_to_all": 0.32
+        },
+        "top20_posted_after_90d": {
+          "slots": 64210,
+          "late": 2052,
+          "share": 0.032,
+          "videos_with_one": 811,
+          "ratio_to_all": 0.45
+        }
+      },
+      ">12mo": {
+        "videos": 343,
+        "video_age_days_median": 375.5,
+        "comments": 441858,
+        "posted_after_30d_share_of_all_comments": 0.1424,
+        "top3_posted_after_30d": {
+          "slots": 1029,
+          "late": 53,
+          "share": 0.0515,
+          "videos_with_one": 38,
+          "ratio_to_all": 0.36
+        },
+        "top20_posted_after_30d": {
+          "slots": 6860,
+          "late": 474,
+          "share": 0.0691,
+          "videos_with_one": 157,
+          "ratio_to_all": 0.49
+        },
+        "posted_after_90d_share_of_all_comments": 0.0831,
+        "top3_posted_after_90d": {
+          "slots": 1029,
+          "late": 36,
+          "share": 0.035,
+          "videos_with_one": 26,
+          "ratio_to_all": 0.42
+        },
+        "top20_posted_after_90d": {
+          "slots": 6860,
+          "late": 307,
+          "share": 0.0448,
+          "videos_with_one": 121,
+          "ratio_to_all": 0.54
+        }
+      }
+    },
+    "late_top3_examples_by_likes": [
+      {
+        "video_id": "4HbYUB1J1io",
+        "page_rank": 4,
+        "posted_days_after_upload": 173.8,
+        "video_age_days": 298.5,
+        "likes": 22380
+      },
+      {
+        "video_id": "2_S4NzYEbPs",
+        "page_rank": 1,
+        "posted_days_after_upload": 94.4,
+        "video_age_days": 277.8,
+        "likes": 16608
+      },
+      {
+        "video_id": "8g_A1ubyStk",
+        "page_rank": 2,
+        "posted_days_after_upload": 135.8,
+        "video_age_days": 243.0,
+        "likes": 13280
+      },
+      {
+        "video_id": "BFul90BFjGc",
+        "page_rank": 1,
+        "posted_days_after_upload": 61.7,
+        "video_age_days": 232.5,
+        "likes": 12279
+      },
+      {
+        "video_id": "-SxHvS11a5Q",
+        "page_rank": 2,
+        "posted_days_after_upload": 134.4,
+        "video_age_days": 212.9,
+        "likes": 9140
+      },
+      {
+        "video_id": "NC1nzXq6Rh4",
+        "page_rank": 1,
+        "posted_days_after_upload": 266.4,
+        "video_age_days": 281.4,
+        "likes": 6985
+      },
+      {
+        "video_id": "YwVBsFD7v84",
+        "page_rank": 4,
+        "posted_days_after_upload": 111.9,
+        "video_age_days": 174.6,
+        "likes": 6670
+      },
+      {
+        "video_id": "MjtDXGJX9cI",
+        "page_rank": 4,
+        "posted_days_after_upload": 50.2,
+        "video_age_days": 311.8,
+        "likes": 6632
+      },
+      {
+        "video_id": "7LC_amOyRhU",
+        "page_rank": 2,
+        "posted_days_after_upload": 35.9,
+        "video_age_days": 69.9,
+        "likes": 5904
+      },
+      {
+        "video_id": "d-Mh-ndtqAY",
+        "page_rank": 4,
+        "posted_days_after_upload": 102.7,
+        "video_age_days": 372.7,
+        "likes": 5796
+      }
+    ]
+  }
+}

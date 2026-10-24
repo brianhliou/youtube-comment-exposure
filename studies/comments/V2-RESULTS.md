@@ -191,6 +191,15 @@ ways, since better CJK text features (char n-grams) score higher, not lower.
   (creator's own comments excluded), 15.5% went to comments posted ≥24 h after the video
   (150 videos), 9.1% ≥48 h (104 videos), 2.9% ≥7 days (34 videos). Of the 122 posted ≥48 h,
   45 were first seen below rank 10 (median first-seen rank 6).
+- **Late posts on older videos** (2026-10-24, `final/late-old-videos.json` from
+  `final/late_old_videos.py`; prompted by a hand-found 7-year-old video with a 4-week-old
+  3k-like top comment): snapshot corpora, one stored top page per video, creator dropped and
+  re-ranked. Comments posted ≥30 days after upload, v2 by video age at read: <3 mo 1.3% of
+  top-3 slots vs 4.3% of comments (ratio 0.30, 1,044 videos), 3–6 mo 1.8% vs 8.0% (0.22),
+  6–12 mo 3.8% vs 12.6% (0.30), >12 mo 5.1% vs 14.2% (0.36, 343 videos). v1 >12 mo (230
+  videos, median 447 d): 6.2% vs 20.1% (0.31); 143 of 230 have one in the top 20. The ratio
+  is flat with age, so the penalty doesn't compound. No video in either corpus is older than
+  ~18 months; old or revived videos are untested.
 - **Feedback, alternative forms** (10-21): the ratio per period is 1.83. The median of the
   per-comment ratios is 0.90. 1,296 of 2,484 movers had zero or negative gain at rank 51+. The
   pooled 1.85 is carried by a minority of comments.

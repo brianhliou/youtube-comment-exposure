@@ -44,6 +44,10 @@ pre-registered predictions hold as written.
 | Limits: "Like counts were read once" | still true of the bulk corpus; the panel reads each page twice a day for 21 days | panel |
 | Availability: 633 video IDs, `results/` | both manifests, `results/v2/final/`, v2 branch | new release |
 
+Version 2.1 (October 24, 2026) adds two things and changes nothing else: how often late
+comments reach the top of older videos, at the end of "Late comments still reach the top
+three", and the "No old videos" limit.
+
 ## What existing corpora leave out
 
 The two large public YouTube comment datasets, YT-30M [@yt30m] and YTCommentVerse
@@ -616,6 +620,27 @@ The top three, on 482 closed videos with creator comments excluded (exploratory)
 Of the 122 slots won by comments posted two or more days in, 45 went to comments first
 seen below rank 10 (median first-seen rank 6).
 
+The panel stops at day 21; the snapshot corpora reach further. Each stored top page was
+read once, at whatever age its video had then, so this is a cross-section, not a panel
+(exploratory). As videos age, comments posted 30 or more days after upload take a larger
+share of top-three slots, and at every age they hold about a third of their share of all
+comments:
+
+| video age when read | videos | comments posted ≥30 days in | their share of top-3 slots | ratio |
+|---|---|---|---|---|
+| under 3 months | 1,044 | 4.3% | 1.3% | 0.30 |
+| 3–6 months | 1,590 | 8.0% | 1.8% | 0.22 |
+| 6–12 months | 3,213 | 12.6% | 3.8% | 0.30 |
+| over 12 months | 343 | 14.2% | 5.1% | 0.36 |
+
+Version 1's oldest videos agree: on 230 past a year old (median 447 days), comments posted
+30 or more days in hold 6.2% of top-three slots against 20.1% of comments (ratio 0.31), and
+143 of the 230 have one in their top 20. The largest held rank 1 with 60,515 likes, posted
+36 days after its video. The ratio stays between 0.22 and 0.36 at every age, so the head
+start does not compound as a video ages: late comments win more of the top because more of
+the comments are late. Neither corpus has a video older than about 18 months, so videos
+years old, or ones whose traffic returns long after upload, are untested.
+
 ### A high rank buys fewer likes than predicted
 
 H3 measures the loop within comment: the same comment's like gain per hour in periods it
@@ -697,6 +722,12 @@ platform. It is a stratified convenience sample and generalises to channels like
 not to YouTube, to small channels, to corporate media, or to anything with comments off.
 Videos above 20,000 comments are absent from both snapshot corpora, and exposure effects
 are largest there.
+
+**No old videos.** Every video in both snapshot corpora was published between February
+2025 and August 2026, so none was older than about 18 months when read. The exposure
+features record a comment's age and the video's current view count, not when those views
+arrived. A video whose traffic comes back years after upload gives a late comment an
+audience the model scores as small, and nothing here measures such videos.
 
 **Language is confounded with video size.** Japanese and Chinese videos in the bulk
 corpus are less than half the median English size, and no analysis here controls for it.
